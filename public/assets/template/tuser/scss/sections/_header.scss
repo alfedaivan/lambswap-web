@@ -1,7 +1,7 @@
 /* Header Area Start */
 
 
-  
+
 .header {
     position: fixed;
     top: 0;
@@ -17,8 +17,8 @@
         height: 1px;
         background: #54068f;
         box-shadow: 0px 0px 10px 2px #8938af86;
-    } 
-    
+    }
+
     .overlay{
         position: absolute;
         top: 0px;
@@ -62,7 +62,7 @@
                         }
                     }
                 }
-                
+
             }
         }
     }
@@ -100,8 +100,8 @@
                 border-right: 20px solid transparent;
 
             }
-    
-              
+
+
 
             .left-content {
                 .left-list {
@@ -342,7 +342,7 @@
                         right: 0px;
                         min-width: 190px;
                         background: #1f0644;
-                        border-radius: 10px;    
+                        border-radius: 10px;
                         z-index: 9;
                         opacity: 0;
                         visibility: hidden;
@@ -372,9 +372,9 @@
                                 }
                                 span{
                                     color: #ffe22b;
-                                } 
+                                }
                             }
-                            
+
                         }
                     }
                     &:hover{
@@ -393,14 +393,14 @@
                         right: 0px;
                         min-width: 190px;
                         background: #1f0644;
-                        border-radius: 10px;        
+                        border-radius: 10px;
                         padding-top: 0px;
                         z-index: 9;
                         opacity: 0;
                         visibility: hidden;
                         transition: all linear .3s;
                         .top-area{
-                           padding: 20px 30px 15px; 
+                           padding: 20px 30px 15px;
                            text-align: center;
                            border-bottom: 1px solid #500bb9;
                            h6{
@@ -421,7 +421,7 @@
                                     background-color: #fc6d9c;
                                 }
                             }
-                        
+
                             a{
                                 font-size: 11px;
                                 line-height: 21px;
@@ -454,7 +454,7 @@
                                 }
                             }
                         }
-                        
+
                     }
                     &:hover{
                         .dp-menu{
@@ -491,7 +491,7 @@
                         }
                     }
                 }
-                
+
             }
         }
     }

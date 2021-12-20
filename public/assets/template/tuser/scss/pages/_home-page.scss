@@ -1,7 +1,7 @@
 /* Hero Area Start */
 .hero-area{
     position: relative;
-    padding: 435px 0px 300px;
+    padding: 200px 0px 300px;
     position: relative;
     background: $bg-color1;
     overflow: hidden;
@@ -9,18 +9,18 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
+
     .shape{
         position: absolute;
         left: 8%;
         top: 20%;
     }
-    .content{ 
+    .content{
         text-align: center;
         .content{
             position: relative;
             z-index: 9;
-            .subtitle{ 
+            .subtitle{
                 font-size: 50px;
                 line-height: 60px;
                 font-weight: 700;
@@ -123,7 +123,7 @@
     }
 }
 
-  
+
 /* Hero Area End */
 
 /* Counter Area Start */
@@ -150,7 +150,7 @@
         h3{
            font-size: 35px;
            line-height: 45px;
-           font-weight: 700; 
+           font-weight: 700;
            text-transform: uppercase;
         }
         .mybtn1{
@@ -183,8 +183,8 @@
             line-height: 70px;
             font-weight: 700;
             color: #261855;
-            text-shadow: 0px 0px 18px rgba(164, 17, 220, 0.99), 
-            2px 0px 0px #fe77ff, 
+            text-shadow: 0px 0px 18px rgba(164, 17, 220, 0.99),
+            2px 0px 0px #fe77ff,
             0px 2px 0px #fe77ff,
             -2px 0px 0px #fe77ff,
             0px -2px 0px #fe77ff;
@@ -206,7 +206,7 @@
             transform: translateX(-50%);
         }
     }
- 
+
     .l-winner-slider-wrapper{
         padding-top: 50px;
         h4{
@@ -265,7 +265,7 @@
                     }
                    &.owl-prev{
                     margin-right: 10px;
-                   } 
+                   }
                    &.owl-next{
 
                    }
@@ -366,7 +366,7 @@
                &.owl-prev{
                 margin-right: 10px;
                 left: -20px;
-               } 
+               }
                &.owl-next{
                 right: -20px;
                }
@@ -416,7 +416,7 @@
             display: inline-block;
         }
     }
- 
+
     .content{
         .top-area{
            .top-info{
@@ -434,7 +434,7 @@
                         margin-right: 5px;
                     }
                }
-           } 
+           }
            .top-bar{
                position: relative;
                .progress-bar{
@@ -484,7 +484,7 @@
     }
 }
 
-  
+
 /* Ex-lottery Area End */
 
 /* Latest arcive Area Start */
@@ -647,7 +647,7 @@
                     }
                 }
             }
-            
+
         }
     }
 }
@@ -912,7 +912,7 @@
         }
     }
 
-   
+
 }
 .single-winner{
     box-shadow: $s1;

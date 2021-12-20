@@ -790,6 +790,7 @@ select:focus {
 }
 .header .mainmenu-area .navbar .navbar-brand img {
   max-width: 150px;
+  margin-top: -10px;
 }
 .header .mainmenu-area .navbar .mybtn1 {
   margin-left: 20px;
@@ -1120,6 +1121,10 @@ select:focus {
 .footer .flogo a {
   display: inline-block;
 }
+.footer .flogo img {
+    height: auto;
+    max-width: 200px;
+  }
 .footer .social-links {
   display: block;
   text-align: center;
@@ -1192,7 +1197,7 @@ select:focus {
 /* Hero Area Start */
 .hero-area {
   position: relative;
-  padding: 435px 0px 300px;
+  padding: 300px 0px 300px;
   position: relative;
   background: #070b28;
   overflow: hidden;
@@ -1561,9 +1566,10 @@ select:focus {
   box-shadow: inset 0px 0px 10px #00a2ff;
   background: #330662;
   transition: all 0.3s ease-in;
+  cursor: pointer;
 }
 .single-tikit .image {
-  padding: 30px 30px 20px;
+  padding: 20px 20px 10px;
   position: relative;
   text-align: center;
 }
@@ -1583,7 +1589,7 @@ select:focus {
 .single-tikit .image img {
   max-width: 100%;
   width: auto;
-  height: 240px;
+  height: 200px;
   display: inline-block;
 }
 .single-tikit .content .top-area .top-info {
@@ -2209,7 +2215,7 @@ select:focus {
 }
 .about-section .ar {
   position: absolute;
-  right: 70px;
+  right: 30px !important;
   top: 50%;
   transform: translateY(-50%);
   max-width: 600px;

@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
-@include('user.components.head')
-
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="forntEnd-Developer" content="Mamunur Rashid">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jugaro - eSports and Gaming HTML Templates</title>
+	<!-- favicon -->
+	<link rel="shortcut icon" href="{{url('/assets/template/tuser/images/favicon.png')}}" type="image/x-icon">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="{{url('/assets/template/tuser/css/bootstrap.min.css')}}">
+	<!-- Plugin css -->
+	<link rel="stylesheet" href="{{url('/assets/template/tuser/css/plugin.css')}}">
+	<!-- stylesheet -->
+	<link rel="stylesheet" href="{{url('/assets/template/tuser/css/style.css')}}">
+	<!-- responsive -->
+	<link rel="stylesheet" href="{{url('/assets/template/tuser/css/responsive.css')}}">
+</head>
 <body>
 	<!-- preloader area start -->
 	<div class="preloader" id="preloader">
@@ -36,8 +51,20 @@
 	@include('user.components.authModal')
 	<!-- SignIn Area End -->
 
-	@include('user.components.script')
 
+	<!-- jquery -->
+    <script src="{{url('/assets/template/tuser/js/jquery.js')}}"></script>
+	<!-- popper -->
+	<script src="{{url('/assets/template/tuser/js/popper.min.js')}}"></script>
+	<!-- bootstrap -->
+	<script src="{{url('/assets/template/tuser/js/bootstrap.min.js')}}"></script>
+	<!-- plugin js-->
+	<script src="{{url('/assets/template/tuser/js/plugin.js')}}"></script>
+	<!-- MpusemoverParallax JS-->
+	<script src="{{url('/assets/template/tuser/js/TweenMax.js')}}"></script>
+	<script src="{{url('/assets/template/tuser/js/mousemoveparallax.js')}}"></script>
+	<!-- main -->
+	<script src="{{url('/assets/template/tuser/js/main.js')}}"></script>
 </body>
 
 </html>
