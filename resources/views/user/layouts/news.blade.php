@@ -3,6 +3,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-xl-12">
+
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="section-heading">
@@ -18,88 +19,87 @@
                             </div>
                         </div>
                     </div>
+
 					<div class="row">
 						<div class="col-lg-4">
-							<div class="single-tikit">
-								<div class="image">
-									<img src="{{url('assets/template/tuser/images/product/1.png')}}" alt="">
-								</div>
-								<div class="content">
-									<div class="content-area">
-										<a href="raffles-details.html"><h3>HyperX Pulsefire FPS PRO</h3></a>
-										<div class="c-bottom">
-											<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, officia?...</span>
-										</div>
-									</div>
-								</div>
-							</div>
+                            <a href="raffles-details.html">
+                                <div class="single-tikit">
+                                    <div class="image">
+                                        <img src="{{url('assets/template/tuser/images/product/1.png')}}" alt="">
+                                    </div>
+                                    <!-- kudu diatur max heightnya -->
+                                    <div class="content">
+                                        <div class="content-area">
+                                            <a href="raffles-details.html"><h3>Best of Cutieland: Weekly Player Top</h3></a>
+                                            <div class="c-bottom">
+                                                <span>2021-12-20 19:09:35</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
 						</div>
                         <div class="col-lg-4">
-							<div class="single-tikit">
-								<div class="image">
-									<img src="{{url('assets/template/tuser/images/product/1.png')}}" alt="">
-								</div>
-								<div class="content">
-									<div class="content-area">
-										<a href="raffles-details.html"><h3>HyperX Pulsefire FPS PRO</h3></a>
-										<div class="c-bottom">
-											<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, officia?...</span>
-										</div>
-									</div>
-								</div>
-							</div>
+                            <a href="raffles-details.html">
+                                <div class="single-tikit">
+                                    <div class="image">
+                                        <img src="{{url('assets/template/tuser/images/product/1.png')}}" alt="">
+                                    </div>
+                                    <!-- kudu diatur max heightnya -->
+                                    <div class="content">
+                                        <div class="content-area">
+                                            <a href="raffles-details.html"><h3>Best of Cutieland: Weekly Player Top</h3></a>
+                                            <div class="c-bottom">
+                                                <span>2021-12-20 19:09:35</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
 						</div>
                         <div class="col-lg-4">
-							<div class="single-tikit">
-								<div class="image">
-									<img src="{{url('assets/template/tuser/images/product/1.png')}}" alt="">
-								</div>
-								<div class="content">
-									<div class="content-area">
-										<a href="raffles-details.html"><h3>HyperX Pulsefire FPS PRO</h3></a>
-										<div class="c-bottom">
-											<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, officia?...</span>
-										</div>
-									</div>
-								</div>
-							</div>
+                            <a href="raffles-details.html">
+                                <div class="single-tikit">
+                                    <div class="image">
+                                        <img src="{{url('assets/template/tuser/images/product/1.png')}}" alt="">
+                                    </div>
+                                    <!-- kudu diatur max heightnya -->
+                                    <div class="content">
+                                        <div class="content-area">
+                                            <a href="raffles-details.html"><h3>Best of Cutieland: Weekly Player Top</h3></a>
+                                            <div class="c-bottom">
+                                                <span>2021-12-20 19:09:35</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
 						</div>
                         <div class="col-lg-4">
-							<div class="single-tikit">
-								<div class="image">
-									<img src="{{url('assets/template/tuser/images/product/1.png')}}" alt="">
-								</div>
-								<div class="content">
-									<div class="content-area">
-										<a href="raffles-details.html"><h3>HyperX Pulsefire FPS PRO</h3></a>
-										<div class="c-bottom">
-											<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, officia?...</span>
-										</div>
-									</div>
-								</div>
-							</div>
+                            <a href="raffles-details.html">
+                                <div class="single-tikit">
+                                    <div class="image">
+                                        <img src="{{url('assets/template/tuser/images/product/1.png')}}" alt="">
+                                    </div>
+                                    <!-- kudu diatur max heightnya -->
+                                    <div class="content">
+                                        <div class="content-area">
+                                            <a href="raffles-details.html"><h3>Best of Cutieland: Weekly Player Top</h3></a>
+                                            <div class="c-bottom">
+                                                <span>2021-12-20 19:09:35</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
 						</div>
 
 					</div>
 					<div class="row">
-						<div class="col-lg-12">
-							<nav class="page-pagination">
-								<ul class="pagination justify-content-center mb-4 mt-4">
-								  <li class="page-item">
-									<a class="page-link prev" href="#" tabindex="-1">Previous</a>
-								  </li>
-								  <li class="page-item"><a class="page-link num" href="#">1</a></li>
-								  <li class="page-item"><a class="page-link num" href="#">2</a></li>
-								  <li class="page-item"><a class="page-link num active" href="#">3</a></li>
-								  <li class="page-item"><a class="page-link num" href="#">4</a></li>
-								  <li class="page-item"><a class="page-link num" href="#">5</a></li>
-								  <li class="page-item">
-									<a class="page-link next" href="#">Next</a>
-								  </li>
-								</ul>
-							</nav>
-						</div>
-					</div>
+                        <div class="col-lg-12 text-center">
+                            <a href="#" class="mybtn2">Browser All</a>
+                        </div>
+                    </div>
 				</div>
 
 			</div>

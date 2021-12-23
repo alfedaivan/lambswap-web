@@ -16,6 +16,11 @@ use Illuminate\Support\Facades\Route;
 // route user
 Route::get('/', 'App\Http\Controllers\UserController@index');
 Route::get('/product', 'App\Http\Controllers\UserController@product');
+Route::get('/game', 'App\Http\Controllers\UserController@games');
+Route::get('/bounty', 'App\Http\Controllers\UserController@bounty');
+Route::get('/help', 'App\Http\Controllers\UserController@help');
+Route::get('/IDO', 'App\Http\Controllers\UserController@ido');
+Route::get('/IDO/detail', 'App\Http\Controllers\UserController@detailIdo');
 
 
 // route admin
