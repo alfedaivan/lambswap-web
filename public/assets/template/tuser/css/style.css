@@ -1736,11 +1736,11 @@ select:focus {
 
 .latest-arcive2 {
   background-color: #1f0644;
-  background-image: url(../images/latest-activitis.png);
+  /* background-image: url(../images/latest-activitis.png); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 120px 0px 120px;
+  padding: 10px 0px 120px;
 }
 .latest-arcive2 .nav {
   display: block;
@@ -1765,11 +1765,11 @@ select:focus {
 }
 .latest-arcive2 .l-a-nav {
   margin-top: 40px;
-  border: 1px solid #9a13d2;
+  /* border: 1px solid #9a13d2; */
   border-radius: 10px;
-  box-shadow: inset 0px 0px 6px 2px #9a13d2, 0px 0px 10px #9a13d2;
-  padding: 50px 30px;
-  background: #220c44;
+  /* box-shadow: inset 0px 0px 6px 2px #9a13d2, 0px 0px 10px #9a13d2; */
+  padding: 20px 30px;
+  /* background: #220c44; */
 }
 .latest-arcive2 .l-a-nav .left-content .heading-area {
   margin-bottom: 45px;
@@ -3936,7 +3936,7 @@ select:focus {
 
 .ticket-page {
   background: #1f0644;
-  padding: 120px 0px 120px;
+  padding: 20px 0px 120px;
 }
 .ticket-page .number-box {
   padding: 30px 30px 30px;
@@ -4041,8 +4041,9 @@ select:focus {
   font-size: 24px;
   font-weight: 600;
   color: #fff;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   margin-top: 8px;
+  text-align: center;
 }
 .ticket-page .ticket-cart-box .cart-list li {
   display: flex;
@@ -4079,7 +4080,7 @@ select:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #867cd5;
+  /* border-bottom: 1px solid #867cd5; */
   padding-top: 16px;
   padding-bottom: 23px;
 }
@@ -7902,8 +7903,78 @@ select:focus {
     background: transparent !important;
     padding-top: 20px;
 }
-/* .latest-arcive2.modif .nav{
-    text-align: left;
-} */
+
+.ticket-cart-box .desc-card{
+    color: #62566e;
+    border-bottom: #ffffff solid 1px;
+}
+.ticket-cart-box .desc-card .title{
+    color: #fa009f;
+}
+
+.ticket-cart-box .single-filter .input-field{
+    width: 100%;
+    background: #250e46;
+    color: #fff;
+    height: 50px;
+    padding: 0px 30px 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ticket-cart-box .single-filter .input-field.select{
+    width: 30% !important;
+}
+
+.ticket-cart-box .button-area .mybtn1{
+    background: #53196a !important;
+    border: 1px #53196a solid;
+}
+
+.ticket-cart-box .current-balance{
+    background: #1c063e;
+    border: 1px solid #361f57;
+    padding: 20px 20px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between !important;
+}
+.ticket-cart-box .t-total-price span{
+    color: #a1aed4;
+    font-size: 14px;
+}
+
+.ticket-cart-box .notice-area, .ticket-cart-box .title {
+    padding: 30px 30px 30px;
+    border: 1px solid #361f57;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  .ticket-cart-box .title{
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #e3e0ff;
+    font-weight: 600;
+  }
+  .ticket-cart-box .notice-area p, .ticket-cart-box .notice-area li {
+    font-size: 14px;
+    line-height: 24px;
+    color: #e3e0ff;
+    font-weight: 600;
+  }
+  .ticket-cart-box .title h5 {
+    color: red;
+  }
+  .ticket-cart-box .notice-area p span {
+    color: #fecc3a;
+    text-transform: uppercase;
+    margin-right: 7px;
+  }
+  .ticket-cart-box .notice-area p:last-child {
+    margin-bottom: 0px;
+  }
 
 

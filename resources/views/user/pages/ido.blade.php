@@ -1,25 +1,6 @@
 @extends('user.index')
 @section('content')
-    <section class="breadcrumb-area raffles">
-        <div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<h2>Raffles </h2>
-					<ul class="breadcrumb-list">
-						<li>
-							<a href="#">Home</a>
-						</li>
-						<li>
-							<a href="#">Pages</a>
-						</li>
-						<li>
-							<a href="#">Raffles</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-    </section>
+
     <!-- Breadcrumb Area Start -->
     <section class="header-ido">
         <div class="container">

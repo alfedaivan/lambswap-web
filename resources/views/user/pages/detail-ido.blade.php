@@ -4,18 +4,7 @@
         <div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<h2>Raffles </h2>
-					<ul class="breadcrumb-list">
-						<li>
-							<a href="#">Home</a>
-						</li>
-						<li>
-							<a href="#">Pages</a>
-						</li>
-						<li>
-							<a href="#">Raffles</a>
-						</li>
-					</ul>
+					<h2> </h2>
 				</div>
 			</div>
 		</div>
