@@ -5,7 +5,7 @@
 					<div class="ticket-cart-box">
 						<h4 class="heading">Buy IDO LST /.BUSD</h4>
                         <div class="desc-card mt-3">
-                            <h5 class="title">LambSwap Token</h5>
+                            <h5>LambSwap Token</h5>
                             <span>The first DEX Agrregator</span>
                             <br>
                             <span>Combines DeFi, NFT & GameFi</span>
@@ -21,7 +21,7 @@
                                     <option value="">BDT</option>
                                     <option value="">USD</option>
                                 </select>
-                                <input type="input" class="input-field mt-2" name="" id="">
+                                <input type="input" class="input-field mt-2">
                             </div>
 						</div>
 
@@ -46,20 +46,7 @@
 							<a href="#" class="mybtn1">Buy Tickets</a>
 						</div>
 					</div>
-					<div class="payment-gatway">
-						<span>
-							<img src="assets/images/card1.png" alt="">
-						</span>
-						<span>
-							<img src="assets/images/card2.png" alt="">
-						</span>
-						<span>
-							<img src="assets/images/card3.png" alt="">
-						</span>
-						<span>
-							<img src="assets/images/card4.png" alt="">
-						</span>
-					</div>
+
 				</div>
 			</div>
 
@@ -77,7 +64,7 @@
 
             <!-- card jika sukses buy -->
 
-            <div class="row justify-content-center">
+            <!-- <div class="row justify-content-center mt-3">
 				<div class="col-lg-5">
 					<div class="ticket-cart-box">
                         <div class="title">
@@ -109,6 +96,6 @@
 
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</section>

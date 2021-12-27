@@ -27,6 +27,9 @@
 									<li class="nav-item">
 										<a class="nav-link {{ (request()->is('/bounty*')) ? 'active' : '' }}" href="{{url('/bounty')}}">Bounty</a>
 									</li>
+                                    <li class="nav-item">
+										<a class="nav-link {{ (request()->is('/IDO*')) ? 'active' : '' }}" href="{{url('/IDO')}}">IDO</a>
+									</li>
 									<li class="nav-item">
 										<a class="nav-link {{ (request()->is('/help*')) ? 'active' : '' }}" href="{{url('/help')}}">Help</a>
 									</li>

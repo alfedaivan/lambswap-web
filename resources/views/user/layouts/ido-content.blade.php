@@ -19,16 +19,13 @@
 					<div class="tab-content l-a-nav" id="pills-tabContent">
 
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-							<div class="row">
-                                <div class="col-lg-12">
-									<div class="left-content">
-										<div class="heading-area">
-											<h6>TEST Changellenge</h6>
-											<h3>Top Players</h3>
-										</div>
-									</div>
-								</div>
-							</div>
+							<div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        @include('user.layouts.how-to')
+                                    </div>
+                                </div>
+                            </div>
 						</div>
 
                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">

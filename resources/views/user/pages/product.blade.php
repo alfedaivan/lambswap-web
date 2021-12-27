@@ -234,7 +234,7 @@
 
 		</div>
 
-        <div class="row">
+        <!-- <div class="row">
 						<div class="col-lg-12">
 							<nav class="page-pagination">
 								<ul class="pagination justify-content-center mb-4 mt-4">
@@ -252,7 +252,7 @@
 								</ul>
 							</nav>
 						</div>
-					</div>
+					</div> -->
 	</section>
 	<!-- Game play area end -->
 

@@ -15,7 +15,7 @@
 						<div class="tab-pane fade show active" id="pills-m_login" role="tabpanel" aria-labelledby="pills-m_login-tab">
 							<div class="header-area">
 								<h4 class="title">Welcome to
-									JuGARO</h4>
+									LambSwap</h4>
 							</div>
 							<div class="form-area">
 								<form action="#" method="POST">
@@ -25,9 +25,9 @@
 									<div class="form-group">
 											<input type="email" class="input-field" id="input-email"  placeholder="Password">
 									</div>
-									<div class="form-group">
+									<!-- <div class="form-group">
 										<span>Forgot your password? <a href="#">recover password</a></span>
-									</div>
+									</div> -->
 									<div class="form-group">
 										<button type="submit" class="mybtn2">Login</button>
 									</div>
@@ -37,10 +37,10 @@
 						</div>
 						<div class="tab-pane fade" id="pills-m_register" role="tabpanel" aria-labelledby="pills-m_register-tab">
 							<div class="header-area">
-								<span class="bunnus_btn">
+								<!-- <span class="bunnus_btn">
 									<span>Current Contest Pool</span>
 									<h4>$500</h4>
-								</span>
+								</span> -->
 								<h4 class="title">Play +100 games
 									and win cash!</h4>
 									<p class="text">
@@ -50,16 +50,16 @@
 							<div class="form-area">
 								<form action="#" method="POST">
 									<div class="form-group">
-											<input type="text" class="input-field" id="input-name"  placeholder="Username">
+											<input type="text" class="input-field" id="input-name"  placeholder="Enter your Email">
 									</div>
 									<div class="form-group">
-											<input type="email" class="input-field" id="input-email"  placeholder="Enter your Email">
+											<input type="email" class="input-field" id="input-email"  placeholder="Enter your Wallet BEP 20">
 									</div>
 									<div class="form-group">
-											<input type="password" class="input-field" id="input-password"  placeholder="Enter your password">
+											<input type="password" class="input-field" id="input-password"  placeholder="Enter your Username Telegram">
 									</div>
 									<div class="form-group">
-											<input type="password" class="input-field" id="input-con-password"  placeholder="Enter your Confirm Password">
+											<input type="password" class="input-field" id="input-con-password"  placeholder="Password">
 									</div>
 									<div class="form-group">
 										<div class="check-group">
