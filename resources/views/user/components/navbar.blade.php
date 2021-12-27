@@ -34,7 +34,13 @@
 										<a class="nav-link " href="contact.html">Document</a>
 									</li>
 								</ul>
-								<a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Join us</a>
+
+                                @auth
+                                    <a href="{{route('auth.logout')}}" class="btn btn-danger">logout</a>
+                                @endauth
+                                @guest
+								    <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Join us</a>
+                                @endguest
 							</div>
 						</nav>
 					</div>

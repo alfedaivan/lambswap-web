@@ -25,3 +25,10 @@ Route::get('/IDO/detail', 'App\Http\Controllers\UserController@detailIdo');
 
 // route admin
 Route::get('/dashboard', 'App\Http\Controllers\AdminController@index');
+
+//auth
+Route::post('/signup', 'App\Http\Controllers\AuthController@register')->name('auth.register');
+Route::post('/signin/member', 'App\Http\Controllers\AuthController@loginMember')->name('signin.member');
+Route::post('/signin/admin', 'App\Http\Controllers\AuthController@loginAdmin')->name('signin.admin');
+Route::get('/logout', 'App\Http\Controllers\AuthController@logout')->name('auth.logout');
+

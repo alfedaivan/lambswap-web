@@ -18,12 +18,19 @@
 									JuGARO</h4>
 							</div>
 							<div class="form-area">
-								<form action="#" method="POST">
+								<form method="POST" action="{{route('signin.member')}}" >
+                                    @csrf
 									<div class="form-group">
-											<input type="text" class="input-field" id="input-name"  placeholder="Username">
+											<input type="email"  class="input-field" id="email" name="email" placeholder="email" autofocus>
+                                            @if ($errors->has('email'))
+                                            <span class="text-danger">{{ $errors->first('email') }}</span>
+                                            @endif
 									</div>
 									<div class="form-group">
-											<input type="email" class="input-field" id="input-email"  placeholder="Password">
+											<input type="password" name="password" class="input-field" id="password"  placeholder="Password" required>
+                                            @if ($errors->has('password'))
+                                            <span class="text-danger">{{ $errors->first('password') }}</span>
+                                            @endif
 									</div>
 									<div class="form-group">
 										<span>Forgot your password? <a href="#">recover password</a></span>
@@ -48,18 +55,37 @@
 									</p>
 							</div>
 							<div class="form-area">
-								<form action="#" method="POST">
+								<form action="{{route('auth.register')}}" method="POST">
+                                    @csrf
 									<div class="form-group">
-											<input type="text" class="input-field" id="input-name"  placeholder="Username">
+											<input type="text" name="name" class="input-field" id="name"  placeholder="Name">
+                                            @if ($errors->has('name'))
+                                            <span class="text-danger">{{ $errors->first('name') }}</span>
+                                            @endif
 									</div>
 									<div class="form-group">
-											<input type="email" class="input-field" id="input-email"  placeholder="Enter your Email">
+											<input type="email" class="input-field" id="email" name="email" placeholder="Enter your Email">
+                                            @if ($errors->has('email'))
+                                            <span class="text-danger">{{ $errors->first('email') }}</span>
+                                            @endif
 									</div>
+                                    <div class="form-group">
+                                        <input type="text" class="input-field" id="wallet_address" name="wallet_address"  placeholder="Enter Wallet Address">
+                                        @if ($errors->has('wallet_address'))
+                                        <span class="text-danger">{{ $errors->first('wallet_address') }}</span>
+                                        @endif
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="input-field" id="username_telegram" name="username_telegram"  placeholder="Enter your telegram username">
+                                        @if ($errors->has('username_telegram'))
+                                        <span class="text-danger">{{ $errors->first('username_telegram') }}</span>
+                                        @endif
+                                    </div>
 									<div class="form-group">
-											<input type="password" class="input-field" id="input-password"  placeholder="Enter your password">
-									</div>
-									<div class="form-group">
-											<input type="password" class="input-field" id="input-con-password"  placeholder="Enter your Confirm Password">
+											<input type="password" class="input-field" id="password" name="password" placeholder="Enter your password">
+                                            @if ($errors->has('password'))
+                                            <span class="text-danger">{{ $errors->first('password') }}</span>
+                                            @endif
 									</div>
 									<div class="form-group">
 										<div class="check-group">
