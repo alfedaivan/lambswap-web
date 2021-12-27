@@ -16,25 +16,25 @@
 							<div class="collapse navbar-collapse fixed-height" id="main_menu">
 								<ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-										<a class="nav-link {{ (request()->is('/*')) ? 'active' : '' }}" href="{{url('/')}}">Home</a>
+										<a class="nav-link" href="{{url('/home')}}">Home</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link {{ (request()->is('/product*')) ? 'active' : '' }}" href="{{url('/product')}}">Products</a>
+										<a class="nav-link" href="{{url('/product')}}">Products</a>
 									</li>
                                     <li class="nav-item">
-										<a class="nav-link {{ (request()->is('/game*')) ? 'active' : '' }}" href="{{url('/game')}}">Games</a>
+										<a class="nav-link" href="{{url('/game')}}">Games</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link {{ (request()->is('/bounty*')) ? 'active' : '' }}" href="{{url('/bounty')}}">Bounty</a>
+										<a class="nav-link" href="{{url('/bounty')}}">Bounty</a>
 									</li>
                                     <li class="nav-item">
-										<a class="nav-link {{ (request()->is('/IDO*')) ? 'active' : '' }}" href="{{url('/IDO')}}">IDO</a>
+										<a class="nav-link" href="{{url('/IDO')}}">IDO</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link {{ (request()->is('/help*')) ? 'active' : '' }}" href="{{url('/help')}}">Help</a>
+										<a class="nav-link" href="{{url('/help')}}">Help</a>
 									</li>
                                     <li class="nav-item">
-										<a class="nav-link " href="contact.html">Document</a>
+										<a class="nav-link" href="contact.html">Document</a>
 									</li>
 								</ul>
 								<a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Join us</a>

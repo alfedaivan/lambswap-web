@@ -7904,6 +7904,10 @@ select:focus {
     padding-top: 20px;
 }
 
+
+.ticket-page{
+    justify-content: center !important;
+}
 .ticket-cart-box .desc-card{
     color: #62566e;
     border-bottom: #ffffff solid 1px;
@@ -8037,15 +8041,6 @@ select:focus {
     font-size: 18px;
   }
 
-  /* .timeline ul li div::before {
-    content: '';
-    position: absolute;
-    bottom: 7px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-  } */
-
   .timeline .timeline-box .columns:nth-child(odd) .box {
     left: 45px;
   }
@@ -8064,6 +8059,17 @@ select:focus {
     /* right: -15px; */
     border-width: 8px 0 8px 16px;
     border-color: transparent transparent transparent #F45B69;
+  }
+
+
+  .tab-content.l-a-nav .row{
+    box-shadow: inset 0px 0px 10px 5px #00a2ff, 0px 0px 10px #00a2ff;
+    padding: 60px 60px 60px;
+    border-radius: 30px;
+  }
+
+  .tab-content.l-a-nav .section-heading .title{
+      font-size: 3rem !important;
   }
 
 

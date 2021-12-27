@@ -1,7 +1,8 @@
-<section class="ticket-page">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-5">
+
+		<!-- <div class="container">
+			<div class="row justify-content-center"> -->
+			<div class="col-lg-5">
+                <div class="ticket-page">
 					<div class="ticket-cart-box">
 						<h4 class="heading">Buy IDO LST /.BUSD</h4>
                         <div class="desc-card mt-3">
@@ -97,5 +98,5 @@
 					</div>
 				</div>
 			</div> -->
-		</div>
-	</section>
+
+
