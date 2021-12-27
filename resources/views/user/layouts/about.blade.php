@@ -1,67 +1,42 @@
-    <!-- About Area Start -->
-        <section class="about-section">
-		<img class="ar" src="{{url('assets/template/tuser/images/about/right-image.png')}}" alt="">
-		<img class="s1" src="{{url('assets/template/tuser/images/about/s1.png')}}" alt="">
-		<img class="s2" src="{{url('assets/template/tuser/images/about/s2.png')}}" alt="">
+<!-- join us area start -->
+<section class="join_us">
+		<img class="l-image" src="{{url('assets/template/tuser/images/joinus_left_img.png')}}" alt="">
+
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-8">
-					<div class="left-content">
-						<div class="section-heading">
-							<h5 class="subtitle">
-								WELCOME TO The  Jugaro
-							</h5>
-							<h2 class="title ">
-								Compete in your
-								favorite games to
-								win REAL MONEY!
-							</h2>
-							<h6 class="text">
-								We develop premium quality games and provide the best entertainment  to our players. We’ve also got a wide range of global partners which includes  some of the industry’s most influential operators. Our commitment to  working with top partners and producing highly entertaining and quality  games is part of why we have achieved our success.
-							</h6>
-						</div>
-						<div class="content-list">
-							<div class="s-list">
-								<img src="{{url('assets/template/tuser/images/about/i1.png')}}" alt="">
-								<div class="content">
-									<p>
-										Verified by
-										<br>
-										VIP players
-									</p>
-								</div>
-							</div>
-							<div class="s-list">
-								<img src="{{url('assets/template/tuser/images/about/i2.png')}}" alt="">
-								<div class="content">
-									<p>
-										Instant deposits
-										<br>
-										& withdrawals!
-									</p>
-								</div>
-							</div>
-						</div>
+			<div class="row justify-content-end">
+				<div class="col-xl-7">
+					<div class="section-heading content-left">
+						<h5 class="subtitle">
+							Every day lots of wins
+						</h5>
+						<h2 class="title ">
+							Be One of Them
+						</h2>
+						<h6 class="text">
+							Get started in less than 5 min - no credit card required.Gain
+early access to Jugaro and experience crypto like never before.
+						</h6>
+						<a href="#" class="mybtn1">Join US</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- About Area End -->
+	<!-- join us area  end -->
 
-    <!-- Features Area Start -->
-	<!-- <section class="features-section">
-		<img class="s1" src="{{url('assets/template/tuser/images/feature/s1.png')}}" alt="">
-		<img class="s2" src="{{url('assets/template/tuser/images/feature/s2.png')}}" alt="">
+	<!-- How play area start -->
+	<section class="how-to-play">
+		<img class="left-img" src="{{url('assets/template/tuser/images/h-play/left-img.png')}}" alt="">
+		<img class="right-img" src="{{url('assets/template/tuser/images/h-play/right-img.png')}}" alt="">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="section-heading">
 						<h5 class="subtitle">
-							An Exhaustive List of
+							More Smartly
 						</h5>
 						<h2 class="title ">
-							Amazing Features
+							How to play
 						</h2>
 						<h6 class="text">
 							Where skill is rewarded.Join millions of players worldwide!
@@ -69,72 +44,31 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-xl-3 col-lg-4 col-md-6">
-					<div class="single-feature">
-						<div class="img">
-							<img class="shape" src="{{url('assets/template/tuser/images/feature/circle.png')}}" alt="">
-							<img class="icon" src="{{url('assets/template/tuser/images/feature/icon1.png')}}" alt="">
-						</div>
-						<div class="content">
-							<h4>
-								Easy to start
-							</h4>
-							<p>
-								Register in couple of minutes and join our great community
-							</p>
-						</div>
+			<div class="row  justify-content-center">
+				<div class="col-lg-4 col-md-6">
+					<div class="s-h-play">
+						<img src="{{url('assets/template/tuser/images/h-play/ic1.png')}}" alt="">
+						<h4>Sign Up & Deposit</h4>
 					</div>
 				</div>
-				<div class="col-xl-3 col-lg-4 col-md-6">
-					<div class="single-feature">
-						<div class="img">
-							<img class="shape" src="{{url('assets/template/tuser/images/feature/circle.png')}}" alt="">
-							<img class="icon" src="{{url('assets/template/tuser/images/feature/icon2.png')}}" alt="">
-						</div>
-						<div class="content">
-							<h4>
-								Easy to start
-							</h4>
-							<p>
-								Register in couple of minutes and join our great community
-							</p>
-						</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="s-h-play">
+						<img src="{{url('assets/template/tuser/images/h-play/ic2.png')}}" alt="">
+						<h4>Compete</h4>
 					</div>
 				</div>
-				<div class="col-xl-3 col-lg-4 col-md-6">
-					<div class="single-feature">
-						<div class="img">
-							<img class="shape" src="{{url('assets/template/tuser/images/feature/circle.png')}}" alt="">
-							<img class="icon" src="{{url('assets/template/tuser/images/feature/icon3.png')}}" alt="">
-						</div>
-						<div class="content">
-							<h4>
-								Easy to start
-							</h4>
-							<p>
-								Register in couple of minutes and join our great community
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-3 col-lg-4 col-md-6">
-					<div class="single-feature">
-						<div class="img">
-							<img class="shape" src="{{url('assets/template/tuser/images/feature/circle.png')}}" alt="">
-							<img class="icon" src="{{url('assets/template/tuser/images/feature/icon4.png')}}" alt="">
-						</div>
-						<div class="content">
-							<h4>
-								Easy to start
-							</h4>
-							<p>
-								Register in couple of minutes and join our great community
-							</p>
-						</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="s-h-play">
+						<img src="{{url('assets/template/tuser/images/h-play/ic3.png')}}" alt="">
+						<h4>Get Paid</h4>
 					</div>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<a href="#" class="mybtn1">Get started Now!</a>
+				</div>
+			</div>
 		</div>
-	</section> -->
-	<!-- Features Area End -->
+	</section>
+	<!-- How play area  end -->

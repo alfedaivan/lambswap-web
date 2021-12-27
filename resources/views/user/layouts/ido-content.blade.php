@@ -2,8 +2,6 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-
-
                     <ul class="nav"  role="tablist">
 						<li class="nav-item" role="presentation">
 						  <a class="nav-link mybtn2 active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">How To Take a Part</a>
@@ -19,16 +17,18 @@
 					<div class="tab-content l-a-nav" id="pills-tabContent">
 
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-							<div class="row">
-                                <div class="col-lg-12">
-									<div class="left-content">
-										<div class="heading-area">
-											<h6>TEST Changellenge</h6>
-											<h3>Top Players</h3>
-										</div>
-									</div>
-								</div>
-							</div>
+							<div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="section-heading">
+                                            <h4 class="title ">
+                                                How To Take A Part
+                                            </h4>
+                                        </div>
+                                        @include('user.layouts.how-to')
+                                    </div>
+                                </div>
+                            </div>
 						</div>
 
                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
@@ -98,7 +98,9 @@
 						</div>
 
                         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-							@include('user.layouts.card-buy')
+                            <div class="row justify-content-center">
+                                @include('user.layouts.card-buy')
+                            </div>
 						</div>
 
 					</div>

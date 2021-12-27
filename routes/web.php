@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 // route user
-Route::get('/', 'App\Http\Controllers\UserController@index');
+Route::get('/home', 'App\Http\Controllers\UserController@index');
 Route::get('/product', 'App\Http\Controllers\UserController@product');
 Route::get('/game', 'App\Http\Controllers\UserController@games');
 Route::get('/bounty', 'App\Http\Controllers\UserController@bounty');
