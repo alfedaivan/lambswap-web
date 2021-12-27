@@ -10,6 +10,11 @@ use Illuminate\Support\Facades\Session;
 
 class AuthController extends Controller
 {
+
+    public function viewAdmin(){
+        return view('admin/pages/login');
+    }
+
     public function loginAdmin(Request $request){
         $request->validate([
             'email' => 'required',

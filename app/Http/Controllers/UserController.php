@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Ido;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -29,7 +30,8 @@ class UserController extends Controller
 
     public function ido(){
         if (Auth::check()) {
-            return view('user/pages/ido');
+            $ido = Ido::all();
+            return view('user/pages/ido', compact('ido'));
         }
         return redirect("/")->withSuccess('Access is not permitted');
 
@@ -37,5 +39,10 @@ class UserController extends Controller
 
     public function detailIdo(){
         return view('user/pages/detail-ido');
+    }
+
+
+    public function transaction(Request $request){
+        return view('/')->with('successMsg', 'Transaction Success!');
     }
 }

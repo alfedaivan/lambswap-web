@@ -27,6 +27,7 @@ Route::get('/IDO/detail', 'App\Http\Controllers\UserController@detailIdo');
 Route::get('/dashboard', 'App\Http\Controllers\AdminController@index');
 
 //auth
+Route::get('/login', 'App\Http\Controllers\AuthController@viewAdmin')->name('auth');
 Route::post('/signup', 'App\Http\Controllers\AuthController@register')->name('auth.register');
 Route::post('/signin/member', 'App\Http\Controllers\AuthController@loginMember')->name('signin.member');
 Route::post('/signin/admin', 'App\Http\Controllers\AuthController@loginAdmin')->name('signin.admin');

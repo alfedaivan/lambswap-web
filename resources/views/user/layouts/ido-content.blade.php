@@ -50,17 +50,18 @@
                                                     <div class="card-body">
                                                         <div class="row">
 
+                                                            @foreach ($ido as $i)
                                                             <div class="col-lg-6">
                                                                 <div class="single-tikit">
                                                                     <div class="card content">
                                                                         <div class="card-header">
-                                                                            <h4>IDO 1</h4>
+                                                                            <h4>{{$i -> name}}</h4>
                                                                         </div>
                                                                         <div class="card-body">
                                                                             <div class="content">
                                                                                 <div class="top-area">
                                                                                     <div class="top-content">
-                                                                                        <h5 class="title">1 LST = 9999 BUSd</h5>
+                                                                                        <h5 class="title">1 LST = {{$i -> price}} BUSD</h5>
                                                                                         <h5>Total raise</h5>
                                                                                         <h3 class="value">
                                                                                             40000 BUSD
@@ -84,76 +85,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-
-                                                            <div class="col-lg-6">
-                                                                <div class="single-tikit">
-                                                                    <div class="card content">
-                                                                        <div class="card-header">
-                                                                            <h4>IDO 1</h4>
-                                                                        </div>
-                                                                        <div class="card-body">
-                                                                            <div class="content">
-                                                                                <div class="top-area">
-                                                                                    <div class="top-content">
-                                                                                        <h5 class="title">1 LST = 9999 BUSd</h5>
-                                                                                        <h5>Total raise</h5>
-                                                                                        <h3 class="value">
-                                                                                            40000 BUSD
-                                                                                        </h3>
-                                                                                        <h5>Progress</h5>
-                                                                                    </div>
-                                                                                    <div class="top-bar">
-                                                                                        <div class="progress-bar"></div>
-                                                                                        <div class="main-bar"></div>
-                                                                                        <div class="numbers">
-                                                                                            <span>0</span>
-                                                                                            <span>100%</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="bottom-content">
-                                                                                    <a href="raffles-details.html" class="mybtn1">View Detail</a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-lg-6">
-                                                                <div class="single-tikit">
-                                                                    <div class="card content">
-                                                                        <div class="card-header">
-                                                                            <h4>IDO 1</h4>
-                                                                        </div>
-                                                                        <div class="card-body">
-                                                                            <div class="content">
-                                                                                <div class="top-area">
-                                                                                    <div class="top-content">
-                                                                                        <h5 class="title">1 LST = 9999 BUSd</h5>
-                                                                                        <h5>Total raise</h5>
-                                                                                        <h3 class="value">
-                                                                                            40000 BUSD
-                                                                                        </h3>
-                                                                                        <h5>Progress</h5>
-                                                                                    </div>
-                                                                                    <div class="top-bar">
-                                                                                        <div class="progress-bar"></div>
-                                                                                        <div class="main-bar"></div>
-                                                                                        <div class="numbers">
-                                                                                            <span>0</span>
-                                                                                            <span>100%</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="bottom-content">
-                                                                                    <a href="raffles-details.html" class="mybtn1">View Detail</a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                                            @endforeach
                                                         </div>
                                                     </div>
                                                 </div>
