@@ -18,11 +18,14 @@
                                     <li class="nav-item">
 										<a class="nav-link" href="{{url('/home')}}">Home</a>
 									</li>
+                                    <li class="nav-item">
+										<a class="nav-link" href="{{url('/dex')}}">DEX</a>
+									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="{{url('/product')}}">Products</a>
+										<a class="nav-link" href="{{url('/product')}}">NFT</a>
 									</li>
                                     <li class="nav-item">
-										<a class="nav-link" href="{{url('/game')}}">Games</a>
+										<a class="nav-link" href="{{url('/game')}}">GameFi</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="{{url('/bounty')}}">Bounty</a>

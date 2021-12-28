@@ -16,6 +16,10 @@ class UserController extends Controller
         return view('user/pages/product');
     }
 
+    public function dex(){
+        return view('user/pages/dex');
+    }
+
     public function games(){
         return view('user/pages/game');
     }

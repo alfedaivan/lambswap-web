@@ -36,7 +36,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="flogo">
-						<a href="#"><img src="{{url('assets/images/Lambswap.png')}}" alt=""></a>
+						<a href="#"><img src="{{url('assets/images/Footer.png')}}" alt=""></a>
 					</div>
 					<div class="social-links">
 						<ul>

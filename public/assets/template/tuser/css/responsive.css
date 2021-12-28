@@ -139,7 +139,7 @@
   }
 
   .timeline .timeline-box{
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
   }
 
   .timeline .timeline-box .columns .box {
@@ -150,17 +150,21 @@
 
 @media (max-width: 1024px){
     .timeline .timeline-box{
-        transform: translateX(-45%);
+        transform: translateX(-30%);
       }
     .timeline .timeline-box .columns .box {
         width: 600px;
     }
+
+    .ticket-cart-box .single-filter .input-field{
+        width: calc(100% + 70px);
+    }
 }
 
 @media (max-width: 810px){
-    .timeline .timeline-box{
-        transform: translateX(-45%);
-      }
+    /* .timeline .timeline-box{
+        transform: translateX(-30%);
+      } */
     .timeline .timeline-box .columns .box {
         width: 450px;
     }
@@ -731,13 +735,26 @@
   .latest-arcive2 .nav li a {
     margin: 4px;
   }
-
-  .timeline .timeline-box{
-    transform: translateX(-65%);
-  }
   .timeline .timeline-box .columns .box {
     width: 220px;
     /* transform: translateX(-50%); */
+    }
+
+    .latest-arcive2 .card-buy{
+        padding: 10px  !important;
+    }
+
+    .ticket-cart-box .single-filter .input-field {
+        width: calc(100% + 10px);
+    }
+
+    .latest-arcive2 .card-ido{
+        padding: 10px  !important;
+    }
+
+    .latest-arcive2 .card-ido .card-ido-content{
+        padding: 20px 5px  !important;
+
     }
 }
 
@@ -879,18 +896,60 @@
     padding: 10px 20px;
   }
 
-  .timeline .timeline-box{
-    transform: translateX(-70%);
-  }
+
     .timeline .timeline-box .columns .box {
         width: 220px;
         transform: translateY(-30%);
     }
 
+
+    .ticket-page .ticket-cart-box .heading {
+        font-size: 16px;
+
+    }
+
+    .ticket-page .ticket-cart-box .desc-card h5 {
+        font-size: 14px;
+    }
+    .ticket-page .ticket-cart-box .desc-card span {
+        font-size: 12px;
+    }
+
+    .ticket-cart-box .single-filter .input-field{
+        width: 100%;
+    }
+
+    .ticket-cart-box .single-filter .input-field.select{
+        width: 40% !important;
+    }
+
+    .t-total-price h5{
+        font-size: 10px;
+    }
+
+    .latest-arcive2 .card-buy{
+        padding: 10px  !important;
+    }
+
+
+
 }
 
 
 @media (max-width: 390px) {
+
+    .ticket-cart-box .total .amount, .ticket-cart-box .total .busd {
+        display: block;
+    }
+
+    .ticket-cart-box .total .title-total,
+    .ticket-cart-box .total .value,
+    .ticket-cart-box .total .unit {
+        width: 100%;
+        max-width: 100%;
+        text-align: left;
+    }
+
     .timeline .timeline-box .columns .box {
         width: 180px;
         /* transform: translateY(-30%); */
@@ -901,6 +960,21 @@
         width: 40px;
         height: 40px;
       }
+
+    .timeline .timeline-box .columns .box {
+        width: 160px;
+    }
+    .timeline .timeline-box .columns .box .title {
+        font-size: 20px !important;
+    }
+
+    .timeline .timeline-box .columns .box p {
+        font-size: 16px;
+    }
+
+    .timeline .timeline-box .columns .box .mybtn1 {
+        font-size: 14px;
+    }
 
   .breadcrumb-area.gamer-profile .bc-content .right ul li img,
   .breadcrumb-area.gamer-profile .bc-content .right ul li span

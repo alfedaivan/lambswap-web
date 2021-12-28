@@ -1,44 +1,64 @@
 <section class="timeline">
+    <div class="row">
+		<div class="col-lg-12">
+			<div class="section-heading">
+				<h5 class="subtitle">
+					More Smartly
+				</h5>
+				<h2 class="title ">
+					How to take a part IDO
+				</h2>
+				<h6 class="text">
+					Where skill is rewarded.Join millions of players worldwide!
+				</h6>
+			</div>
+		</div>
+	</div>
+    <div class="row justify-content-center">
+        <div class="col-lg-12">
+            <ul class="timeline-box">
+                <li class="columns">
+                <div class="box">
+                    <h3 class="title">Join LST Airdrop</h3>
+                    <p class="content">
+                        Join LST Airdrop
+                    </p>
 
-  <ul class="timeline-box">
-    <li class="columns">
-      <div class="box">
-        <h3 class="title">Buy BSCS</h3>
-        <p class="content">
-            Buy BSCS from our BSCSwap with BUSD
-        </p>
-        <div class="button-area">
-			<a href="#" class="mybtn1">Buy Tickets</a>
-		</div>
-      </div>
-    </li>
-    <li class="columns">
-      <div class="box">
-        <h3 class="title">Join the Farms</h3>
-        <p class="content">
-            Stake BSCS Token or Farm LP tokens.
-        </p>
-        <div class="button-area">
-			<a href="#" class="mybtn1">Buy Tickets</a>
-		</div>
-      </div>
-    </li class="columns">
-    <li class="columns">
-      <div class="box">
-        <h3 class="title">Join the pools</h3>
-        <p class="content">
-        When the IDO Pools are live, you can join the IDO pools and pay the relevant funds.
-        </p>
-      </div>
-    </li>
-    <li class="columns bottom">
-      <div class="box">
-        <h3 class="title">Join the pools</h3>
-        <p class="content">
-        After the IDO sales finish, you can claim IDO tokens from the pool you have joined.
-Add the Official Contract Address of IDO tokens into your wallet.
-        </p>
-      </div>
-    </li>
-  </ul>
+                </div>
+                </li>
+                <li class="columns">
+                <div class="box">
+                    <h3 class="title">Get Whitelisted</h3>
+                    <p class="content">
+                        Get Whitelisted
+                    </p>
+                </div>
+                </li class="columns">
+                <li class="columns">
+                <div class="box">
+                    <h3 class="title">Sign-up on our website</h3>
+                    <p class="content">
+                    Sign-up on our website
+                    </p>
+                </div>
+                </li>
+                <li class="columns ">
+                <div class="box">
+                    <h3 class="title">Login on the website</h3>
+                    <p class="content">
+                    Login on the website
+                    </p>
+                </div>
+                </li>
+                <li class="columns bottom">
+                <div class="box">
+                    <h3 class="title">Buy IDO LST / BUSD</h3>
+                    <p class="content">
+                    Buy IDO LST / BUSD
+                    </p>
+                </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 </section>
