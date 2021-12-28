@@ -22,4 +22,8 @@
     @include('user.layouts.about')
     <!--  End -->
 
+    <!-- Home how to take a part -->
+    @include('user.layouts.how-to')
+    <!--  End -->
+
     @endsection()
