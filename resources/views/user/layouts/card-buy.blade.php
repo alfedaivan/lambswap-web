@@ -1,7 +1,7 @@
 
 		<!-- <div class="container">
 			<div class="row justify-content-center"> -->
-			<div class="col-lg-5">
+			<div class="col-lg-8 col-sm-12">
                 <div class="ticket-page">
 					<div class="ticket-cart-box">
 						<h4 class="heading">Buy IDO LST /.BUSD</h4>
@@ -63,7 +63,7 @@
     <br>
 
             <!-- card jika sukses buy -->
-            <div class="col-lg-5">
+            <div class="col-lg-8 col-sm-12">
                 <div class="ticket-page">
                     <div class="ticket-cart-box">
                         <div class="title">
@@ -83,7 +83,7 @@
                         <div class="total">
                             <div class="amount">
                                 <div class="title-total">
-                                    Amount BUSD
+                                    Amount BUSD :
                                 </div>
                                 <div class="value">
                                    1000
@@ -94,7 +94,7 @@
                             </div>
                             <div class="busd">
                                 <div class="title-total">
-                                    <i class="fas fa-wallet"></i> Wallet
+                                    <i class="fas fa-wallet"></i> Wallet :
                                 </div>
                                 <div class="value">
                                     0Xdg56528nhsfosf1098j2

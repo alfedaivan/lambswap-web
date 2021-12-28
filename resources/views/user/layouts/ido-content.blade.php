@@ -32,7 +32,7 @@
 						</div>
 
                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-							<div class="row">
+							<div class="row card-ido">
                             <div class="col-lg-12">
 									<div class="left-content">
 
@@ -48,8 +48,7 @@
                                                 </button>
                                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                                                     <div class="card-body">
-                                                        <div class="row">
-
+                                                        <div class="row card-ido-content">
                                                             @foreach ($ido as $i)
                                                             <div class="col-lg-6">
                                                                 <div class="single-tikit">
@@ -98,7 +97,7 @@
 						</div>
 
                         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                            <div class="row justify-content-center">
+                            <div class="row justify-content-center card-buy">
                                 @include('user.layouts.card-buy')
                             </div>
 						</div>

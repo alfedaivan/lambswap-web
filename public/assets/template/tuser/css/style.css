@@ -7917,7 +7917,7 @@ select:focus {
 }
 
 .ticket-cart-box .single-filter .input-field{
-    width: 100%;
+    width: calc(100% + 185px);
     background: #250e46;
     color: #fff;
     height: 50px;
