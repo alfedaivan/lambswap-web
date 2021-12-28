@@ -7983,6 +7983,38 @@ select:focus {
     margin-bottom: 0px;
   }
 
+  .ticket-cart-box .total .amount, .ticket-cart-box .total .busd {
+      display: flex;
+  }
+
+  .ticket-cart-box .total .title-total,
+  .ticket-cart-box .total .value,
+  .ticket-cart-box .total .unit{
+    background: #1c063e;
+    border: 1px solid #361f57;
+    font-size: 12px !important;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .ticket-cart-box .total {
+    margin-top: 20px;
+  }
+
+  .ticket-cart-box .total .value,
+  .ticket-cart-box .total .unit{
+      text-align: right;
+  }
+
+  .ticket-cart-box .total .value{
+      width: 70%;
+      max-width: 70%;
+  }
+
+  .ticket-cart-box .total .title-total{
+    width: 30%;
+    max-width: 30%;
+  }
+
 
 
 

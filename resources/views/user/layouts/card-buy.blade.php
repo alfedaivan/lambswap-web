@@ -37,7 +37,6 @@
                             <h4>
 								0.00051
                             </h4>
-
 						</div>
 						<div class="t-total-price">
 							<h5>Price : </h5>
@@ -61,13 +60,12 @@
 
 
 
-
+    <br>
 
             <!-- card jika sukses buy -->
-
-            <!-- <div class="row justify-content-center mt-3">
-				<div class="col-lg-5">
-					<div class="ticket-cart-box">
+            <div class="col-lg-5">
+                <div class="ticket-page">
+                    <div class="ticket-cart-box">
                         <div class="title">
                             <h5 >Warning</h5>
                             <p>Selected Network BSC / BEP-20</p>
@@ -77,8 +75,34 @@
                                                                     token will result in losing your funds</p>
 
                         </div>
+
                         <div class="title">
                             <p>ISINYA QR CODE</p>
+                        </div>
+
+                        <div class="total">
+                            <div class="amount">
+                                <div class="title-total">
+                                    Amount BUSD
+                                </div>
+                                <div class="value">
+                                   1000
+                                </div>
+                                <div class="unit">
+                                    c
+                                </div>
+                            </div>
+                            <div class="busd">
+                                <div class="title-total">
+                                    <i class="fas fa-wallet"></i> Wallet
+                                </div>
+                                <div class="value">
+                                    0Xdg56528nhsfosf1098j2
+                                </div>
+                                <div class="unit">
+                                    c
+                                </div>
+                            </div>
                         </div>
 
 
@@ -91,12 +115,7 @@
                                         <li>3.	Please confirm your Payment</li>
                                     </ul>
                             </p>
-
                         </div>
-
-
 					</div>
-				</div>
-			</div> -->
-
-
+                </div>
+			</div>
