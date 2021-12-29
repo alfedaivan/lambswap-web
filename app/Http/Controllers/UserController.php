@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Ido;
+use App\Models\Transaction;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -34,8 +35,10 @@ class UserController extends Controller
 
     public function ido(){
         if (Auth::check()) {
+            $wallet = Auth::user()->wallet_address;
             $ido = Ido::all();
-            return view('user/pages/ido', compact('ido'));
+
+            return view('user/pages/ido', compact('ido', 'wallet'));
         }
         return redirect("/")->withSuccess('Access is not permitted');
 
@@ -47,7 +50,28 @@ class UserController extends Controller
 
 
     public function transaction(Request $request){
-        return view('/')->with('successMsg', 'Transaction Success!');
+        $status = 'Open';
+        $id_user = Auth::user()->id;
+        $findIDO = Ido::where('status', $status)->first();
+        $id_IDO = $findIDO->id;
+        // dd($findIDO->id);
+        // $request->validate([
+        //     'amountLST' => 'required',
+        //     'amountBUSD' => 'required'
+        // ]);
+        // dd($request->amountLST);
+        $lst = $request->amountLST;
+        $busd = $request->amountBUSD;
+
+        // dd((float)$busd);
+        Transaction::create([
+            'amountLST' => (float)$lst,
+            'amountBUSD' => (float)$busd,
+            'user_id' => $id_user,
+            'ido_id' => $id_IDO
+        ]);
+
+        // return view('/')->with('successMsg', 'Transaction Success!');
     }
 
     public function invoice(){

@@ -20,7 +20,7 @@ if (file_exists(app_path('Http/Controllers/LocalizationController.php')))
 }
 
 // route user
-Route::get('/home', 'App\Http\Controllers\UserController@index');
+Route::get('/', 'App\Http\Controllers\UserController@index');
 Route::get('/product', 'App\Http\Controllers\UserController@product');
 Route::get('/dex', 'App\Http\Controllers\UserController@dex');
 Route::get('/game', 'App\Http\Controllers\UserController@games');
@@ -30,6 +30,8 @@ Route::get('/IDO', 'App\Http\Controllers\UserController@ido');
 Route::get('/invoice', 'App\Http\Controllers\UserController@invoice');
 Route::get('/IDO/detail', 'App\Http\Controllers\UserController@detailIdo');
 
+
+Route::post('/action-trans', 'App\Http\Controllers\UserController@transaction')->name('transaction');
 
 
 // route admin

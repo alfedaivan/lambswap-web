@@ -1,5 +1,4 @@
-
-		<!-- <div class="container">
+<!-- <div class="container">
 			<div class="row justify-content-center"> -->
 			<div class="col-lg-8 col-sm-12">
                 <div class="ticket-page">

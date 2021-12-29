@@ -23,7 +23,7 @@
       <div class="modal fade" id="logout" role="dialog" aria-labelledby="logout" aria-hidden="true" >
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <form action="{{route('auth.logout')}}" method="POST">
+                <form action="{{route('auth.logout')}}" method="GET">
                     @csrf
                     <div class="modal-header">
                         <h6 class="modal-title" id="DataLabel"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> &nbsp; Konfirmasi Logut</h6>

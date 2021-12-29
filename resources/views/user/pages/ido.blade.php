@@ -25,12 +25,12 @@
                                         <div class="single-tikit">
                                             <div class="content">
                                                 <div class="content-area">
-                                                    <h3>Wallet Address :</h3>
+                                                    <h3>Wallet Address : {{$wallet}}</h3>
                                                     <ul>
                                                         <li>Balance <span>:</span></li>
-                                                        <li>IDO <span>:</span></li>
-                                                        <li>IDO <span>:</span></li>
-                                                        <li>IDO <span>:</span></li>
+                                                        <li>IDO 1<span>:</span></li>
+                                                        <li>IDO 2<span>:</span></li>
+                                                        <li>IDO 3<span>:</span></li>
                                                     </ul>
                                                 </div>
                                             </div>
