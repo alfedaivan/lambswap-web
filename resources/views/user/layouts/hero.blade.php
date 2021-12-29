@@ -6,7 +6,8 @@
 					<div class="content">
 						<div class="content">
 							<h5 class="subtitle">
-								PLAY GAMES WIN
+								<!-- PLAY GAMES WIN -->
+                                {{ __('general.hero_title') }}
 							</h5>
 							<h1 class="title">
 								Money Rewards

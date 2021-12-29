@@ -4,7 +4,7 @@
         <div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<h2> </h2>
+					<h2>Detail IDO</h2>
 				</div>
 			</div>
 		</div>

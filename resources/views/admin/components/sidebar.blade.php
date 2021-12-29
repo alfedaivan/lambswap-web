@@ -1,7 +1,7 @@
 <div class="main-sidebar">
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
-            <a href="{{url('/dashboard')}}">Kebon Ijo</a>
+            <a href="{{url('/dashboard')}}">LambSwap</a>
         </div>
         <div class="sidebar-brand sidebar-brand-sm">
             <a href="{{url('/dashboard')}}">KI</a>
@@ -12,7 +12,7 @@
                             class="{{request()->is('dashboard') ? 'nav-arrow fas fa-chevron-right active' : 'nav-arrow fas fa-chevron-right'}}" style=""></i></span></a>
             </li>
             <li class="nav-item ">
-                <a href="{{url('/dashboard/IDO')}}" class="nav-link"><i class="fas fa-cube"></i><span>IDO
+                <a href="{{url('/dashboard/ido')}}" class="nav-link"><i class="fas fa-cube"></i><span>IDO
                     </span></a>
             </li>
             <li class="nav-item ">

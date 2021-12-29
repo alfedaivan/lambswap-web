@@ -221,9 +221,9 @@ select:focus {
 .mybtn1 {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
   color: white;
-  padding: 12px 35px;
+  padding: 12px 26px;
   border-radius: 50px;
   box-shadow: inset 0px 0px 10px 7px #fea036;
   transition: all 0.3s ease-in;
