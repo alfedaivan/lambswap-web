@@ -21,6 +21,7 @@ Route::get('/game', 'App\Http\Controllers\UserController@games');
 Route::get('/bounty', 'App\Http\Controllers\UserController@bounty');
 Route::get('/help', 'App\Http\Controllers\UserController@help');
 Route::get('/IDO', 'App\Http\Controllers\UserController@ido');
+Route::get('/invoice', 'App\Http\Controllers\UserController@invoice');
 Route::get('/IDO/detail', 'App\Http\Controllers\UserController@detailIdo');
 
 

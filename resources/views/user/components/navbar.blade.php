@@ -39,6 +39,15 @@
                                     <li class="nav-item">
 										<a class="nav-link" href="contact.html">Document</a>
 									</li>
+                                    <li class="nav-item">
+										<div class="nav-link language-selector">
+											<select name="language" class="language">
+												<option value="1">EN</option>
+												<option value="2">IN</option>
+												<option value="3">BN</option>
+											</select>
+										</div>
+									</li>
 								</ul>
 
                                 @auth
