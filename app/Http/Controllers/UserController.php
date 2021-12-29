@@ -49,4 +49,8 @@ class UserController extends Controller
     public function transaction(Request $request){
         return view('/')->with('successMsg', 'Transaction Success!');
     }
+
+    public function invoice(){
+        return view('user/pages/invoice');
+    }
 }
