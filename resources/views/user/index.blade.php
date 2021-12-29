@@ -68,3 +68,13 @@
 </body>
 
 </html>
+
+<script>
+    $('#exchange').click(function() {
+        var valCrypt = $('#inputCrypt').val()
+        var current = valCrypt * 0.000099
+        $('#current').val(current)
+        $('#setLST').val(valCrypt)
+        $('#setBUSD').val(current)
+    })
+</script>
