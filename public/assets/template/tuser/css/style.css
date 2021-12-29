@@ -410,7 +410,7 @@ select:focus {
   padding: 0px;
 }
 .breadcrumb-area.games {
-  background: url(../images/bc/games.png);
+  background: url(../../../images/game.jpeg);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -1201,7 +1201,7 @@ select:focus {
   position: relative;
   background: #070b28;
   overflow: hidden;
-  background: url(../images/home/h1.jpg);
+  background: url(../../../images/hero.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1271,7 +1271,7 @@ select:focus {
   margin-bottom: 25px;
 }
 .hero-area.hero-area2 {
-  background: url(../images/home/h2.jpg);
+  background: url(../../../images/hero.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

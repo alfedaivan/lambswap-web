@@ -16,7 +16,7 @@
 							<div class="collapse navbar-collapse fixed-height" id="main_menu">
 								<ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-										<a class="nav-link" href="{{url('/home')}}">Home</a>
+										<a class="nav-link" href="{{url('/')}}">Home</a>
 									</li>
                                     <li class="nav-item">
 										<a class="nav-link" href="{{url('/dex')}}">DEX</a>
@@ -49,7 +49,7 @@
 										</div>
 									</li> -->
 
-                                    <li class="nav-item dropdown">
+                                    <!-- <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         {{strtoupper(Lang::locale())}}
                                         </a>
@@ -57,7 +57,7 @@
                                             <li><a class="dropdown-item" href="lang/en">EN</a></li>
                                             <li><a class="dropdown-item" href="lang/fr">FR</a></li>
                                         </ul>
-                                    </li>
+                                    </li> -->
 								</ul>
 
                                 @auth

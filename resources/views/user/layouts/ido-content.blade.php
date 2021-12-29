@@ -26,7 +26,7 @@
                                                 <button class="btn btn-expand" data-toggle="collapse"
                                                             data-target="#collapseOne" aria-expanded="true"
                                                             aria-controls="collapseOne">
-                                                    <h5 class="card-title">LambSwap IDO { LST / BUSD}</h5>
+                                                    <h5 class="card-title">$LST tokenomics and IDO metrics</h5>
                                                     <div class="arrow-down mr-3">
                                                         <i class="fas fa-chevron-down"></i>
                                                     </div>
