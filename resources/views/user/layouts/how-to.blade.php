@@ -3,13 +3,14 @@
 		<div class="col-lg-12">
 			<div class="section-heading">
 				<h5 class="subtitle">
-					More Smartly
+                {{ __('home.ido_subtitle') }}
 				</h5>
 				<h2 class="title ">
-					How to take a part IDO
+					 {{ __('home.ido_title') }}
 				</h2>
 				<h6 class="text">
-					Where skill is rewarded.Join millions of players worldwide!
+                {{ __('home.ido_text') }}
+
 				</h6>
 			</div>
 		</div>
@@ -19,42 +20,42 @@
             <ul class="timeline-box">
                 <li class="columns">
                 <div class="box">
-                    <h3 class="title">Join LST Airdrop</h3>
+                    <h3 class="title">{{ __('home.ido_1') }}</h3>
                     <p class="content">
-                        Join LST Airdrop
+                    {{ __('home.ido_11') }}
                     </p>
 
                 </div>
                 </li>
                 <li class="columns">
                 <div class="box">
-                    <h3 class="title">Get Whitelisted</h3>
+                    <h3 class="title">{{ __('home.ido_2') }}</h3>
                     <p class="content">
-                        Get Whitelisted
+                    {{ __('home.ido_22') }}
                     </p>
                 </div>
                 </li class="columns">
                 <li class="columns">
                 <div class="box">
-                    <h3 class="title">Sign-up on our website</h3>
+                    <h3 class="title">{{ __('home.ido_3') }}</h3>
                     <p class="content">
-                    Sign-up on our website
+                    {{ __('home.ido_33') }}
                     </p>
                 </div>
                 </li>
                 <li class="columns ">
                 <div class="box">
-                    <h3 class="title">Login on the website</h3>
+                    <h3 class="title">{{ __('home.ido_4') }}</h3>
                     <p class="content">
-                    Login on the website
+                    {{ __('home.ido_44') }}
                     </p>
                 </div>
                 </li>
                 <li class="columns bottom">
                 <div class="box">
-                    <h3 class="title">Buy IDO LST / BUSD</h3>
+                    <h3 class="title">{{ __('home.ido_5') }}</h3>
                     <p class="content">
-                    Buy IDO LST / BUSD
+                    {{ __('home.ido_55') }}
                     </p>
                 </div>
                 </li>

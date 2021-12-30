@@ -6,13 +6,13 @@
 				<div class="col-lg-12">
 					<div class="section-heading">
 						<h5 class="subtitle">
-							The Games You Love
+                        {{ __('home.produk_subtitle') }}
 						</h5>
 						<h2 class="title ">
-							PLAY AND WIN
+                        {{ __('home.produk_title') }}
 						</h2>
 						<h6 class="text">
-							Where skill is rewarded.Join millions of players worldwide!
+						{{ __('home.produk_text') }}
 						</h6>
 					</div>
 				</div>
@@ -327,7 +327,7 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<a href="{{url('/product')}}" class="b-all-btn">Browser All <img src="{{url('assets/template/tuser/images/arrow.png')}}" alt=""></a>
+					<a href="{{url('/product')}}" class="b-all-btn">{{ __('button.btn_browse') }} <img src="{{url('assets/template/tuser/images/arrow.png')}}" alt=""></a>
 				</div>
 			</div>
 		</div>

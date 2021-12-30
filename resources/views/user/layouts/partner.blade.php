@@ -4,13 +4,13 @@
 				<div class="col-lg-12">
 					<div class="section-heading">
 						<h5 class="subtitle">
-							partners and investors
+							{{ __('home.partner_subtitle') }}
 						</h5>
 						<h2 class="title ">
-							Partners and Investors
+                        {{ __('home.partner_title') }}
 						</h2>
 						<h6 class="text">
-							This is our Partners and INvestors!!
+                        {{ __('home.partner_text') }}
 						</h6>
 					</div>
 				</div>

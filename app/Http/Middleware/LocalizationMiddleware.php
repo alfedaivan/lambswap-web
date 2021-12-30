@@ -5,7 +5,7 @@ namespace App\Http\Middleware;
 use Closure;
 use Illuminate\Http\Request;
 
-class Localization
+class LocalizationMiddleware
 {
     /**
      * Handle an incoming request.
@@ -14,11 +14,15 @@ class Localization
      * @param  \Closure(\Illuminate\Http\Request): (\Illuminate\Http\Response|\Illuminate\Http\RedirectResponse)  $next
      * @return \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse
      */
-    public function handle(Request $request, Closure $next)
+    public function handle($request, Closure $next)
     {
-        if (session()->has('locale')) {
-            App::setLocale(session()->get('locale'));
+        // Cek apakah session 'locale' ada?
+        if ($request->session()->has('locale')) {
+            // Jika ada, maka set App Locale sesuai nilai yang ada di session 'locale'.
+            \App::setLocale($request->session()->get('locale'));
         }
+
+        // Lanjutkan request.
         return $next($request);
     }
 }

@@ -14,37 +14,38 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-if (file_exists(app_path('Http/Controllers/LocalizationController.php')))
-{
-    Route::get('lang/{locale}', [App\Http\Controllers\LocalizationController::class , 'lang']);
-}
+Route::get('lang/{language}', 'LocalizationController@switch')->name('localization.switch');
+// Route::get('lang/{language}', [LocalizationController::class, 'switch'])->name('localization.switch');
+// Route::get('/users', [LocalizationController::class, 'switch'])->name('localization.switch');;
+
+
 
 // route user
-Route::get('/', 'App\Http\Controllers\UserController@index');
-Route::get('/product', 'App\Http\Controllers\UserController@product');
-Route::get('/dex', 'App\Http\Controllers\UserController@dex');
-Route::get('/game', 'App\Http\Controllers\UserController@games');
-Route::get('/bounty', 'App\Http\Controllers\UserController@bounty');
-Route::get('/help', 'App\Http\Controllers\UserController@help');
-Route::get('/IDO', 'App\Http\Controllers\UserController@ido');
-Route::get('/invoice', 'App\Http\Controllers\UserController@invoice');
-Route::get('/IDO/detail', 'App\Http\Controllers\UserController@detailIdo');
+Route::get('/', 'UserController@index');
+Route::get('/product', 'UserController@product');
+Route::get('/dex', 'UserController@dex');
+Route::get('/game', 'UserController@games');
+Route::get('/bounty', 'UserController@bounty');
+Route::get('/help', 'UserController@help');
+Route::get('/IDO', 'UserController@ido');
+Route::get('/invoice', 'UserController@invoice');
+Route::get('/IDO/detail', 'UserController@detailIdo');
 
 
-Route::post('/action-trans', 'App\Http\Controllers\UserController@transaction')->name('transaction');
+Route::post('/action-trans', 'UserController@transaction')->name('transaction');
 
 
 // route admin
-Route::get('/dashboard', 'App\Http\Controllers\AdminController@index');
+Route::get('/dashboard', 'AdminController@index');
 
 //auth
-Route::get('/login', 'App\Http\Controllers\AuthController@viewAdmin')->name('auth');
-Route::post('/signup', 'App\Http\Controllers\AuthController@register')->name('auth.register');
-Route::post('/signin/member', 'App\Http\Controllers\AuthController@loginMember')->name('signin.member');
-Route::post('/signin/admin', 'App\Http\Controllers\AuthController@loginAdmin')->name('signin.admin');
-Route::get('/logout', 'App\Http\Controllers\AuthController@logout')->name('auth.logout');
+Route::get('/login', 'AuthController@viewAdmin')->name('auth');
+Route::post('/signup', 'AuthController@register')->name('auth.register');
+Route::post('/signin/member', 'AuthController@loginMember')->name('signin.member');
+Route::post('/signin/admin', 'AuthController@loginAdmin')->name('signin.admin');
+Route::get('/logout', 'AuthController@logout')->name('auth.logout');
 
 
 // route ido
-Route::get('/dashboard/ido', 'App\Http\Controllers\idoController@index');
-Route::get('/dashboard/ido/add', 'App\Http\Controllers\idoController@addIDO');
+Route::get('/dashboard/ido', 'idoController@index');
+Route::get('/dashboard/ido/add', 'idoController@addIDO');

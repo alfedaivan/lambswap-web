@@ -8110,6 +8110,26 @@ select:focus {
   }
 
 
+  .bottom-content .timecounter {
+    display: flex;
+    font-size: 24px;
+    color: #fff;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+  }
+  .bottom-content .timecounter i {
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+  }
+  .bottom-content .timecounter div {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
 
 
 
