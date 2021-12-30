@@ -1,6 +1,6 @@
 <section class="game-play-section">
-		<img class="left-img" src="{{url('assets/template/tuser/images/game-play/left-img.png')}}" alt="">
-		<img class="right-img" src="{{url('assets/template/tuser/images/game-play/right-img.png')}}" alt="">
+		<!-- <img class="left-img" src="{{url('assets/images/lamb1.png')}}" alt=""> -->
+		<img class="right-img" src="{{url('assets/images/lamb2.png')}}" alt="">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -327,7 +327,7 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<a href="#" class="b-all-btn">Browser All <img src="{{url('assets/template/tuser/images/arrow.png')}}" alt=""></a>
+					<a href="{{url('/product')}}" class="b-all-btn">Browser All <img src="{{url('assets/template/tuser/images/arrow.png')}}" alt=""></a>
 				</div>
 			</div>
 		</div>

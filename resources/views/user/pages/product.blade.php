@@ -4,8 +4,8 @@
     <!-- Breadcrumb Area Start -->
     <section class="breadcrumb-area games">
 		<div class="content">
-			<img src="{{url('assets/template/tuser/images/contest/top-icon_.png')}}" alt="">
-			<h4>Super Fast Withdrawals!</h4>
+			<!-- <img src="{{url('assets/template/tuser/images/contest/top-icon_.png')}}" alt=""> -->
+			<h4>OUR NFT</h4>
 			<a href="#" class="mybtn1">Join Now!</a>
 		</div>
 	</section>

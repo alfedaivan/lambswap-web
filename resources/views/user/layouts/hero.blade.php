@@ -6,7 +6,8 @@
 					<div class="content">
 						<div class="content">
 							<h5 class="subtitle">
-								PLAY GAMES WIN
+								<!-- PLAY GAMES WIN -->
+                                {{ __('general.hero_title') }}
 							</h5>
 							<h1 class="title">
 								Money Rewards
@@ -53,3 +54,55 @@
 		</div>
 	</section>
 	<!-- Counter Area End -->
+
+
+    <section class="about-section">
+		<img class="ar" src="{{url('assets/template/tuser/images/about/right-image.png')}}" alt="">
+		<img class="s1" src="{{url('assets/template/tuser/images/about/s1.png')}}" alt="">
+		<img class="s2" src="{{url('assets/template/tuser/images/about/s2.png')}}" alt="">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="left-content">
+						<div class="section-heading">
+							<h5 class="subtitle">
+								WELCOME TO The  LambSwap
+							<h2 class="title ">
+								Compete in your
+								favorite games to
+								win REAL MONEY!
+							</h2>
+							<h6 class="text">
+                            LambSwap is a proprietary cross-chain aggregation protocol.
+                            The mission of LambSwap is to provide consumers access to cryptocurrency-based,
+                            financial services, allowing them to exchange, or ‘swap’. The benefits of this design
+                            can be attributed to the high level of safety and security that is inherent to the decentralized model of asset storage and protection. The platform also provides ‘cross-chain’ swaps to conduct exchange settlements without regard to the limitations of a typical isolated Blockchain network. The term ‘cross-chain’ derives itself from the fact that the exchange is executed after traveling across two or more separate blockchain networks. With a cross-chain swap, the initial asset and the target asset are deployed on two isolated Blockchains that otherwise are non-communicative. In light of the advanced development of decentralized financial protocols (DeFi) and the increasingly mature markets for lending, exchange, derivatives, etc., The LambSwap protocol, in cooperation with its associated decentralized wallet software, provides a one-stop aggregation & exchange platform for consumers and offers developers access to an open, distributed, limitless, and secure — trading environment.
+							</h6>
+						</div>
+						<!-- <div class="content-list">
+							<div class="s-list">
+								<img src="assets/images/about/i1.png" alt="">
+								<div class="content">
+									<p>
+										Verified by
+										<br>
+										VIP players
+									</p>
+								</div>
+							</div>
+							<div class="s-list">
+								<img src="assets/images/about/i2.png" alt="">
+								<div class="content">
+									<p>
+										Instant deposits
+										<br>
+										& withdrawals!
+									</p>
+								</div>
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>

@@ -16,7 +16,7 @@
 							<div class="collapse navbar-collapse fixed-height" id="main_menu">
 								<ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-										<a class="nav-link" href="{{url('/home')}}">Home</a>
+										<a class="nav-link" href="{{url('/')}}">Home</a>
 									</li>
                                     <li class="nav-item">
 										<a class="nav-link" href="{{url('/dex')}}">DEX</a>
@@ -37,17 +37,27 @@
 										<a class="nav-link" href="{{url('/help')}}">Help</a>
 									</li>
                                     <li class="nav-item">
-										<a class="nav-link" href="contact.html">Document</a>
+										<a class="nav-link" href="contact.html">Docs</a>
 									</li>
-                                    <li class="nav-item">
+                                    <!-- <li class="nav-item">
 										<div class="nav-link language-selector">
+                                            {{strtoupper(Lang::locale())}}
 											<select name="language" class="language">
-												<option value="1">EN</option>
-												<option value="2">IN</option>
-												<option value="3">BN</option>
+												<option value="1"><a href="lang/en">EN</a></option>
+												<option value="2"><a href="lang/fr">FR</a></option>
 											</select>
 										</div>
-									</li>
+									</li> -->
+
+                                    <!-- <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        {{strtoupper(Lang::locale())}}
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="lang/en">EN</a></li>
+                                            <li><a class="dropdown-item" href="lang/fr">FR</a></li>
+                                        </ul>
+                                    </li> -->
 								</ul>
 
                                 @auth

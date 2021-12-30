@@ -1,5 +1,10 @@
-<!-- join us area start -->
-<section class="join_us">
+
+
+
+
+
+    <!-- join us area start -->
+    <section class="join_us">
 		<img class="l-image" src="{{url('assets/template/tuser/images/joinus_left_img.png')}}" alt="">
 
 		<div class="container">
@@ -14,7 +19,7 @@
 						</h2>
 						<h6 class="text">
 							Get started in less than 5 min - no credit card required.Gain
-early access to Jugaro and experience crypto like never before.
+        early access to Jugaro and experience crypto like never before.
 						</h6>
 						<a href="#" class="mybtn1">Join US</a>
 					</div>

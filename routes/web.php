@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+if (file_exists(app_path('Http/Controllers/LocalizationController.php')))
+{
+    Route::get('lang/{locale}', [App\Http\Controllers\LocalizationController::class , 'lang']);
+}
+
 // route user
 Route::get('/', 'App\Http\Controllers\UserController@index');
 Route::get('/product', 'App\Http\Controllers\UserController@product');
@@ -38,3 +44,7 @@ Route::post('/signin/member', 'App\Http\Controllers\AuthController@loginMember')
 Route::post('/signin/admin', 'App\Http\Controllers\AuthController@loginAdmin')->name('signin.admin');
 Route::get('/logout', 'App\Http\Controllers\AuthController@logout')->name('auth.logout');
 
+
+// route ido
+Route::get('/dashboard/ido', 'App\Http\Controllers\idoController@index');
+Route::get('/dashboard/ido/add', 'App\Http\Controllers\idoController@addIDO');
