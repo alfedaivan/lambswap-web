@@ -28,11 +28,11 @@ class AuthController extends Controller
             } else {
                 Session::flush();
                 Auth::logout();
-                return Redirect('/');
+                return Redirect('/login');
             }
 
         }
-        return redirect("/")->withSuccess('Credentials are wrong.');
+        return redirect("/login")->withSuccess('Credentials are wrong.');
     }
 
     public function loginMember(Request $request)

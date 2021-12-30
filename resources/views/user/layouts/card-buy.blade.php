@@ -16,34 +16,36 @@
 						<div class="ticket-price-area">
                             <div class="single-filter d-block">
                                 <label for="">Currency</label> <br>
-                                <select name="" id="" class="input-field select">
-                                    <option value="">BTC</option>
-                                    <option value="">BDT</option>
-                                    <option value="">USD</option>
+                                <select name="" id="select" class="input-field select">
+                                    <option value="BUSD">BUSD</option>
                                 </select>
-                                <input type="input" class="input-field mt-2">
+                                <input type="number" class="input-field mt-2" id="inputCrypt">
                             </div>
 						</div>
 
                         <div class="button-area">
-                            <button href="#" class="mybtn1">
+                            <button href="#" class="mybtn1" id="exchange">
                                 <i class="fas fa-arrow-down"></i>
                             </button>
                         </div>
 
                         <div class="current-balance">
-                            <span>BTC</span>
-                            <h4>
-								0.00051
-                            </h4>
+                            <span>BUSD</span>
+                        `   <input type="number" id="current" disabled value='0'>
+
 						</div>
 						<div class="t-total-price">
 							<h5>Price : </h5>
-							<h5>0.11111111 <span>Per LST / BUSD</span></h5>
+							<h5>0.000099 <span>Per LST / BUSD</span></h5>
 						</div>
-						<div class="button-area">
-							<a href="#" class="mybtn1">Buy Tickets</a>
-						</div>
+                        <form action="{{route('transaction')}}" method="POST">
+                            @csrf
+                            <input class="form-control" type="hidden" id='setLST' name="amountLST">
+                            <input  class="form-control" type="hidden" id="setBUSD" name="amountBUSD">
+                            <div class="button-area">
+                                <button class="mybtn1" type="submit">Buy Tickets</button>
+                            </div>
+                        </form>
 					</div>
 
 				</div>
