@@ -33,7 +33,7 @@
                             <h4>Transaksi</h4>
                         </div>
                         <div class="card-body">
-                            {{-- {{$histories->count()}} --}}
+                            {{$acc->count()}}
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                             <input type="text" name="search" id="search" class="form-control" placeholder="Search" >
                             <div class="input-group-btn">
                             <button class="btn btn-primary"><i class="fas fa-search"></i></button>
-                            <button href="{{url('/dashboard/history')}}" class="btn btn-danger ml-1">
+                            <button href="{{url('/dashboard')}}" class="btn btn-danger ml-1">
                                 <i class="fa fa-sync-alt" style="font-size: 13px !important;"></i>
                             </button>
                             </div>
@@ -91,13 +91,34 @@
                 <table class="table table-striped">
                   <tr>
                     <th>No</th>
-                    <th>Pelanggan</th>
-                    <th>Alamat</th>
-                    <th>Catatan</th>
-                    <th>Total</th>
-                    <th>Waktu Pemesanan</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Wallet</th>
+                    <th>Amount BUSD</th>
+                    <th>Amount LST</th>
+                    <th>IDO</th>
                     <th>Aksi</th>
                   </tr>
+                 <?php $i = 1 ?>
+                  @foreach ($trans as $index => $t)
+                    <tr>
+                        <td>{{$i++}}</td>
+                        <td>{{$t->name}}</td>
+                        <td>{{$t->email}}</td>
+                        <td>{{$t->wallet_address}}</td>
+                        <td>{{$t->amountLST}}</td>
+                        <td>{{$t->amountBUSD}}</td>
+                        <td>{{$t->ido}}</td>
+                        <td>
+                            <form action="{{route('change.status', $t->id)}}" method="POST">
+                                @csrf
+                                <input type="hidden" name="ido" value="{{$t->ido}}">
+                                <input type="hidden" name="lst" value="{{$t->amountLST}}">
+                                <button type="submit">Accept</button>
+                            </form>
+                        </td>
+                    </tr>
+                  @endforeach
 
                 </table>
               </div>

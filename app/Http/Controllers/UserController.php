@@ -6,6 +6,7 @@ use App\Models\Ido;
 use App\Models\Transaction;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 
 class UserController extends Controller
 {
@@ -50,31 +51,40 @@ class UserController extends Controller
 
 
     public function transaction(Request $request){
-        $status = 'Open';
-        $id_user = Auth::user()->id;
-        $findIDO = Ido::where('status', $status)->first();
-        $id_IDO = $findIDO->id;
-        // dd($findIDO->id);
-        // $request->validate([
-        //     'amountLST' => 'required',
-        //     'amountBUSD' => 'required'
-        // ]);
-        // dd($request->amountLST);
-        $lst = $request->amountLST;
-        $busd = $request->amountBUSD;
-
-        // dd((float)$busd);
-        Transaction::create([
-            'amountLST' => (float)$lst,
-            'amountBUSD' => (float)$busd,
-            'user_id' => $id_user,
-            'ido_id' => $id_IDO
-        ]);
-
-        // return view('/')->with('successMsg', 'Transaction Success!');
+        $data = $request->all();
+        $check = $this->createTrans($data);
+        $id = $check->id;
+        $busd = $check->amountBUSD;
+        return view('/user/pages/invoice', compact('busd', 'id'))->with('successMsg', 'Transaction Success!');
     }
 
     public function invoice(){
         return view('user/pages/invoice');
     }
+
+    public function createTrans(array $data){
+        $status = 'Open';
+        $id_user = Auth::user()->id;
+        $findIDO = Ido::where('status', $status)->first();
+        $id_IDO = $findIDO->id;
+        return Transaction::create([
+            'amountLST' => (float)$data['amountLST'],
+            'amountBUSD' => (float)$data['amountBUSD'],
+            'user_id' => $id_user,
+            'ido_id' => $id_IDO
+        ]);
+    }
+
+    public function sendEmail($id){
+        $transaction = Transaction::FindOrFail($id);
+
+        $details = [
+            'title' => 'mail confirmation',
+            'body' => $transaction
+        ];
+        // dd(Auth::user()->email);
+        Mail::to(Auth::user()->email)->send(new \App\Mail\sendmail($details));
+        return redirect('/IDO')->withSuccess('email has sent');
+    }
+
 }

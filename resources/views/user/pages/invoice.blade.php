@@ -26,7 +26,7 @@
                                     Amount BUSD :
                                 </div>
                                 <div class="value">
-                                   1000
+                                   {{$busd}}
                                 </div>
                                 <div class="unit">
                                     c
@@ -52,7 +52,10 @@
                                     <ul>
                                         <li>1.	Your Payment will confirmed after it is full confirmed on BSC Network</li>
                                         <li> 2.	Payment are procces on your behalf, which refers to your request in purchasing IDO. This invoice is printed by system.</li>
-                                        <li>3.	Please confirm your Payment</li>
+
+                                        <a href="{{route('send.email', $id)}}">
+                                            <li>3.	Please confirm your Payment</li>
+                                        </a>
                                     </ul>
                             </p>
                         </div>
