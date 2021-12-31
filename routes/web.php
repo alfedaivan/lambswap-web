@@ -32,11 +32,11 @@ Route::get('/invoice', 'UserController@invoice');
 Route::get('/IDO/detail', 'UserController@detailIdo');
 
 
-Route::post('/action-trans', 'App\Http\Controllers\UserController@transaction')->name('transaction');
-Route::get('/sendEmai/{id}', 'App\Http\Controllers\UserController@sendEmail')->name('send.email');
+Route::post('/action-trans', 'UserController@transaction')->name('transaction');
+Route::get('/sendEmai/{id}', 'UserController@sendEmail')->name('send.email');
 // route admin
-Route::get('/dashboard', 'App\Http\Controllers\AdminController@index');
-Route::post('/change-status/{id}', 'App\Http\Controllers\AdminController@changeStatus')->name('change.status');
+Route::get('/dashboard', 'AdminController@index');
+Route::post('/change-status/{id}', 'AdminController@changeStatus')->name('change.status');
 
 //auth
 Route::get('/login', 'AuthController@viewAdmin')->name('auth');
