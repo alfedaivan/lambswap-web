@@ -6,9 +6,11 @@
 	@include('user.layouts.hero')
 	<!-- Hero Area End -->
 
-    <!-- News Area Start -->
-    @include('user.layouts.news')
-    <!-- News Area End -->
+    <!-- Hero Area Start -->
+	@include('user.layouts.desc-fitur')
+	<!-- Hero Area End -->
+
+
 
     <!-- Home Product -->
     @include('user.layouts.home-product')

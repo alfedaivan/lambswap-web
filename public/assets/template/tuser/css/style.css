@@ -1201,6 +1201,7 @@ select:focus {
   position: relative;
   background: #070b28;
   overflow: hidden;
+  /* background: url(../../../images/hero.jpg); */
   background: url(../../../images/hero.jpg);
   background-size: cover;
   background-position: center;
@@ -1324,7 +1325,7 @@ select:focus {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: inset 0px 15px 15px -10px #00a2ff, inset 0px -15px 15px -10px #00a2ff;
+  /* box-shadow: inset 0px 15px 15px -10px #00a2ff, inset 0px -15px 15px -10px #00a2ff; */
 }
 .counter-section.counter-section2 {
   padding-top: 68px;
@@ -1587,9 +1588,9 @@ select:focus {
   text-transform: uppercase;
 }
 .single-tikit .image img {
-  max-width: 100%;
+  max-width: 50%;
   width: auto;
-  height: 200px;
+  height: 80px;
   display: inline-block;
 }
 .single-tikit .content .top-area .top-info {
@@ -1696,8 +1697,8 @@ select:focus {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  border-top: 4px solid #211863;
-  border-bottom: 4px solid #211863;
+  /* border-top: 4px solid #211863;
+  border-bottom: 4px solid #211863; */
   margin-bottom: 10px;
   padding: 20px 0px 20px;
 }
@@ -2212,7 +2213,7 @@ select:focus {
 /* About page section Area Start */
 .about-section {
   background: #0b122e;
-  padding: 112px 0px 120px;
+  padding: 80px 0px;
   position: relative;
 }
 .about-section .ar {
@@ -2221,6 +2222,16 @@ select:focus {
   top: 50%;
   transform: translateY(-50%);
   max-width: 600px;
+}
+.about-section .ar2 {
+    position: absolute;
+    left: 30px !important;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 600px;
+}
+.about-section .row-center{
+    justify-content: right;
 }
 .about-section .s1 {
   position: absolute;
@@ -2242,6 +2253,17 @@ select:focus {
 .about-section .left-content .section-heading {
   text-align: left;
 }
+.about-section .left-content2 {
+    /* justify-content: right !important; */
+    text-align: right;
+    right: 0;
+    /* margin-right: -300px;/ */
+
+    /* position: absolute; */
+  }
+  .about-section .left-content2 .section-heading {
+    text-align: right;
+  }
 .about-section .left-content .section-heading .text {
   color: #dbdcf7;
 }
@@ -7863,7 +7885,7 @@ select:focus {
     margin-bottom: 40px;
 }
 .single-tikit .card .card-header{
-    background: linear-gradient(90deg, #54068f 0%, #7a1bb4 100%);
+    /* background: linear-gradient(90deg, #54068f 0%, #7a1bb4 100%); */
     text-align: center;
 }
 

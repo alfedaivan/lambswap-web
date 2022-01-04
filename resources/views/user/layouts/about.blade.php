@@ -49,19 +49,25 @@
 				</div>
 			</div>
 			<div class="row  justify-content-center">
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-3 col-md-6">
 					<div class="s-h-play">
 						<img src="{{url('assets/template/tuser/images/h-play/ic1.png')}}" alt="">
 						<h4>Sign Up & Deposit</h4>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-3 col-md-6">
 					<div class="s-h-play">
 						<img src="{{url('assets/template/tuser/images/h-play/ic2.png')}}" alt="">
 						<h4>Compete</h4>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-3 col-md-6">
+					<div class="s-h-play">
+						<img src="{{url('assets/template/tuser/images/h-play/ic3.png')}}" alt="">
+						<h4>Get Paid</h4>
+					</div>
+				</div>
+                <div class="col-lg-3 col-md-6">
 					<div class="s-h-play">
 						<img src="{{url('assets/template/tuser/images/h-play/ic3.png')}}" alt="">
 						<h4>Get Paid</h4>

@@ -59,7 +59,8 @@
                                     <a href="{{route('auth.logout')}}" class="btn btn-danger">logout</a>
                                 @endauth
                                 @guest
-								    <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Join us</a>
+                                    <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Wallet</a>
+                                    <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Login</a>
                                 @endguest
 							</div>
 						</nav>

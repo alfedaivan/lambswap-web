@@ -21,42 +21,31 @@
                 <li class="columns">
                 <div class="box">
                     <h3 class="title">{{ __('home.ido_1') }}</h3>
-                    <p class="content">
-                    {{ __('home.ido_11') }}
-                    </p>
-
+                    <a href="#" class="mybtn1">Join Airdrop!</a>
                 </div>
                 </li>
                 <li class="columns">
                 <div class="box">
                     <h3 class="title">{{ __('home.ido_2') }}</h3>
-                    <p class="content">
-                    {{ __('home.ido_22') }}
-                    </p>
+                    <a href="#" class="mybtn1">Get Whitelisted!</a>
                 </div>
                 </li class="columns">
                 <li class="columns">
                 <div class="box">
                     <h3 class="title">{{ __('home.ido_3') }}</h3>
-                    <p class="content">
-                    {{ __('home.ido_33') }}
-                    </p>
+                    <a href="#" class="mybtn1">Join Us!</a>
                 </div>
                 </li>
                 <li class="columns ">
                 <div class="box">
                     <h3 class="title">{{ __('home.ido_4') }}</h3>
-                    <p class="content">
-                    {{ __('home.ido_44') }}
-                    </p>
+                    <a href="#" class="mybtn1">Join Us!</a>
                 </div>
                 </li>
                 <li class="columns bottom">
                 <div class="box">
                     <h3 class="title">{{ __('home.ido_5') }}</h3>
-                    <p class="content">
-                    {{ __('home.ido_55') }}
-                    </p>
+                    <a href="#" class="mybtn1">Buy!</a>
                 </div>
                 </li>
             </ul>

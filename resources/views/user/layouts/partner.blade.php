@@ -16,7 +16,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-4">
 					<div class="l-arcive-box">
 						<div class="s-a-b">
 							<div class="left">
@@ -42,7 +42,32 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-4">
+					<div class="l-arcive-box">
+						<div class="s-a-b">
+							<div class="left">
+								<img src="{{url('assets/template/tuser/images/arcive/sa1.png')}}" alt="">
+								<h6>Harmon</h6>
+							</div>
+
+						</div>
+						<div class="s-a-b">
+							<div class="left">
+								<img src="{{url('assets/template/tuser/images/arcive/sa1.png')}}" alt="">
+								<h6>Mendez</h6>
+							</div>
+
+						</div>
+						<div class="s-a-b">
+							<div class="left">
+								<img src="{{url('assets/template/tuser/images/arcive/sa1.png')}}" alt="">
+								<h6>Munoz</h6>
+							</div>
+
+						</div>
+					</div>
+				</div>
+                <div class="col-md-4">
 					<div class="l-arcive-box">
 						<div class="s-a-b">
 							<div class="left">
