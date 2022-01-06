@@ -1,7 +1,7 @@
 <section class="about-section">
 		<img class="ar" src="{{url('assets/template/tuser/images/about/right-image.png')}}" alt="">
-		<img class="s1" src="{{url('assets/template/tuser/images/about/s1.png')}}" alt="">
-		<img class="s2" src="{{url('assets/template/tuser/images/about/s2.png')}}" alt="">
+		<!-- <img class="s1" src="{{url('assets/template/tuser/images/about/s1.png')}}" alt="">
+		<img class="s2" src="{{url('assets/template/tuser/images/about/s2.png')}}" alt=""> -->
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8">
@@ -23,8 +23,8 @@
 	</section>
     <section class="about-section">
 		<img class="ar2" src="{{url('assets/template/tuser/images/about/right-image.png')}}" alt="">
-		<img class="s1" src="{{url('assets/template/tuser/images/about/s1.png')}}" alt="">
-		<img class="s2" src="{{url('assets/template/tuser/images/about/s2.png')}}" alt="">
+		<!-- <img class="s1" src="{{url('assets/template/tuser/images/about/s1.png')}}" alt="">
+		<img class="s2" src="{{url('assets/template/tuser/images/about/s2.png')}}" alt=""> -->
 		<div class="container">
 			<div class="row row-center">
 				<div class="col-lg-8">
@@ -46,8 +46,8 @@
 	</section>
     <section class="about-section">
 		<img class="ar" src="{{url('assets/template/tuser/images/about/right-image.png')}}" alt="">
-		<img class="s1" src="{{url('assets/template/tuser/images/about/s1.png')}}" alt="">
-		<img class="s2" src="{{url('assets/template/tuser/images/about/s2.png')}}" alt="">
+		<!-- <img class="s1" src="{{url('assets/template/tuser/images/about/s1.png')}}" alt="">
+		<img class="s2" src="{{url('assets/template/tuser/images/about/s2.png')}}" alt=""> -->
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8">

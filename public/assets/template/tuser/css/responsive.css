@@ -163,6 +163,15 @@
     .ticket-cart-box .single-filter .input-field{
         width: calc(100% + 70px);
     }
+
+    .about-section .left-content,
+    .about-section .left-content .section-heading,
+    .about-section .left-content2,
+    .about-section .left-content2 .section-heading
+     {
+        text-align: center;
+      }
+
 }
 
 @media (max-width: 810px){

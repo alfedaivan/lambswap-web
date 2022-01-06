@@ -13,7 +13,7 @@
                                 {{ __('home.hero_sub-title') }}
 							</h1>
 							<div class="links">
-								<a href="#" class="mybtn1">{{ __('button.btn_play') }}</a>
+								<a href="#" class="mybtn1">{{ __('button.btn_wallet') }}</a>
 								<a href="https://www.youtube.com/watch?v=jssO8-5qmag" class="video_btn play-video mfp-iframe">
 									<i class="fas fa-play"></i>
 								</a>
