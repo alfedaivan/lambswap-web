@@ -331,7 +331,7 @@ select:focus {
 
 .loader-1 .loader-outter {
   position: absolute;
-  border: 4px solid #fa009f;
+  border: 4px solid #0026bd;
   border-left-color: transparent;
   border-bottom: 0;
   width: 100%;
@@ -342,7 +342,7 @@ select:focus {
 
 .loader-1 .loader-inner {
   position: absolute;
-  border: 4px solid #fa009f;
+  border: 4px solid #0026bd;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -384,7 +384,7 @@ select:focus {
   right: 15px;
   box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.2);
   z-index: 999;
-  background: #fa009f;
+  background: #0026bd;
 }
 
 /* Breadcrumb Area Start */
@@ -4059,7 +4059,7 @@ select:focus {
   margin-top: 7px;
 }
 .ticket-page .ticket-cart-box {
-  background: #3b076b;
+  background: #031457;
   box-shadow: inset 0px 0px 7px 4px #00a2ff, 0px 0px 7px #00a2ff;
   border-radius: 10px;
   padding: 20px;
@@ -5982,7 +5982,7 @@ select:focus {
 /* login modal Area Start */
 .login-modal .modal-dialog .modal-content {
   border-radius: 10px;
-  background: rgba(93, 33, 212, 0.8);
+  background: rgba(11, 18, 46, 0.8);
   border: 0px;
   position: relative;
 }
@@ -7864,7 +7864,8 @@ select:focus {
 .accordion .card{
     color: #FFF;
     border-radius: 10px !important;
-    background: #46167a !important;
+    background: #031457!important;
+    box-shadow: inset 0px 0px 10px 5px #00a2ff, 0px 0px 10px #00a2ff;
 }
 
 .accordion .btn-expand{
@@ -7881,10 +7882,14 @@ select:focus {
     color: #FFF;
 }
 
+.accordion > .card .card-header {
+
+}
+
 .single-tikit .card{
     border-radius: 10px;
     box-shadow: inset 0px 0px 10px #00a2ff;
-    background: #2e124a!important;
+    background: rgba(11, 18, 46, 0.5)!important;
     transition: all 0.3s ease-in;
     cursor: pointer;
     margin-bottom: 40px;
@@ -7892,6 +7897,12 @@ select:focus {
 .single-tikit .card .card-header{
     /* background: linear-gradient(90deg, #54068f 0%, #7a1bb4 100%); */
     text-align: center;
+    color: #71f737 !important;
+    padding-top: 30px !important;
+}
+.single-tikit .card h4{
+    font-weight: 500;
+    color: #71f737 !important;
 }
 
 .single-tikit .card .card-body .top-content h5{
@@ -7938,14 +7949,16 @@ select:focus {
 .ticket-cart-box .desc-card{
     color: #62566e;
     border-bottom: #ffffff solid 1px;
+    font-size: 15px;
+    padding-bottom: 20px;
 }
 .ticket-cart-box .desc-card h5{
-    color: #fa009f;
+    color: #71f737;
 }
 
 .ticket-cart-box .single-filter .input-field{
     width: calc(100% + 185px);
-    background: #250e46;
+    background: #011978;
     color: #fff;
     height: 50px;
     padding: 0px 30px 0px;
@@ -7965,12 +7978,17 @@ select:focus {
 }
 
 .ticket-cart-box .current-balance{
-    background: #1c063e;
+    background: #011978;
     border: 1px solid #361f57;
     padding: 20px 20px 20px;
     border-radius: 10px;
     display: flex;
     justify-content: space-between !important;
+}
+
+.ticket-cart-box .current-balance input{
+    color: #fff !important;
+    background: transparent !important;
 }
 .ticket-cart-box .t-total-price span{
     color: #a1aed4;
@@ -8017,11 +8035,12 @@ select:focus {
   .ticket-cart-box .total .title-total,
   .ticket-cart-box .total .value,
   .ticket-cart-box .total .unit{
-    background: #1c063e;
+    background: #011978;
     border: 1px solid #361f57;
     font-size: 12px !important;
     padding: 10px;
     border-radius: 10px;
+    color: #FFF;
   }
   .ticket-cart-box .total {
     margin-top: 20px;
@@ -8070,7 +8089,7 @@ select:focus {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: linear-gradient(90deg, #54068f 0%, #7a1bb4 100%);;
+    background: linear-gradient(89deg, #031457 0%, #0d2aa3 100%);
     content: counter(section);
     color: #fff;
     font-size: 24px;
@@ -8085,10 +8104,10 @@ select:focus {
     transform: translateY(-50%);
     width: 400px;
     padding: 20px;
-    border: 1px solid #9a13d2;
+    border: 1px solid #0026bd;
     border-radius: 10px;
-    box-shadow: inset 0px 0px 6px 2px #9a13d2, 0px 0px 10px #9a13d2;
-    background: #220c44;
+    box-shadow: inset 0px 0px 6px 2px #0026bd, 0px 0px 10px #0026bd;
+    background: #031457;
   }
   /* .timeline .timeline-box .columns .box .content{
     color: #62566e;
@@ -8128,8 +8147,8 @@ select:focus {
 
 
   .tab-content.l-a-nav .row{
-    box-shadow: inset 0px 0px 10px 5px #00a2ff, 0px 0px 10px #00a2ff;
-    padding: 60px 60px 60px;
+    /* box-shadow: inset 0px 0px 10px 5px #00a2ff, 0px 0px 10px #00a2ff; */
+    padding: 30px 60px 60px;
     border-radius: 30px;
   }
 
