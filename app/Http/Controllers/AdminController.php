@@ -10,6 +10,8 @@ use Illuminate\Support\Facades\Auth;
 
 class AdminController extends Controller
 {
+
+
     public function index(){
         // dd(Auth::check());
         if (Auth::check()) {
@@ -33,5 +35,4 @@ class AdminController extends Controller
         // dd($idoUpdate);
         return redirect('/dashboard')->withSuccess('data has been updated!');
     }
-
 }
