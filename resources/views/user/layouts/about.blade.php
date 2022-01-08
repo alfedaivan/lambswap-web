@@ -51,25 +51,25 @@
 			<div class="row  justify-content-center">
 				<div class="col-lg-3 col-md-6">
 					<div class="s-h-play">
-						<img src="{{url('assets/template/tuser/images/h-play/ic1.png')}}" alt="">
+						<img src="{{url('assets/images/game-controller.png')}}" alt="">
 						<h4>Sign Up & Deposit</h4>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="s-h-play">
-						<img src="{{url('assets/template/tuser/images/h-play/ic2.png')}}" alt="">
+						<img src="{{url('assets/images/dollar-coin.png')}}" alt="">
 						<h4>Compete</h4>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="s-h-play">
-						<img src="{{url('assets/template/tuser/images/h-play/ic3.png')}}" alt="">
+						<img src="{{url('assets/images/star-badge.png')}}" alt="">
 						<h4>Get Paid</h4>
 					</div>
 				</div>
                 <div class="col-lg-3 col-md-6">
 					<div class="s-h-play">
-						<img src="{{url('assets/template/tuser/images/h-play/ic3.png')}}" alt="">
+						<img src="{{url('assets/images/star-trophy.png')}}" alt="">
 						<h4>Get Paid</h4>
 					</div>
 				</div>

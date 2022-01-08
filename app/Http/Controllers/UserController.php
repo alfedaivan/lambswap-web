@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Ido;
 use App\Models\Transaction;
+use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
@@ -11,7 +12,15 @@ use Illuminate\Support\Facades\Mail;
 class UserController extends Controller
 {
     public function index(){
-        return view('user/pages/home');
+        $client = new Client();
+        $url = 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/@lambswaptoken/feed';
+        $response = $client->request('GET', $url, [
+            'verify'  => false,
+        ]);
+
+        $responseBody = json_decode($response->getBody())->items;
+        // dd($responseBody);
+        return view('user/pages/home', compact('responseBody'));
     }
 
     public function product(){

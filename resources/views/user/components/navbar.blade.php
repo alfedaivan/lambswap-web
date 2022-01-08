@@ -40,6 +40,10 @@
 										<a class="nav-link" href="contact.html">Docs</a>
 									</li>
 
+                                    <!-- <li class="nav-item">
+										<a class="nav-link" href="contact.html">Wallet</a>
+									</li> -->
+
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" style="text-transform: uppercase;" href="#" id="navbarDropdown" role="button"
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -47,19 +51,21 @@
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item {{ app()->getLocale() == 'en' ? 'active' : '' }}" href="{{ route('localization.switch', 'en') }}">English</a>
-                                            <a class="dropdown-item {{ app()->getLocale() == 'fr' ? 'active' : '' }}" href="{{ route('localization.switch', 'fr') }}">France</a>
+                                            <!-- <a class="dropdown-item {{ app()->getLocale() == 'fr' ? 'active' : '' }}" href="{{ route('localization.switch', 'fr') }}">France</a>
                                             <a class="dropdown-item {{ app()->getLocale() == 'vn' ? 'active' : '' }}" href="{{ route('localization.switch', 'vn') }}">Vietnam</a>
                                             <a class="dropdown-item {{ app()->getLocale() == 'de' ? 'active' : '' }}" href="{{ route('localization.switch', 'de') }}">Germany</a>
-                                            <a class="dropdown-item {{ app()->getLocale() == 'cn' ? 'active' : '' }}" href="{{ route('localization.switch', 'cn') }}">China</a>
+                                            <a class="dropdown-item {{ app()->getLocale() == 'cn' ? 'active' : '' }}" href="{{ route('localization.switch', 'cn') }}">China</a> -->
                                         </div>
                                     </li>
+
+
 								</ul>
 
                                 @auth
                                     <a href="{{route('auth.logout')}}" class="btn btn-danger">logout</a>
                                 @endauth
                                 @guest
-                                    <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Wallet</a>
+                                    <!-- <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Wallet</a> -->
                                     <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Login</a>
                                 @endguest
 							</div>
