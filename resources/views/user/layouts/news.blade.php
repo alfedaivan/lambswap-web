@@ -5,13 +5,13 @@
 				<div class="col-lg-12">
 					<div class="section-heading">
 						<h5 class="subtitle">
-							Exclusive News
+                        {{ __('home.news_sub-title') }}
 						</h5>
 						<h2 class="title ">
-							News From Medium
+                        {{ __('home.news_title') }}
 						</h2>
 						<h6 class="text">
-                            Now's you can see news from medium
+                        {{ __('home.news_text') }}
 						</h6>
 					</div>
 				</div>
@@ -24,8 +24,8 @@
                             <a href="{{$i->link}}">
                                 <div class="single-tikit">
                                     <div class="image">
-                                        <span class="tag">News</span>
-                                        <img src="{{$i->thumbnail}}" alt="">
+                                        <span class="tag">{{ __('home.news_span') }}</span>
+                                        <img src="{{url('assets/template/tuser/images/product/1.png')}}" alt="">
                                     </div>
                                     <div class="content">
                                         <div class="content-area">

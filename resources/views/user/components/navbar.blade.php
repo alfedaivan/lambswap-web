@@ -18,9 +18,9 @@
                                     <li class="nav-item">
 										<a class="nav-link" href="{{url('/')}}">Home</a>
 									</li>
-                                    <li class="nav-item">
+                                    <!-- <li class="nav-item">
 										<a class="nav-link" href="{{url('/dex')}}">DEX</a>
-									</li>
+									</li> -->
 									<li class="nav-item">
 										<a class="nav-link" href="{{url('/product')}}">NFT</a>
 									</li>
@@ -39,32 +39,34 @@
                                     <li class="nav-item">
 										<a class="nav-link" href="contact.html">Docs</a>
 									</li>
+
                                     <!-- <li class="nav-item">
-										<div class="nav-link language-selector">
-                                            {{strtoupper(Lang::locale())}}
-											<select name="language" class="language">
-												<option value="1"><a href="lang/en">EN</a></option>
-												<option value="2"><a href="lang/fr">FR</a></option>
-											</select>
-										</div>
+										<a class="nav-link" href="contact.html">Wallet</a>
 									</li> -->
 
-                                    <!-- <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        {{strtoupper(Lang::locale())}}
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" style="text-transform: uppercase;" href="#" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            {{ app()->getLocale() }}
                                         </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class="dropdown-item" href="lang/en">EN</a></li>
-                                            <li><a class="dropdown-item" href="lang/fr">FR</a></li>
-                                        </ul>
-                                    </li> -->
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item {{ app()->getLocale() == 'en' ? 'active' : '' }}" href="{{ route('localization.switch', 'en') }}">English</a>
+                                            <!-- <a class="dropdown-item {{ app()->getLocale() == 'fr' ? 'active' : '' }}" href="{{ route('localization.switch', 'fr') }}">France</a>
+                                            <a class="dropdown-item {{ app()->getLocale() == 'vn' ? 'active' : '' }}" href="{{ route('localization.switch', 'vn') }}">Vietnam</a>
+                                            <a class="dropdown-item {{ app()->getLocale() == 'de' ? 'active' : '' }}" href="{{ route('localization.switch', 'de') }}">Germany</a>
+                                            <a class="dropdown-item {{ app()->getLocale() == 'cn' ? 'active' : '' }}" href="{{ route('localization.switch', 'cn') }}">China</a> -->
+                                        </div>
+                                    </li>
+
+
 								</ul>
 
                                 @auth
                                     <a href="{{route('auth.logout')}}" class="btn btn-danger">logout</a>
                                 @endauth
                                 @guest
-								    <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Join us</a>
+                                    <!-- <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Wallet</a> -->
+                                    <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Login</a>
                                 @endguest
 							</div>
 						</nav>

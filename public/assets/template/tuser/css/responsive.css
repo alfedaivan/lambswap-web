@@ -3,6 +3,10 @@
     width: 500px;
     right: -150px;
   }
+  .about-section .ar2 {
+    width: 500px;
+    right: -150px;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -159,6 +163,15 @@
     .ticket-cart-box .single-filter .input-field{
         width: calc(100% + 70px);
     }
+
+    .about-section .left-content,
+    .about-section .left-content .section-heading,
+    .about-section .left-content2,
+    .about-section .left-content2 .section-heading
+     {
+        text-align: center;
+      }
+
 }
 
 @media (max-width: 810px){
@@ -230,6 +243,18 @@
   }
 
   .about-section .ar {
+    display: block;
+    position: unset;
+    top: auto;
+    left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    transform: unset;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .about-section .ar2 {
     display: block;
     position: unset;
     top: auto;
@@ -677,6 +702,9 @@
   }
 
   .about-section .ar {
+    max-width: 100%;
+  }
+  .about-section .ar2 {
     max-width: 100%;
   }
 

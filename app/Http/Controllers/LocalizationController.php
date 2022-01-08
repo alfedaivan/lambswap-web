@@ -1,16 +1,24 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\App;
 
 class LocalizationController extends Controller
 {
-    public function lang($locale)
+    /**
+     * Switch Language.
+     *
+     * @param string $language Language code.
+     *
+     * @return Response
+     */
+    public function switch($language = '')
     {
-        App::setLocale($locale);
-        session()->put('locale', $locale);
+        // Simpan locale ke session.
+        request()->session()->put('locale', $language);
+
+        // Arahkan ke halaman sebelumnya.
         return redirect()->back();
     }
 }

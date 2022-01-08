@@ -12,16 +12,15 @@
 				<div class="col-xl-7">
 					<div class="section-heading content-left">
 						<h5 class="subtitle">
-							Every day lots of wins
+                        {{ __('home.about_subtitle') }}
 						</h5>
 						<h2 class="title ">
-							Be One of Them
+                        {{ __('home.about_title') }}
 						</h2>
 						<h6 class="text">
-							Get started in less than 5 min - no credit card required.Gain
-        early access to Jugaro and experience crypto like never before.
+                        {{ __('home.about_text') }}
 						</h6>
-						<a href="#" class="mybtn1">Join US</a>
+						<a href="#" class="mybtn1">{{ __('button.btn_join') }}</a>
 					</div>
 				</div>
 			</div>
@@ -38,33 +37,39 @@
 				<div class="col-lg-12">
 					<div class="section-heading">
 						<h5 class="subtitle">
-							More Smartly
+                        {{ __('home.about_subtitle2') }}
 						</h5>
 						<h2 class="title ">
-							How to play
+                        {{ __('home.about_title2') }}
 						</h2>
 						<h6 class="text">
-							Where skill is rewarded.Join millions of players worldwide!
+                        {{ __('home.about_text2') }}
 						</h6>
 					</div>
 				</div>
 			</div>
 			<div class="row  justify-content-center">
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-3 col-md-6">
 					<div class="s-h-play">
-						<img src="{{url('assets/template/tuser/images/h-play/ic1.png')}}" alt="">
+						<img src="{{url('assets/images/game-controller.png')}}" alt="">
 						<h4>Sign Up & Deposit</h4>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-3 col-md-6">
 					<div class="s-h-play">
-						<img src="{{url('assets/template/tuser/images/h-play/ic2.png')}}" alt="">
+						<img src="{{url('assets/images/dollar-coin.png')}}" alt="">
 						<h4>Compete</h4>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-3 col-md-6">
 					<div class="s-h-play">
-						<img src="{{url('assets/template/tuser/images/h-play/ic3.png')}}" alt="">
+						<img src="{{url('assets/images/star-badge.png')}}" alt="">
+						<h4>Get Paid</h4>
+					</div>
+				</div>
+                <div class="col-lg-3 col-md-6">
+					<div class="s-h-play">
+						<img src="{{url('assets/images/star-trophy.png')}}" alt="">
 						<h4>Get Paid</h4>
 					</div>
 				</div>

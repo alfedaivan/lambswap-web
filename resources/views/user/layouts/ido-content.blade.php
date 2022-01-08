@@ -61,8 +61,12 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="bottom-content">
-                                                                                    <a href="raffles-details.html" class="mybtn1">View Detail</a>
+                                                                                <div class="bottom-content justify-content-between">
+                                                                                    <div class="timecounter">
+                                                                                        <i class="fas fa-clock"></i>
+                                                                                        <p data-countdown="2022/01/01"></p>
+                                                                                    </div>
+                                                                                    <a href="{{url('/IDO/detail')}}" class="mybtn1">View Detail</a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>

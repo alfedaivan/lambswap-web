@@ -39,7 +39,9 @@
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
+
                                                                                     <div class="bottom-content">
+
                                                                                         <a href="raffles-details.html" class="mybtn1">View Detail</a>
                                                                                     </div>
                                                                                 </div>
