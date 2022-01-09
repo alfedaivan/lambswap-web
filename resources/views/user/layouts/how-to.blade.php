@@ -33,21 +33,37 @@
                 <li class="columns">
                 <div class="box">
                     <h3 class="title">{{ __('home.ido_3') }}</h3>
-                    <a href="#" class="mybtn1">Join Us!</a>
+                    @auth
+                        <!-- <a href="{{route('auth.logout')}}" class="btn btn-danger">Logout</a> -->
+                    @endauth
+                    @guest
+                        <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Join Us!</a>
+                    @endguest
                 </div>
                 </li>
                 <li class="columns ">
                 <div class="box">
                     <h3 class="title">{{ __('home.ido_4') }}</h3>
-                    <a href="#" class="mybtn1">Join Us!</a>
+                    @auth
+                        <!-- <a href="{{route('auth.logout')}}" class="btn btn-danger">Logout</a> -->
+                    @endauth
+                    @guest
+                        <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Login!</a>
+                    @endguest
                 </div>
                 </li>
                 <li class="columns bottom">
                 <div class="box">
                     <h3 class="title">{{ __('home.ido_5') }}</h3>
-                    <a href="#" class="mybtn1">Buy!</a>
+                    @auth
+                        <a href="{{url('/IDO')}}" class="mybtn1">Buy IDO!</a>
+                    @endauth
+                    @guest
+                        <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Buy IDO!</a>
+                    @endguest
                 </div>
                 </li>
+
             </ul>
         </div>
     </div>

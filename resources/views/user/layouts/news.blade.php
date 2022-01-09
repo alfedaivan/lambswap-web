@@ -11,7 +11,7 @@
 							News From Medium
 						</h2>
 						<h6 class="text">
-                            Now's you can see news from medium
+                            Now's you can see our news from medium
 						</h6>
 					</div>
 				</div>
@@ -24,12 +24,12 @@
                             <a href="{{$i->link}}">
                                 <div class="single-tikit">
                                     <div class="image">
-                                        <span class="tag">News</span>
+                                        <!-- <span class="tag">News</span> -->
                                         <img src="{{$i->thumbnail}}" alt="">
                                     </div>
                                     <div class="content">
                                         <div class="content-area">
-                                            <a href="{{$i->link}}"><h3>{{$i->title}}</h3></a>
+                                            <a href="{{$i->link}}"><h4>{{Illuminate\Support\Str::limit($i->title, 65) }}</h4></a>
                                             <div class="c-bottom">
                                                 <span>{{$i->pubDate}}</span>
                                             </div>
