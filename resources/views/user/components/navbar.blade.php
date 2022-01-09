@@ -62,7 +62,7 @@
 								</ul>
 
                                 @auth
-                                    <a href="{{route('auth.logout')}}" class="btn btn-danger">logout</a>
+                                    <a href="{{route('auth.logout')}}" class="mybtn1 logout">Logout</a>
                                 @endauth
                                 @guest
                                     <!-- <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Wallet</a> -->

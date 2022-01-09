@@ -5,7 +5,7 @@
                     <ul class="nav"  role="tablist">
 
 						<li class="nav-item" role="presentation">
-						  <a class="nav-link mybtn2" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Information</a>
+						  <a class="nav-link active mybtn2" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Information</a>
 						</li>
 						<li class="nav-item" role="presentation">
 						  <a class="nav-link mybtn2" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Buy IDO</a>

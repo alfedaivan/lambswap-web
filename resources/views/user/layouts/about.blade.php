@@ -20,7 +20,12 @@
 						<h6 class="text">
                         {{ __('home.about_text') }}
 						</h6>
-						<a href="#" class="mybtn1">{{ __('button.btn_join') }}</a>
+                        @auth
+                            <a href="#" class="mybtn1">{{ __('button.btn_join') }}</a>
+                        @endauth
+                        @guest
+                            <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> {{ __('button.btn_join') }}!</a>
+                        @endguest
 					</div>
 				</div>
 			</div>

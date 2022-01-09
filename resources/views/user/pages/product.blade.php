@@ -4,7 +4,7 @@
     <!-- Breadcrumb Area Start -->
     <section class="breadcrumb-area games">
 		<div class="content">
-			<!-- <img src="{{url('assets/template/tuser/images/contest/top-icon_.png')}}" alt=""> -->
+			<img src="{{url('assets/template/tuser/images/contest/top-icon_.png')}}" alt="">
 			<h4>OUR NFT</h4>
 			<a href="#" class="mybtn1">Join Now!</a>
 		</div>
@@ -46,34 +46,7 @@
 						</div>
 						<div class="contant">
 							<a href="games_details.html" class="mybtn1">Play</a>
-							<h4>37 People Playing</h4>
-							<ul>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<span>
-										32+
-									</span>
-								</li>
-							</ul>
+
 						</div>
 					</div>
 				</div>
@@ -84,34 +57,7 @@
 						</div>
 						<div class="contant">
 							<a href="games_details.html" class="mybtn1">Play</a>
-							<h4>37 People Playing</h4>
-							<ul>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<span>
-										32+
-									</span>
-								</li>
-							</ul>
+
 						</div>
 					</div>
 				</div>
@@ -123,34 +69,7 @@
 						</div>
 						<div class="contant">
 							<a href="games_details.html" class="mybtn1">Play</a>
-							<h4>37 People Playing</h4>
-							<ul>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<span>
-										32+
-									</span>
-								</li>
-							</ul>
+
 						</div>
 					</div>
 				</div>
@@ -162,34 +81,7 @@
 						</div>
 						<div class="contant">
 							<a href="games_details.html" class="mybtn1">Play</a>
-							<h4>37 People Playing</h4>
-							<ul>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<span>
-										32+
-									</span>
-								</li>
-							</ul>
+
 						</div>
 					</div>
 				</div>
@@ -200,34 +92,40 @@
 						</div>
 						<div class="contant">
 							<a href="games_details.html" class="mybtn1">Play</a>
-							<h4>37 People Playing</h4>
-							<ul>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="{{url('assets/template/tuser/images/player/sm1.png')}}" alt="">
-									</a>
-								</li>
-								<li>
-									<span>
-										32+
-									</span>
-								</li>
-							</ul>
+
+						</div>
+					</div>
+				</div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+					<div class="single-play">
+						<div class="image">
+							<img src="{{url('assets/template/tuser/images/game-play/1.png')}}" alt="">
+						</div>
+						<div class="contant">
+							<a href="games_details.html" class="mybtn1">Play</a>
+
+						</div>
+					</div>
+				</div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+					<div class="single-play">
+						<div class="image">
+							<img src="{{url('assets/template/tuser/images/game-play/1.png')}}" alt="">
+						</div>
+						<div class="contant">
+							<a href="games_details.html" class="mybtn1">Play</a>
+
+						</div>
+					</div>
+				</div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+					<div class="single-play">
+						<div class="image">
+							<img src="{{url('assets/template/tuser/images/game-play/1.png')}}" alt="">
+						</div>
+						<div class="contant">
+							<a href="games_details.html" class="mybtn1">Play</a>
+
 						</div>
 					</div>
 				</div>
