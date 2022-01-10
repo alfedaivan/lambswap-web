@@ -47,8 +47,8 @@ Route::get('/logout', 'AuthController@logout')->name('auth.logout');
 
 
 // route ido
-Route::get('/dashboard/ido', 'App\Http\Controllers\idoController@index')->name('ido');
-Route::get('/dashboard/ido/edit/{id}', 'App\Http\Controllers\idoController@editIDO')->name('edit.ido');
-Route::put('/dashboard/ido/edit/{id}', 'App\Http\Controllers\idoController@editIdoAction')->name('action.ido');
+Route::get('/dashboard/ido', 'idoController@index')->name('ido');
+Route::get('/dashboard/ido/edit/{id}', 'idoController@editIDO')->name('edit.ido');
+Route::put('/dashboard/ido/edit/{id}', 'idoController@editIdoAction')->name('action.ido');
 // Route::get('/dashboard/ido', 'idoController@index');
 // Route::get('/dashboard/ido/add', 'idoController@addIDO');
