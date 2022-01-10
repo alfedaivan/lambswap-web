@@ -35,7 +35,7 @@
                                                     <div class="card-body">
                                                         <div class="row card-ido-content">
                                                             @foreach ($ido as $i)
-                                                            <div class="col-lg-6">
+                                                            <div class="col-lg-6 col-md-6">
                                                                 <div class="single-tikit">
                                                                     <div class="card content">
                                                                         <div class="card-header">
@@ -61,12 +61,12 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="bottom-content justify-content-between">
+                                                                                <div class="bottom-content">
                                                                                     <div class="timecounter">
                                                                                         <i class="fas fa-clock"></i>
                                                                                         <p data-countdown="2022/01/01"></p>
                                                                                     </div>
-                                                                                    <a href="{{url('/IDO/detail')}}" class="mybtn1">View Detail</a>
+                                                                                    <a href="{{url('/IDO/detail')}}" class="mybtn1">Detail</a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>

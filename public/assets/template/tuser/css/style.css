@@ -1577,7 +1577,7 @@ select:focus {
   cursor: pointer;
 }
 .single-tikit .image {
-  padding: 20px 20px 10px;
+  padding: 10px 0 0;
   position: relative;
   text-align: center;
 }
@@ -1596,8 +1596,8 @@ select:focus {
 }
 .single-tikit .image img {
   max-width: 100%;
-  width: auto;
-  height: 100px;
+  width: 95%;
+  height: 130px;
   display: inline-block;
 }
 .single-tikit .content .top-area .top-info {
@@ -1633,7 +1633,7 @@ select:focus {
   width: 100%;
 }
 .single-tikit .content .content-area {
-  padding: 25px 30px 30px;
+  padding: 18px 30px 30px;
 }
 .single-tikit .content .content-area h4 {
   font-size: 16px;
@@ -2264,14 +2264,15 @@ select:focus {
 }
 .about-section .left-content2 {
     /* justify-content: right !important; */
-    text-align: right;
+    text-align: left;
     right: 0;
     /* margin-right: -300px;/ */
 
     /* position: absolute; */
   }
   .about-section .left-content2 .section-heading {
-    text-align: right;
+    text-align: left;
+    margin-left: 10px;
   }
 .about-section .left-content .section-heading .text {
   color: #dbdcf7;
@@ -7898,6 +7899,7 @@ select:focus {
     cursor: pointer;
     margin-bottom: 40px;
 }
+
 .single-tikit .card .card-header{
     /* background: linear-gradient(90deg, #54068f 0%, #7a1bb4 100%); */
     text-align: center;
@@ -7941,6 +7943,11 @@ select:focus {
     justify-content: space-between;
     display: flex;
 }
+
+.single-tikit .bottom-content{
+    justify-content: space-between !important;
+}
+
 .latest-arcive2.modif{
     background: transparent !important;
     padding-top: 20px;

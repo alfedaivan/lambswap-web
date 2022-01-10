@@ -55,7 +55,7 @@ return [
     // ido
     'ido_subtitle' => 'More Smartly',
     'ido_title' => 'How to take a part IDO',
-    'ido_subtitle' => 'Where skill is rewarded Join millions of players worldwide!',
+    'ido_subtitle' => 'This is how to buy IDO',
     'ido_1' => 'Join LST Airdrop',
     'ido_11' => 'Join LST Airdrop',
     'ido_2' => 'Get Whitelisted',

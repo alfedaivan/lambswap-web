@@ -30,8 +30,8 @@
             </div>
 
             <div class="current-balance">
-                <span>BUSD</span>
-                ` <input type="number" id="current" disabled value='0'>
+                <span class="mb-2">BUSD</span>
+                <input type="number" id="current" disabled value='0'>
 
             </div>
             <div class="t-total-price">

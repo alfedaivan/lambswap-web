@@ -9,7 +9,7 @@
 					 {{ __('home.ido_title') }}
 				</h2>
 				<h6 class="text">
-                {{ __('home.ido_text') }}
+                {{ __('home.ido_subtitle') }}
 
 				</h6>
 			</div>

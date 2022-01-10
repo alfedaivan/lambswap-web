@@ -18,7 +18,7 @@
                             <img class="left" src="assets/images/vr.png" alt="">
                             <img class="right" src="assets/images/game controler_.png" alt="">
                             <div class="row">
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 mb-3">
                                         <div class="heading-area ">
                                             <h4 class="title mb-3">
                                                 IDO Round 1
@@ -43,27 +43,27 @@
                                                     <div class="title-card justify-content-center">
                                                         <h4>Data Statistic IDO Raound 1 Lamb Swap</h4>
                                                     </div>
+                                                    <table>
+                                                        <tbody>
 
-                                                    <ul>
-                                                        <li>Price <span>:</span></li>
-                                                        <li>Amount BUSD <span>:</span></li>
-                                                        <li>Amount LST <span>:</span></li>
-                                                        <li>Total User Participated <span>:</span></li>
-                                                        <li>Soft Cap <span>:</span></li>
-                                                        <li>Hard Cap <span>:</span></li>
-                                                        <li>IDO Progress
-                                                            <div class="top-area mt-2">
-                                                                <div class="top-bar">
-                                                                    <div class="progress-bar"></div>
-                                                                    <div class="main-bar"></div>
-                                                                    <div class="numbers">
-                                                                        <span>0</span>
-                                                                        <span>100%</span>
-                                                                    </div>
+                                                            <tr><td>Price</td><td>:</td><td>1000</td></tr>
+                                                            <tr><td>Amount BUSD</td><td>:</td><td>1000</td></tr>
+                                                            <tr><td>Total User Participated</td><td>:</td><td>1000</td></tr>
+                                                            <tr><td>Soft Cap</td><td>:</td><td>1000</td></tr>
+                                                            <tr><td>Hard Cap</td><td>:</td><td>1000</td></tr>
+                                                            <tr><td>Progress</td><td>:</td></tr>
+                                                        </tbody>
+                                                    </table>
+                                                        <div class="top-area mt-2">
+                                                            <div class="top-bar">
+                                                            <div class="progress-bar"></div>
+                                                            <div class="main-bar"></div>
+                                                                <div class="numbers">
+                                                                    <span>0</span>
+                                                                    <span>100%</span>
                                                                 </div>
                                                             </div>
-                                                        </li>
-                                                    </ul>
+                                                        </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -78,7 +78,7 @@
                             <img class="left" src="assets/images/vr.png" alt="">
                             <img class="right" src="assets/images/game controler_.png" alt="">
                             <div class="row">
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 mb-3">
                                         <div class="heading-area ">
                                             <h4 class="title mb-3">
                                                 IDO Round 2
@@ -104,26 +104,27 @@
                                                         <h4>Data Statistic IDO Raound 1 Lamb Swap</h4>
                                                     </div>
 
-                                                    <ul>
-                                                        <li>Price <span>:</span></li>
-                                                        <li>Amount BUSD <span>:</span></li>
-                                                        <li>Amount LST <span>:</span></li>
-                                                        <li>Total User Participated <span>:</span></li>
-                                                        <li>Soft Cap <span>:</span></li>
-                                                        <li>Hard Cap <span>:</span></li>
-                                                        <li>IDO Progress
-                                                            <div class="top-area mt-2">
-                                                                <div class="top-bar">
-                                                                    <div class="progress-bar"></div>
-                                                                    <div class="main-bar"></div>
-                                                                    <div class="numbers">
-                                                                        <span>0</span>
-                                                                        <span>100%</span>
-                                                                    </div>
+                                                    <table>
+                                                        <tbody>
+
+                                                            <tr><td>Price</td><td>:</td><td>1000</td></tr>
+                                                            <tr><td>Amount BUSD</td><td>:</td><td>1000</td></tr>
+                                                            <tr><td>Total User Participated</td><td>:</td><td>1000</td></tr>
+                                                            <tr><td>Soft Cap</td><td>:</td><td>1000</td></tr>
+                                                            <tr><td>Hard Cap</td><td>:</td><td>1000</td></tr>
+                                                            <tr><td>Progress</td><td>:</td></tr>
+                                                        </tbody>
+                                                    </table>
+                                                        <div class="top-area mt-2">
+                                                            <div class="top-bar">
+                                                            <div class="progress-bar"></div>
+                                                            <div class="main-bar"></div>
+                                                                <div class="numbers">
+                                                                    <span>0</span>
+                                                                    <span>100%</span>
                                                                 </div>
                                                             </div>
-                                                        </li>
-                                                    </ul>
+                                                        </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -138,7 +139,7 @@
                             <img class="left" src="assets/images/vr.png" alt="">
                             <img class="right" src="assets/images/game controler_.png" alt="">
                             <div class="row">
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 mb-3">
                                         <div class="heading-area ">
                                             <h4 class="title mb-3">
                                                 IDO Round 3
@@ -164,26 +165,27 @@
                                                         <h4>Data Statistic IDO Raound 1 Lamb Swap</h4>
                                                     </div>
 
-                                                    <ul>
-                                                        <li>Price <span>:</span></li>
-                                                        <li>Amount BUSD <span>:</span></li>
-                                                        <li>Amount LST <span>:</span></li>
-                                                        <li>Total User Participated <span>:</span></li>
-                                                        <li>Soft Cap <span>:</span></li>
-                                                        <li>Hard Cap <span>:</span></li>
-                                                        <li>IDO Progress
-                                                            <div class="top-area mt-2">
-                                                                <div class="top-bar">
-                                                                    <div class="progress-bar"></div>
-                                                                    <div class="main-bar"></div>
-                                                                    <div class="numbers">
-                                                                        <span>0</span>
-                                                                        <span>100%</span>
-                                                                    </div>
+                                                    <table>
+                                                        <tbody>
+
+                                                            <tr><td>Price</td><td>:</td><td>1000</td></tr>
+                                                            <tr><td>Amount BUSD</td><td>:</td><td>1000</td></tr>
+                                                            <tr><td>Total User Participated</td><td>:</td><td>1000</td></tr>
+                                                            <tr><td>Soft Cap</td><td>:</td><td>1000</td></tr>
+                                                            <tr><td>Hard Cap</td><td>:</td><td>1000</td></tr>
+                                                            <tr><td>Progress</td><td>:</td></tr>
+                                                        </tbody>
+                                                    </table>
+                                                        <div class="top-area mt-2">
+                                                            <div class="top-bar">
+                                                            <div class="progress-bar"></div>
+                                                            <div class="main-bar"></div>
+                                                                <div class="numbers">
+                                                                    <span>0</span>
+                                                                    <span>100%</span>
                                                                 </div>
                                                             </div>
-                                                        </li>
-                                                    </ul>
+                                                        </div>
                                                 </div>
                                             </div>
                                         </div>
