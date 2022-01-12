@@ -31,6 +31,8 @@ Route::get('/IDO', 'UserController@ido');
 Route::get('/invoice', 'UserController@invoice');
 Route::get('/IDO/detail', 'UserController@detailIdo');
 
+Route::get('/docs', 'UserController@docs');
+
 
 Route::post('/action-trans', 'UserController@transaction')->name('transaction');
 Route::get('/sendEmai/{id}', 'UserController@sendEmail')->name('send.email');

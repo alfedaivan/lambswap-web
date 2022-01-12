@@ -54,5 +54,6 @@ class statusCron extends Command
         }
         Ido::where('closeAt', $date)->update(['status' => 'Close']);
         Ido::where('openAt', $date)->update(['status' => 'On Going']);
+        $this->info('Cron is working!');
     }
 }
