@@ -779,6 +779,16 @@
 
 @media (max-width: 500px) {
 
+    .join_us .l-image{
+        width: 400px;
+        height: 450px;
+    }
+
+    .join_us{
+        padding: 0;
+        padding-bottom: 50px;
+    }
+
     .single-tikit .content-area table{
         font-size: 14px;
     }

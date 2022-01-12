@@ -5,18 +5,19 @@
 				<div class="col-lg-12">
 					<div class="content">
 						<div class="content">
-							<h5 class="subtitle">
+							<h3 class="subtitle">
 								<!-- PLAY GAMES WIN -->
-                                {{ __('home.hero_title') }}
-							</h5>
-							<h1 class="title">
+                                Lambswap Protocol
+							</h3>
+							<!-- <h4 class="title">
                                 {{ __('home.hero_sub-title') }}
-							</h1>
+							</h4> -->
+                            <h4 class="text mb-4">
+                            The Next DEXs with Innovative Models with NFT Gaming Metaverse
+                            </h4>
 							<div class="links">
 								<a href="#" class="mybtn1">{{ __('button.btn_wallet') }}</a>
-								<a href="https://www.youtube.com/watch?v=jssO8-5qmag" class="video_btn play-video mfp-iframe">
-									<i class="fas fa-play"></i>
-								</a>
+								<a href="#" class="mybtn1">Launch App</a>
 							</div>
 						</div>
 					</div>

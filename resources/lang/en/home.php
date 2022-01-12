@@ -2,7 +2,7 @@
 
 return [
     // hero
-    'hero_title' => 'PLAY GAMES WIN',
+    'hero_title' => 'DEX Aggregator Protocol',
     'hero_sub-title' => 'Money Rewards',
     'hero_left-info-h5' => 'Try to check out our next ',
     'hero_left-info-h3' => 'Money Rewards',
@@ -47,11 +47,12 @@ return [
     'about_text' => 'Get started in less than 5 min - no credit card required.Gain
     early access to Jugaro and experience crypto like never before.',
     'about_subtitle2' => 'More Smartly',
-    'about_title2' => 'How to play',
+    'about_title2' => 'Current products on The LambSwap platform include',
     'about_text2' => 'Where skill is rewarded.Join millions of players worldwide!',
-    'about_1' => 'Sign Up & Deposit',
-    'about_2' => 'Compete',
-    'about_3' => 'Get Paid',
+    'about_1' => 'Exchange',
+    'about_2' => 'NFT',
+    'about_3' => 'GameFi',
+    'about_4' => 'Casino Games',
     // ido
     'ido_subtitle' => 'More Smartly',
     'ido_title' => 'How to take a part IDO',
