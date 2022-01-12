@@ -47,7 +47,9 @@ class idoController extends Controller
                     'price' => 'required',
                     'amount' => 'required',
                     'soft_cap' => 'required',
-                    'hard_cap' => 'required'
+                    'hard_cap' => 'required',
+                    'openAt' => 'required',
+                    'closeAt' => 'required'
                 ]);
 
                 $ido = Ido::find($id);
@@ -56,6 +58,8 @@ class idoController extends Controller
                 $ido->amount = $request->amount;
                 $ido->soft_cap = $request->soft_cap;
                 $ido->hard_cap = $request->hard_cap;
+                $ido->openAt = $request->openAt;
+                $ido->closeAt = $request->closeAt;
                 $ido->save();
 
                 return redirect()->route('ido');

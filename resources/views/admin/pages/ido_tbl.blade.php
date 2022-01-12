@@ -27,6 +27,8 @@
                         <th>Amount</th>
                         <th>Soft Cap</th>
                         <th>Hard Cap</th>
+                        <th>Open Date</th>
+                        <th>Close Date</th>
                         <th>Status</th>
                         <th>Action</th>
                     </tr>
@@ -39,6 +41,8 @@
                         <td>{{$d->amount}}</td>
                         <td>{{$d->soft_cap}}</td>
                         <td>{{$d->hard_cap}}</td>
+                        <td>{{$d->openAt}}</td>
+                        <td>{{$d->closeAt}}</td>
                         <td>{{$d->status}}</td>
                         <td><a href="{{route('edit.ido', $d->id)}}" class="btn btn-icon btn-warning mr-1"><i
                                     class="fas fa-edit"></i></a></td>

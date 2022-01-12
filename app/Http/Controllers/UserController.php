@@ -72,7 +72,7 @@ class UserController extends Controller
     }
 
     public function createTrans(array $data){
-        $status = 'Open';
+        $status = 'On Going';
         $id_user = Auth::user()->id;
         $findIDO = Ido::where('status', $status)->first();
         $id_IDO = $findIDO->id;
