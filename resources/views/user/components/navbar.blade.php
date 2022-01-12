@@ -27,14 +27,14 @@
                                     <li class="nav-item">
 										<a class="nav-link" href="{{url('/game')}}">GameFi</a>
 									</li>
-									<li class="nav-item">
+									<!-- <li class="nav-item">
 										<a class="nav-link" href="{{url('/bounty')}}">Bounty</a>
-									</li>
+									</li> -->
                                     <li class="nav-item">
 										<a class="nav-link" href="{{url('/IDO')}}">IDO</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="{{url('/help')}}">Help</a>
+										<a class="nav-link" href="{{url('/help')}}">About</a>
 									</li>
                                     <li class="nav-item">
 										<a class="nav-link" href="contact.html">Docs</a>

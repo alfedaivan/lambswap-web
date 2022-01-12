@@ -272,6 +272,15 @@ select:focus {
   color: #71f737;
   margin-bottom: 13px;
 }
+.about-section .section-heading h2.title {
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #71f737 !important;
+    margin-bottom: 7px;
+    text-shadow: 0px -3px 10px rgba(12, 19, 55, 0.7);
+  }
 .section-heading .title {
   font-size: 60px;
   line-height: 70px;
@@ -1227,13 +1236,17 @@ select:focus {
   z-index: 9;
 }
 .hero-area .content .content .subtitle {
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 65px;
+  line-height: 80px;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #FFFFFF;
-  margin-bottom: -20px;
+  /* margin-bottom: -20px; */
   text-shadow: 0px -3px 2px rgba(12, 19, 55, 0.004), 0 -1px 4px #1b7ae2, 0 -2px 10px #1b7ae2, 0 -10px 20px #1b7ae2, 0 -18px 40px #1b7ae2;
+}
+.hero-area .content .content .text {
+    font-size: 20px;
+    width: 80%;
 }
 .hero-area .content .content .title {
   display: block;
@@ -1268,12 +1281,12 @@ select:focus {
   text-align: left !important;
 }
 .hero-area.hero-text .content .subtitle {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .hero-area.hero-text .content .title {
   color: #0b122e;
-  text-transform: uppercase;
-  font-size: 100px;
+  /* text-transform: uppercase; */
+  font-size: 30px;
   -webkit-text-stroke: 3px #fb3ab4;
   -moz-text-stroke: 3px #fb3ab4;
   margin-bottom: 25px;
@@ -1577,7 +1590,7 @@ select:focus {
   cursor: pointer;
 }
 .single-tikit .image {
-  padding: 20px 20px 10px;
+  padding: 10px 0 0;
   position: relative;
   text-align: center;
 }
@@ -1596,8 +1609,8 @@ select:focus {
 }
 .single-tikit .image img {
   max-width: 100%;
-  width: auto;
-  height: 100px;
+  width: 95%;
+  height: 130px;
   display: inline-block;
 }
 .single-tikit .content .top-area .top-info {
@@ -1633,7 +1646,7 @@ select:focus {
   width: 100%;
 }
 .single-tikit .content .content-area {
-  padding: 25px 30px 30px;
+  padding: 18px 30px 30px;
 }
 .single-tikit .content .content-area h4 {
   font-size: 16px;
@@ -1895,7 +1908,7 @@ select:focus {
 .join_us {
   padding: 120px 0px 120px;
   background-color: #0b122e;
-  background-image: url(../images/joinus-bg.png);
+  background-image: url(../../../images/Banner2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1905,7 +1918,9 @@ select:focus {
 .join_us .l-image {
   position: absolute;
   bottom: 0px;
-  left: 100px;
+  left: 50px;
+  width: 600px;
+  height: 550px;
 }
 .join_us .section-heading {
   margin-bottom: 0px;
@@ -2222,7 +2237,7 @@ select:focus {
 /* About page section Area Start */
 .about-section {
   background: #0b122e;
-  padding: 20px 0px;
+  padding: 100px 0px;
   position: relative;
 }
 .about-section .ar {
@@ -2234,7 +2249,7 @@ select:focus {
 }
 .about-section .ar2 {
     position: absolute;
-    left: 30px !important;
+    left: 50px !important;
     top: 50%;
     transform: translateY(-50%);
     max-width: 600px;
@@ -2262,17 +2277,10 @@ select:focus {
 .about-section .left-content .section-heading {
   text-align: left;
 }
-.about-section .left-content2 {
-    /* justify-content: right !important; */
-    text-align: right;
-    right: 0;
-    /* margin-right: -300px;/ */
-
-    /* position: absolute; */
-  }
-  .about-section .left-content2 .section-heading {
-    text-align: right;
-  }
+.about-section .left-content2 .section-heading {
+    text-align: left;
+    margin-left: 5%;
+}
 .about-section .left-content .section-heading .text {
   color: #dbdcf7;
 }
@@ -7898,6 +7906,7 @@ select:focus {
     cursor: pointer;
     margin-bottom: 40px;
 }
+
 .single-tikit .card .card-header{
     /* background: linear-gradient(90deg, #54068f 0%, #7a1bb4 100%); */
     text-align: center;
@@ -7941,6 +7950,11 @@ select:focus {
     justify-content: space-between;
     display: flex;
 }
+
+.single-tikit .bottom-content{
+    justify-content: space-between !important;
+}
+
 .latest-arcive2.modif{
     background: transparent !important;
     padding-top: 20px;

@@ -153,6 +153,20 @@
 }
 
 @media (max-width: 1024px){
+    .single-tikit{
+        height: 300px;
+    }
+    .card-ido-content .col-lg-6{
+        margin-bottom: 150px;
+    }
+
+    .tab-content.l-a-nav .row{
+        padding: 0;
+    }
+    .card-ido-content .timecounter,
+    .card-ido-content .mybtn1{
+        font-size: 14px;
+    }
     .timeline .timeline-box{
         transform: translateX(-30%);
       }
@@ -180,6 +194,10 @@
       } */
     .timeline .timeline-box .columns .box {
         width: 450px;
+    }
+
+    .tab-content.l-a-nav .row{
+        padding: 0;
     }
 }
 
@@ -760,6 +778,40 @@
 
 
 @media (max-width: 500px) {
+
+    .join_us .l-image{
+        width: 400px;
+        height: 450px;
+    }
+
+    .join_us{
+        padding: 0;
+        padding-bottom: 50px;
+    }
+
+    .single-tikit .content-area table{
+        font-size: 14px;
+    }
+    .single-tikit .content .content-area {
+        padding: 18px 20px 20px;
+    }
+
+    .single-tikit .content .content-area .numbers span{
+        font-size: 14px;
+    }
+
+    .ticket-cart-box .single-filter .input-field.select{
+        padding: 0 !important;
+    }
+
+    .ticket-cart-box .current-balance{
+        display: block;
+      }
+
+      .ticket-cart-box .current-balance input{
+        width: 100%;
+      }
+
   .latest-arcive2 .nav li a {
     margin: 4px;
   }
@@ -792,6 +844,9 @@
 
 
 @media (max-width: 414px) {
+
+
+
   .hero-area.hero-text .content .content .subtitle {
     margin-bottom: 20px;
   }
@@ -965,6 +1020,32 @@
 
 
 @media (max-width: 390px) {
+
+    .single-tikit .bottom-content{
+        display: block !important;
+    }
+
+    .single-tikit .timecounter{
+        margin-left: -30px;
+    }
+
+    .single-tikit .card .card-body .top-content h5,
+    .single-tikit .card .card-body .top-content h5.title {
+        font-size: 16px;
+    }
+
+    .single-tikit .card .card-body .top-content h3.value{
+        font-size: 14px;
+    }
+
+    .single-tikit .content-area h3{
+        font-size: 18px;
+    }
+
+
+    .card-ido-content .col-lg-6{
+        margin-bottom: 200px;
+    }
 
     .ticket-cart-box .total .amount, .ticket-cart-box .total .busd {
         display: block;
