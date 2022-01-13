@@ -71,6 +71,7 @@
 
 <script>
     $('#exchange').click(function() {
+        var price = JSON.parse("{{ json_encode($onGoing->price) }}");
         var valCrypt = $('#inputCrypt').val()
         var current = valCrypt * 0.000099
         $('#current').val(current)

@@ -17,11 +17,12 @@ class AdminController extends Controller
         if (Auth::check()) {
             if (Auth::user()->is_admin == 1) {
                 $acc = Transaction::where('status', 1);
+                $rise = Transaction::where('status', 1)->sum('amountBUSD');
                 $trans = Transaction::join('users', 'users.id', '=', 'transactions.user_id')->join('idos', 'idos.id', '=', 'transactions.ido_id')->where('transactions.status', '=', 0)
                 ->get(['transactions.id as id', 'users.name as name', 'users.email', 'users.wallet_address', 'transactions.amountLST', 'transactions.amountBUSD', 'idos.name as ido']);
 
                 $user = User::where('is_admin', 0);
-                return view('admin/pages/dashboard', compact('user', 'trans', 'acc'));
+                return view('admin/pages/dashboard', compact('user', 'trans', 'acc', 'rise'));
             }
         }
         return redirect('/')->withSuccess('Access is not permitted');

@@ -33,7 +33,7 @@
                             <h4>Transaksi</h4>
                         </div>
                         <div class="card-body">
-                            {{$acc->count()}}
+                            {{$acc->count() - 3}}
                         </div>
                     </div>
                 </div>
@@ -48,22 +48,13 @@
                             <h4>Pendapatan</h4>
                         </div>
                         <div class="card-body">
-                            {{-- Rp. {{$total}} --}}
+                            {{$rise}} BUSD
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        {{-- @if ($message = Session::get('success'))
-        <div class="alert alert-success alert-dismissible show fade">
-            <div class="alert-body">
-                <button class="close" data-dismiss="alert">
-                    <span>&times;</span>
-                </button>
-                {{ $message }}
-            </div>
-        </div>
-      @endif --}}
+
 
       <div class="row">
         <div class="col-12">

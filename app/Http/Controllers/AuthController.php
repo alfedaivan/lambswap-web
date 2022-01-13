@@ -24,7 +24,7 @@ class AuthController extends Controller
         if (Auth::attempt($credentials)) {
             if (Auth::user()->is_admin == 1) {
                 return redirect()->intended('dashboard')
-                        ->withSuccess('Logged-in');
+                        ->with(['success' => 'Logged-in']);
             } else {
                 Session::flush();
                 Auth::logout();
@@ -32,7 +32,7 @@ class AuthController extends Controller
             }
 
         }
-        return redirect("/login")->withSuccess('Credentials are wrong.');
+        return redirect("/login")->with(['warning' => 'Credentials are wrong.']);
     }
 
     public function loginMember(Request $request)
@@ -45,14 +45,14 @@ class AuthController extends Controller
         if (Auth::attempt($credentials)) {
             if (Auth::user()->is_admin == 0) {
                 return redirect()->intended('IDO')
-                        ->withSuccess('Logged-in');
+                        ->with(['success' => 'Logged-in']);
             } else {
                 Session::flush();
                 Auth::logout();
                 return Redirect('/');
             }
         }
-        return redirect("/")->withSuccess('Credentials are wrong.');
+        return redirect("/")->with(['warning' => 'Credentials are wrong.']);
     }
 
     public function register(Request $request){
@@ -65,7 +65,7 @@ class AuthController extends Controller
         ]);
         $data = $request->all();
         $check = $this->createUser($data);
-        return redirect("/IDO")->withSuccess('Successfully logged-in!');
+        return redirect("/")->with(['success' => 'Successfully logged-in!']);
     }
 
     public function createUser(array $data){

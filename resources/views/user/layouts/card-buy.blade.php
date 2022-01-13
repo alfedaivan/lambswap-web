@@ -17,7 +17,7 @@
                 <div class="single-filter d-block">
                     <label for="">Currency</label> <br>
                     <select name="" id="select" class="input-field select">
-                        <option value="BUSD">BUSD</option>
+                        <option value="LST">LST</option>
                     </select>
                     <input type="number" class="input-field mt-2" id="inputCrypt">
                 </div>
@@ -36,14 +36,19 @@
             </div>
             <div class="t-total-price">
                 <h5>Price : </h5>
-                <h5>0.000099 <span>Per LST / BUSD</span></h5>
+                <h5>{{number_format($onGoing->price, 6)}} <span>Per LST / BUSD</span></h5>
             </div>
             <form action="{{route('transaction')}}" method="POST">
                 @csrf
                 <input class="form-control" type="hidden" id='setLST' name="amountLST">
                 <input class="form-control" type="hidden" id="setBUSD" name="amountBUSD">
                 <div class="button-area">
-                    <button class="mybtn1" type="submit">Buy Tickets</button>
+                    @if (Auth::check())
+                        <button class="mybtn1" type="submit">Buy Tickets</button>
+                    @else
+                        <a href="#" data-toggle="modal" data-target="#signin">LOGIN FIRST!</a>
+                        {{-- <button class="mybtn1" type="submit" disabled>Buy Tickets</button> --}}
+                    @endif
                 </div>
             </form>
         </div>

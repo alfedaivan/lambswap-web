@@ -14,6 +14,7 @@ class UserController extends Controller
 {
     public function index(){
         $client = new Client();
+        $onGoing  = Ido::where('status', 'On Going')->first();
         $url = 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/@lambswaptoken/feed';
         $response = $client->request('GET', $url, [
             'verify'  => false,
@@ -21,27 +22,37 @@ class UserController extends Controller
 
         $responseBody = json_decode($response->getBody())->items;
         // dd($responseBody);
-        return view('user/pages/home', compact('responseBody'));
+        return view('user/pages/home', compact('responseBody', 'onGoing'));
     }
 
     public function product(){
-        return view('user/pages/product');
+        $onGoing  = Ido::where('status', 'On Going')->first();
+
+        return view('user/pages/product', compact('onGoing'));
     }
 
     public function dex(){
-        return view('user/pages/dex');
+        $onGoing  = Ido::where('status', 'On Going')->first();
+
+        return view('user/pages/dex', compact('onGoing'));
     }
 
     public function games(){
-        return view('user/pages/game');
+        $onGoing  = Ido::where('status', 'On Going')->first();
+
+        return view('user/pages/game', compact('onGoing'));
     }
 
     public function bounty(){
-        return view('user/pages/bounty');
+        $onGoing  = Ido::where('status', 'On Going')->first();
+
+        return view('user/pages/bounty', compact('onGoing'));
     }
 
     public function help(){
-        return view('user/pages/help');
+        $onGoing  = Ido::where('status', 'On Going')->first();
+
+        return view('user/pages/help', compact('onGoing'));
     }
 
     public function docs(){
@@ -49,27 +60,49 @@ class UserController extends Controller
     }
 
     public function ido(){
-        $wallet = Auth::user()->wallet_address || 'login first';
         $ido = Ido::all();
-        return view('user/pages/ido', compact('ido', 'wallet'));
+        $transaction = Transaction::where('status', 1)->groupBy('ido_id')->selectRaw('sum(amountBUSD) as busd, ido_id')->get();
+        // dd($transaction[0]);
+        $onGoing  = Ido::where('status', 'On Going')->first();
+
+        if (Auth::check()) {
+            $wallet = Auth::user()->wallet_address;
+            $user = Auth::user()->id;
+            $perIdo = Transaction::where('user_id', $user)->where('status', 1)->selectRaw('sum(amountLST) as lst, ido_id')->groupBy('ido_id')->get();
+            // dd($user);
+            // $total = Transaction::where('user_id', $user)->get();
+            $total = Transaction::where('user_id', $user)->where('status', 1)->selectRaw('sum(amountLST) as total')->first();
+            return view('user/pages/ido', compact('ido', 'onGoing', 'wallet', 'total', 'transaction', 'perIdo'));
+        } else {
+            return view('user/pages/ido', compact('ido', 'onGoing', 'transaction'));
+        }
 
     }
 
     public function detailIdo(){
-        return view('user/pages/detail-ido');
+        $onGoing  = Ido::where('status', 'On Going')->first();
+        $ido = Ido::all();
+
+        $count = Transaction::where('status', 1)->selectRaw("count(id) as count, ido_id")->groupBy('ido_id')->get();
+        $transaction = Transaction::where('status', 1)->groupBy('ido_id')->selectRaw('sum(amountBUSD) as busd, ido_id')->get();
+
+        return view('user/pages/detail-ido', compact('onGoing', 'ido', 'transaction', 'count'));
     }
 
 
     public function transaction(Request $request){
+        $onGoing  = Ido::where('status', 'On Going')->first();
         $data = $request->all();
         $check = $this->createTrans($data);
         $id = $check->id;
         $busd = $check->amountBUSD;
-        return view('/user/pages/invoice', compact('busd', 'id'))->with('successMsg', 'Transaction Success!');
+        return view('/user/pages/invoice', compact('busd', 'id', 'onGoing'))->with('successMsg', 'Transaction Success!');
     }
 
     public function invoice(){
-        return view('user/pages/invoice');
+        $onGoing  = Ido::where('status', 'On Going')->first();
+
+        return view('user/pages/invoice', compact('onGoing'));
     }
 
     public function createTrans(array $data){

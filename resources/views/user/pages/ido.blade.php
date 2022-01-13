@@ -25,13 +25,32 @@
                                         <div class="single-tikit">
                                             <div class="content">
                                                 <div class="content-area">
+                                                    @if (Auth::check())
                                                     <h3>Wallet Address : {{$wallet}}</h3>
                                                     <ul>
-                                                        <li>Balance <span>:</span></li>
-                                                        <li>IDO 1<span>:</span></li>
-                                                        <li>IDO 2<span>:</span></li>
-                                                        <li>IDO 3<span>:</span></li>
+                                                        @if ($total->total == null)
+                                                            <li>Balance <span>  : 0 LST</span></li>
+                                                            <li>IDO 1<span>: 0 LST</span></li>
+                                                            <li>IDO 2<span>: 0 LST</span></li>
+                                                            <li>IDO 3<span>: 0 LST</span></li>
+                                                        @else
+                                                            <li>Balance <span>: {{$total->total}} LST</span></li>
+                                                        @endif
+                                                        @foreach ($perIdo as $p)
+                                                            @if ($p->ido_id == 1)
+                                                                <li>IDO 1<span>: {{$p->lst}} LST</span></li>
+                                                            @elseif ($p->ido_id == 2)
+                                                                <li>IDO 2<span>: {{$p->lst}} LST</span></li>
+                                                            @else
+                                                                <li>IDO 3<span>: {{$p->lst}} LST</span></li>
+                                                            @endif
+                                                        @endforeach
                                                     </ul>
+                                                    @else
+                                                        <a href="#" data-toggle="modal" data-target="#signin">LOGIN FIRST!</a>
+                                                        {{-- <h3>Wallet Address : <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Login</a></h3> --}}
+                                                    @endif
+
                                                 </div>
                                             </div>
                                         </div>
@@ -50,3 +69,5 @@
 	@include('user.layouts.ido-content')
 	<!-- Latest arcive area End -->
 @endsection()
+
+
