@@ -70,11 +70,10 @@
 									<span>Current Contest Pool</span>
 									<h4>$500</h4>
 								</span> -->
-                            <h4 class="title">Play +100 games
-                                and win cash!</h4>
-                            <p class="text">
-                                Fill this outyour majesty & Get Your Bonus
-                            </p>
+                                <h4 class="title">IDO Lambswap</h4>
+                                <p class="text">
+                                    Fill this outyour majesty & Get Your Bonus
+                                </p>
                         </div>
                         <div class="form-area">
                             <form action="{{route('auth.register')}}" method="POST">
@@ -112,15 +111,6 @@
                                     @if ($errors->has('password'))
                                     <span class="text-danger">{{ $errors->first('password') }}</span>
                                     @endif
-                                </div>
-                                <div class="form-group">
-                                    <div class="check-group">
-                                        <input type="checkbox" class="check-box-field" id="input-terms" checked>
-                                        <label for="input-terms">
-                                            I agree with <a href="#">terms and Conditions</a> and <a href="#">privacy
-                                                policy</a>
-                                        </label>
-                                    </div>
                                 </div>
                                 <div class="form-group">
                                     <button type="submit" class="mybtn2">Register</button>

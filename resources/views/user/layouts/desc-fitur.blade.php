@@ -53,8 +53,8 @@
 			</div>
 		</div>
 	</section>
-    <section class="about-section">
-		<img class="ar" src="{{url('assets/images/about.png')}}" alt="">
+    <section class="about-section mb-4">
+		<img class="ar" src="{{url('assets/images/2.png')}}" alt="">
 		<!-- <img class="s1" src="{{url('assets/template/tuser/images/about/s1.png')}}" alt="">
 		<img class="s2" src="{{url('assets/template/tuser/images/about/s2.png')}}" alt=""> -->
 		<div class="container">

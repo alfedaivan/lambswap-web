@@ -62,13 +62,13 @@
 				</div>
                 <div class="col-lg-3 col-md-6">
 					<div class="s-h-play">
-						<img src="{{url('assets/images/3.png')}}" alt="">
+						<img src="{{url('assets/images/star-badge.png')}}" alt="">
 						<h4>{{ __('home.about_2') }}</h4>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="s-h-play">
-						<img src="{{url('assets/images/2.png')}}" alt="">
+						<img src="{{url('assets/images/game-controller.png')}}" alt="">
 						<h4>{{ __('home.about_3') }}</h4>
 					</div>
 				</div>
