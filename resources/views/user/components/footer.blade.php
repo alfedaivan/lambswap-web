@@ -103,7 +103,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-							<p>Copyright © 2021.All Rights Reserved By Jugaro</p>
+							<p>Copyright © 2021.All Rights Reserved By Lambswap</p>
 					</div>
 				</div>
 			</div>

@@ -31,7 +31,7 @@
 					<aside>
 						<ul>
 							<li>
-								<a href="help1.html" class="active"><i class="fas fa-chevron-right"></i>What is Lambswap?</a>
+								<a href="{{url('/about')}}" class="active"><i class="fas fa-chevron-right"></i>What is Lambswap?</a>
 							</li>
 						</ul>
 					</aside>
@@ -270,15 +270,15 @@
 							<h4 class="content-title">Lamb Online Casino</h4>
                             <p>
                             LambSwap Casino is an interesting online gambling venue known for its slot titles, bonuses, and crypto payments.
-The game library at Lamb Online Casino is where the fun actually begins. Since RealTime Gaming powers the casino, players already know what to expect. Some of the most known slot games are ‘Slot.’ ‘Table Games.’ ‘Jackpots.’ ‘Live Casino.’ ‘Big Shot.’ ‘Popinata,’ ‘Frog Fortunes,’ and Fire Dragon.’
-Lamb Online Casino only supports LST, Ethereum, BNB and Bitcoin at the moment, but if you’re a slots fan who loves to play on the go, this is definitely a casino worth checking out.
+                            The game library at Lamb Online Casino is where the fun actually begins. Since RealTime Gaming powers the casino, players already know what to expect. Some of the most known slot games are ‘Slot.’ ‘Table Games.’ ‘Jackpots.’ ‘Live Casino.’ ‘Big Shot.’ ‘Popinata,’ ‘Frog Fortunes,’ and Fire Dragon.’
+                            Lamb Online Casino only supports LST, Ethereum, BNB and Bitcoin at the moment, but if you’re a slots fan who loves to play on the go, this is definitely a casino worth checking out.
                             </p>
 						</div>
                         <div class="h-inner-content">
 							<h4 class="content-title">Lamb GameFi Metaverse</h4>
                             <p>
                             Join your friends in Lamb GameFi Metaverse: the brand new 5v5 MOBA showdown, and fight against real players! Choose your favorite heroes and build the perfect team with your comrades-in-arms! 10-second matchmaking, 10-minute battles. Laning, jungling, pushing, and teamfighting, all the fun of PC MOBA and action games in the palm of your hand! Feed your eSports spirit!
-Lamb GameFi Metaverse, the fascinating MOBA game on mobile. Smash and outplay your enemies and achieve the final victory with your teammates!
+                            Lamb GameFi Metaverse, the fascinating MOBA game on mobile. Smash and outplay your enemies and achieve the final victory with your teammates!
                             </p>
 						</div>
 

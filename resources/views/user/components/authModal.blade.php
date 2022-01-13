@@ -48,8 +48,7 @@
 									<span>Current Contest Pool</span>
 									<h4>$500</h4>
 								</span> -->
-								<h4 class="title">Play +100 games
-									and win cash!</h4>
+								<h4 class="title">IDO Lambswap</h4>
 									<p class="text">
 										Fill this outyour majesty & Get Your Bonus
 									</p>

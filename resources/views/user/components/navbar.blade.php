@@ -34,7 +34,7 @@
 										<a class="nav-link" href="{{url('/IDO')}}">IDO</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="{{url('/help')}}">About</a>
+										<a class="nav-link" href="{{url('/about')}}">About</a>
 									</li>
                                     <li class="nav-item">
 										<a class="nav-link" href="contact.html">Docs</a>
