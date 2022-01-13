@@ -3,8 +3,8 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="subscribe-box">
-						<img class="left" src="assets/images/vr.png" alt="">
-						<img class="right" src="assets/images/game controler_.png" alt="">
+						<img class="left" src="{{url('assets/template/tuser/images/vr.png')}}" alt="">
+						<img class="right" src="{{url('assets/template/tuser/images/game controler_.png')}}" alt="">
 						<div class="row justify-content-center">
 							<div class="col-lg-12">
 								<div class="heading-area">
