@@ -26,7 +26,7 @@
 
                     <div class="form-group">
                       <label>Price</label>
-                      <input type="number" name="price" class="form-control" required value="{{$ido->price}}">
+                      <input type="number" name="price" class="form-control" step="any" required value="{{$ido->price}}">
                     </div>
 
 
@@ -46,6 +46,15 @@
                       <input type="text" name="hard_cap" class="form-control" required value="{{$ido->hard_cap}}">
                     </div>
 
+                    <div class="form-group">
+                        <label>Open Date</label>
+                        <input type="date" name="openAt" class="form-controll" required value="{{$ido->openAt}}">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Close Date</label>
+                        <input type="date" name="closeAt" class="form-controll" required value="{{$ido->closeAt}}">
+                    </div>
                   </div>
                   <div class="card-footer text-center">
                     <button type="submit" class="btn btn-primary" style="width: 100%;" >Submit</button>

@@ -8,6 +8,7 @@ use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Redirect;
 
 class UserController extends Controller
 {
@@ -43,14 +44,14 @@ class UserController extends Controller
         return view('user/pages/help');
     }
 
-    public function ido(){
-        if (Auth::check()) {
-            $wallet = Auth::user()->wallet_address;
-            $ido = Ido::all();
+    public function docs(){
+        return Redirect::to('https://docslambswap.gitbook.io');
+    }
 
-            return view('user/pages/ido', compact('ido', 'wallet'));
-        }
-        return redirect("/")->withSuccess('Access is not permitted');
+    public function ido(){
+        $wallet = Auth::user()->wallet_address || 'login first';
+        $ido = Ido::all();
+        return view('user/pages/ido', compact('ido', 'wallet'));
 
     }
 
@@ -72,7 +73,7 @@ class UserController extends Controller
     }
 
     public function createTrans(array $data){
-        $status = 'Open';
+        $status = 'On Going';
         $id_user = Auth::user()->id;
         $findIDO = Ido::where('status', $status)->first();
         $id_IDO = $findIDO->id;
