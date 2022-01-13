@@ -43,11 +43,13 @@
                 <input class="form-control" type="hidden" id='setLST' name="amountLST">
                 <input class="form-control" type="hidden" id="setBUSD" name="amountBUSD">
                 <div class="button-area">
-                    @if (Auth::check())
+                    @if (Auth::check() && $cek != null)
                         <button class="mybtn1" type="submit">Buy Tickets</button>
-                    @else
+                    @elseif($cek != null)
                         <a href="#" data-toggle="modal" data-target="#signin">LOGIN FIRST!</a>
                         {{-- <button class="mybtn1" type="submit" disabled>Buy Tickets</button> --}}
+                    @else
+                        <p>It's still not time!</p>
                     @endif
                 </div>
             </form>

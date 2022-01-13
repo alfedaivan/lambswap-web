@@ -64,6 +64,7 @@ class UserController extends Controller
         $transaction = Transaction::where('status', 1)->groupBy('ido_id')->selectRaw('sum(amountBUSD) as busd, ido_id')->get();
         // dd($transaction[0]);
         $onGoing  = Ido::where('status', 'On Going')->orWhere('id', 1)->first();
+        $cek = Ido::where('status', 'On Going')->first();
 
         if (Auth::check()) {
             $wallet = Auth::user()->wallet_address;
@@ -72,9 +73,9 @@ class UserController extends Controller
             // dd($user);
             // $total = Transaction::where('user_id', $user)->get();
             $total = Transaction::where('user_id', $user)->where('status', 1)->selectRaw('sum(amountLST) as total')->first();
-            return view('user/pages/ido', compact('ido', 'onGoing', 'wallet', 'total', 'transaction', 'perIdo'));
+            return view('user/pages/ido', compact('ido', 'onGoing', 'wallet', 'total', 'transaction', 'perIdo', 'cek'));
         } else {
-            return view('user/pages/ido', compact('ido', 'onGoing', 'transaction'));
+            return view('user/pages/ido', compact('ido', 'onGoing', 'transaction', 'cek'));
         }
 
     }
