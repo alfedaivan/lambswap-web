@@ -1584,10 +1584,14 @@ select:focus {
 
 .single-tikit {
   border-radius: 10px;
-  box-shadow: inset 0px 0px 10px #00a2ff;
+  /* box-shadow: inset 0px 0px 10px #00a2ff; */
   background: #031457;
   transition: all 0.3s ease-in;
   cursor: pointer;
+}
+
+.single-tikit.news {
+    box-shadow: inset 0px 0px 10px #00a2ff;
 }
 .single-tikit .image {
   padding: 10px 0 0;

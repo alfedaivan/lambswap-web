@@ -3,18 +3,20 @@
 {{-- @include('admin.dashboard.sidebarDashboard') --}}
 <div class="main-content">
     <section class="section">
+        <div class="section-header">
+            <h1>IDO Table</h1>
+        </div>
         <div class="row">
             <div class="col-12">
-                <div class="card">
+        <div class="card">
 
-                    {{-- <div class="card-header">
+            <!-- <div class="card-header">
                 <div class="card-header-form">
                     <div class="buttons mt-1">
                     <a href="{{url('/dashboard/ido/add')}}" class="btn btn-icon icon-left btn-success"><i
                         class="fas fa-plus"></i> Add IDO</a>
                 </div>
-            </div>
-        </div> --}}
+            </div> -->
 
 
         <div class="card-body p-0">

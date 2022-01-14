@@ -22,7 +22,7 @@
                         @foreach ($responseBody as $i)
 						<div class="slider-item">
                             <a href="{{$i->link}}">
-                                <div class="single-tikit">
+                                <div class="single-tikit news">
                                     <div class="image">
                                         <!-- <span class="tag">News</span> -->
                                         <img src="{{$i->thumbnail}}" alt="">
