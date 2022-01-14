@@ -21,7 +21,7 @@
                 <li class="columns">
                 <div class="box">
                     <h3 class="title">{{ __('home.ido_1') }}</h3>
-                    <a href="#" class="mybtn1">Join Airdrop!</a>
+                    <a href="https://t.me/lambswap" class="mybtn1">Join Airdrop!</a>
                 </div>
                 </li>
                 <li class="columns">
@@ -34,7 +34,7 @@
                 <div class="box">
                     <h3 class="title">{{ __('home.ido_3') }}</h3>
                     @auth
-                        <!-- <a href="{{route('auth.logout')}}" class="btn btn-danger">Logout</a> -->
+                        <a href="{{url('/IDO')}}" class="mybtn1">Buy IDO!</a>
                     @endauth
                     @guest
                         <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Join Us!</a>
@@ -45,7 +45,7 @@
                 <div class="box">
                     <h3 class="title">{{ __('home.ido_4') }}</h3>
                     @auth
-                        <!-- <a href="{{route('auth.logout')}}" class="btn btn-danger">Logout</a> -->
+                        <a href="{{url('/IDO')}}" class="mybtn1">Buy IDO!</a>
                     @endauth
                     @guest
                         <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Login!</a>

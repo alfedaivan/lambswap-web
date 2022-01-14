@@ -68,6 +68,7 @@
                                                                                     @foreach ($transaction as $t)
                                                                                     @if ($i->id == $t->ido_id)
                                                                                         <div class="progress-bar" role="progressbar" style="width: {{$t->busd/$i->hard_cap * 100}}%;" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                                        <!-- <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuemin="0" aria-valuemax="100"></div> -->
                                                                                     <div class="main-bar"></div>
                                                                                     <div class="numbers">
                                                                                         <span>0</span>

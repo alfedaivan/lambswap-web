@@ -35,12 +35,7 @@
 					<div class="left-info">
 						<h5 style="color:#71f737;">{{ __('home.hero_left-info-h5') }} </h5>
 						<h3>{{ __('home.hero_left-info-h3') }}</h3>
-						@auth
-                            <a href="#" class="mybtn1">{{ __('button.btn_join') }}</a>
-                        @endauth
-                        @guest
-                            <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> {{ __('button.btn_join') }}!</a>
-                        @endguest
+                        <a href="https://t.me/lambswap" class="mybtn1">Join airdrop!</a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-12">

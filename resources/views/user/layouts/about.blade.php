@@ -21,7 +21,7 @@
                         {{ __('home.about_text') }}
 						</h6>
                         @auth
-                            <a href="#" class="mybtn1">{{ __('button.btn_join') }}</a>
+                            <a href="https://t.me/lambswap" class="mybtn1">Join Airdrop!</a>
                         @endauth
                         @guest
                             <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> {{ __('button.btn_join') }}!</a>
@@ -81,7 +81,12 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<a href="#" class="mybtn1">Get started Now!</a>
+                    @auth
+                        <a href="{{url('/IDO')}}" class="mybtn1">Get started Now!</a>
+                    @endauth
+                    @guest
+                        <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Get started Now!</a>
+                    @endguest
 				</div>
 			</div>
 		</div>
