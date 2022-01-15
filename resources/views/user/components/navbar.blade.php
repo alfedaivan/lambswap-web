@@ -30,11 +30,9 @@
 									<!-- <li class="nav-item">
 										<a class="nav-link" href="{{url('/bounty')}}">Bounty</a>
 									</li> -->
-                                    @auth
                                     <li class="nav-item">
 										<a class="nav-link" href="{{url('/IDO')}}">IDO</a>
 									</li>
-                                    @endauth
 									<li class="nav-item">
 										<a class="nav-link" href="{{url('/about')}}">About</a>
 									</li>
