@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* Typography */
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;600;700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 /* Normalize  */
 html {
   font-family: "Open Sans", sans-serif;
@@ -52,7 +54,8 @@ h4,
 h5,
 h6 {
   color: #FFF;
-  font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Josefin Sans", sans-serif; */
+  font-family: 'Open Sans', sans-serif !important;
 }
 
 p {
@@ -273,6 +276,7 @@ select:focus {
   margin-bottom: 13px;
 }
 .about-section .section-heading h2.title {
+
     font-size: 50px;
     line-height: 70px;
     font-weight: 700;

@@ -38,7 +38,7 @@ return [
     'produk_title' => 'PLAY AND WIN',
     'produk_text' => 'Where skill is rewarded.Join millions of players worldwide!',
     // partner
-    'partner_subtitle' => 'partners and investors',
+    'partner_subtitle' => 'Partners and Investors',
     'partner_title' => 'Partners and Investors',
     'partner_text' => 'This is our Partners and INvestors!!',
     // about
