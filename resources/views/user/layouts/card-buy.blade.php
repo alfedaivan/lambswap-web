@@ -49,7 +49,7 @@
                         <a href="#" data-toggle="modal" data-target="#signin">You Are Not Loged In, Please Login First!</a>
                         {{-- <button class="mybtn1" type="submit" disabled>Buy Tickets</button> --}}
                     @else
-                        <p>It's still not time!</p>
+                        <button class="mybtn1" type="submit" style="cursor: not-allowed;" disabled>Coming Soon!</button>
                     @endif
                 </div>
             </form>
