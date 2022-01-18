@@ -26,7 +26,55 @@
                                             <div class="content">
                                                 <div class="content-area">
                                                     @if (Auth::check())
-                                                    <h3>Wallet Address : {{$wallet}}</h3>
+                                                    <div class="wallet-address">
+                                                        <p>Wallet <span class="ml-2">:</span></p>
+                                                        <p class="wallet-number ml-1">{{$wallet}}</p>
+                                                    </div>
+                                                    <table class="table-ido">
+                                                        <tbody>
+                                                            @if ($total->total == null)
+                                                            <tr>
+                                                                <td>Balance</td><td>:</td><td>0 LST</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>IDO 1</td><td>:</td><td>0 LST</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>IDO 2</td><td>:</td><td>0 LST</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>IDO 3</td><td>:</td><td>0 LST</td>
+                                                            </tr>
+                                                            @else
+                                                            <tr>
+                                                                <td>Balance</td><td>:</td><td>{{$total->total}} LST</td>
+                                                            </tr>
+                                                            @endif
+                                                            @foreach ($perIdo as $p)
+                                                                @if ($p->ido_id == 1)
+                                                                <tr>
+                                                                    <td>IDO 1</td><td>:</td><td>{{$p->lst}} LST</td>
+                                                                </tr>
+                                                                @elseif ($p->ido_id == 2)
+                                                                <tr>
+                                                                    <td>IDO 2</td><td>:</td><td>{{$p->lst}} LST</td>
+                                                                </tr>
+                                                                @else
+                                                                <tr>
+                                                                    <td>IDO 3</td><td>:</td><td>{{$p->lst}} LST</td>
+                                                                </tr>
+                                                                @endif
+                                                            @endforeach
+                                                        </tbody>
+                                                    </table>
+                                                    @else
+                                                        <p>You are not loged in!</p>
+                                                        <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Login</a>
+                                                    @endif
+
+
+                                                    <!-- @if (Auth::check())
+                                                    <h3>Wallet Address : </h3>
                                                     <ul>
                                                         @if ($total->total == null)
                                                             <li>Balance <span>  : 0 LST</span></li>
@@ -49,7 +97,7 @@
                                                     @else
                                                         <a href="#" data-toggle="modal" data-target="#signin">LOGIN FIRST!</a>
                                                         {{-- <h3>Wallet Address : <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Login</a></h3> --}}
-                                                    @endif
+                                                    @endif -->
 
                                                 </div>
                                             </div>

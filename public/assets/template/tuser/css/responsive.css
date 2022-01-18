@@ -153,6 +153,9 @@
 }
 
 @media (max-width: 1024px){
+    .single-tikit .wallet-address{
+        display: block;
+    }
     .single-tikit{
         height: 300px;
     }
@@ -189,9 +192,12 @@
 }
 
 @media (max-width: 810px){
-    /* .timeline .timeline-box{
-        transform: translateX(-30%);
-      } */
+    .single-tikit .wallet-address{
+        display: flex;
+    }
+    .header-ido .single-tikit{
+        height: 210px;
+    }
     .timeline .timeline-box .columns .box {
         width: 450px;
     }
@@ -202,6 +208,18 @@
 }
 
 @media (max-width: 991px) {
+  .hero-area .content .content{
+    top: -100px;
+  }
+
+  .hero-area .content .content .text {
+    font-size: 16px;
+  }
+
+  .hero-area .content .content .mybtn1 {
+    font-size: 14px !important;
+  }
+
   .help-section aside{
     margin-bottom: 40px;
   }
@@ -779,6 +797,22 @@
 
 @media (max-width: 500px) {
 
+    .single-tikit .wallet-address{
+        display: block;
+    }
+    .single-tikit .wallet-address p.wallet-number{
+        font-size: 12px;
+        padding-top: 0;
+    }
+    .single-tikit .wallet-address p{
+        font-size: 14px;
+    }
+
+    .hero-area .content .content .subtitle{
+        font-size: 40px;
+        margin-bottom: -5px;
+    }
+
     .about-section .section-heading h2.title {
         font-size: 40px;
     }
@@ -1028,6 +1062,9 @@
 
 
 @media (max-width: 390px) {
+    .single-tikit .wallet-address p.wallet-number{
+        font-size: 10px;
+    }
 
     .single-tikit .bottom-content{
         display: block !important;
@@ -1103,4 +1140,10 @@
 }
 
 
-@media (max-width: 343px) {}
+@media (max-width: 320px) {
+    .single-tikit .wallet-address p.wallet-number{
+        font-size: 8.4px;
+    }
+}
+
+

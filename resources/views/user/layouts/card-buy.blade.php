@@ -3,7 +3,7 @@
 <div class="col-lg-8 col-sm-12">
     <div class="ticket-page">
         <div class="ticket-cart-box">
-            <h4 class="heading">Buy IDO LST /.BUSD</h4>
+            <h4 class="heading">Buy IDO</h4>
             <div class="desc-card mt-3">
                 <h5>LambSwap Token</h5>
                 <span>The first DEX Agrregator</span>
@@ -30,13 +30,13 @@
             </div>
 
             <div class="current-balance">
-                <span class="mb-2">BUSD</span>
+                <span class="mb-2">LST</span>
                 <input type="number" id="current" disabled value='0'>
 
             </div>
             <div class="t-total-price">
                 <h5>Price : </h5>
-                <h5>{{number_format($onGoing->price, 6)}} <span>Per LST / BUSD</span></h5>
+                <h5>{{number_format($onGoing->price, 6)}} <span>LST</span></h5>
             </div>
             <form action="{{route('transaction')}}" method="POST">
                 @csrf

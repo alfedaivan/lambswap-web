@@ -51,13 +51,15 @@
                             <span> Information :</span>
                                     <ul>
                                         <li>1.	Your Payment will confirmed after it is full confirmed on BSC Network</li>
-                                        <li> 2.	Payment are procces on your behalf, which refers to your request in purchasing IDO. This invoice is printed by system.</li>
+                                        <li>2.	Payment are procces on your behalf, which refers to your request in purchasing IDO. This invoice is printed by system.</li>
+                                        <li>3.	Please confirm your Payment</li>
 
-                                        <a href="{{route('send.email', $id)}}">
-                                            <li>3.	Please confirm your Payment</li>
-                                        </a>
                                     </ul>
                             </p>
+                        </div>
+
+                        <div class="btn-confirm">
+                            <a href="{{route('send.email', $id)}}" class="mybtn1">Confirm Now!</a>
                         </div>
 					</div>
                 </div>
