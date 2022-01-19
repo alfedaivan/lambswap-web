@@ -19,6 +19,8 @@
 	<link rel="stylesheet" href="{{url('/assets/template/tuser/css/responsive.css')}}">
 </head>
 <body>
+
+
 	<!-- preloader area start -->
 	<div class="preloader" id="preloader">
 		<div class="loader loader-1">

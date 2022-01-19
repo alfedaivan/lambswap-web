@@ -8204,6 +8204,24 @@ select:focus {
   }
 
 
+  .single-tikit .wallet-address{
+    display: flex;
+  }
+  .single-tikit .wallet-address p{
+    color: #FFF;
+    font-weight: bold;
+  }
+  .single-tikit .wallet-address p.wallet-number{
+    font-size: 14px;
+    padding-top: 5px;
+  }
+
+  .btn-confirm{
+      justify-content: center;
+      text-align: center;
+  }
+
+
 
 
 

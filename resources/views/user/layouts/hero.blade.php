@@ -16,7 +16,7 @@
                             The Next DEXs with Innovative Models with NFT Gaming Metaverse
                             </h4>
 							<div class="links">
-								<a href="#" class="mybtn1">{{ __('button.btn_wallet') }}</a>
+								<a href="#" class="mybtn1 mb-3">{{ __('button.btn_wallet') }}</a>
 								<a href="#" class="mybtn1">Launch App</a>
 							</div>
 						</div>
