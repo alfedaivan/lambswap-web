@@ -33,6 +33,9 @@
 							<li>
 								<a href="{{url('/about')}}" class="active"><i class="fas fa-chevron-right"></i>What is Lambswap?</a>
 							</li>
+                            <li>
+								<a href="{{url('/about/team')}}"><i class="fas fa-chevron-right"></i>Our Team</a>
+							</li>
 						</ul>
 					</aside>
 				</div>

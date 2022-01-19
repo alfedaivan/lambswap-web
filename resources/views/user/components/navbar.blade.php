@@ -18,9 +18,9 @@
                                     <li class="nav-item">
 										<a class="nav-link" href="{{url('/')}}">Home</a>
 									</li>
-                                    <!-- <li class="nav-item">
-										<a class="nav-link" href="{{url('/dex')}}">DEX</a>
-									</li> -->
+                                    <li class="nav-item">
+										<a class="nav-link" href="#">Exchange</a>
+									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="{{url('/product')}}">NFT</a>
 									</li>

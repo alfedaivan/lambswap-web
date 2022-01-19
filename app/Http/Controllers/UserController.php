@@ -55,6 +55,12 @@ class UserController extends Controller
         return view('user/pages/help', compact('onGoing'));
     }
 
+    public function team(){
+        $onGoing  = Ido::where('status', 'On Going')->orWhere('id', 1)->first();
+
+        return view('user/pages/team', compact('onGoing'));
+    }
+
     public function docs(){
         return Redirect::to('https://docslambswap.gitbook.io');
     }

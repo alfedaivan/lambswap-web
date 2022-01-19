@@ -797,6 +797,32 @@
 
 @media (max-width: 500px) {
 
+    .card-buy .col-lg-8.col-sm-12{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .latest-arcive2 .latest-arcive2 .l-a-nav{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .ticket-cart-box .total .title-total,
+    .ticket-cart-box .total .value,
+    .ticket-cart-box .total .unit {
+        width: 100%;
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .ticket-cart-box .total .amount, .ticket-cart-box .total .busd {
+        display: block;
+    }
+
+    .ticket-page .ticket-cart-box{
+        padding: 10px;
+    }
+
     .single-tikit .wallet-address{
         display: block;
     }
@@ -1092,17 +1118,9 @@
         margin-bottom: 200px;
     }
 
-    .ticket-cart-box .total .amount, .ticket-cart-box .total .busd {
-        display: block;
-    }
 
-    .ticket-cart-box .total .title-total,
-    .ticket-cart-box .total .value,
-    .ticket-cart-box .total .unit {
-        width: 100%;
-        max-width: 100%;
-        text-align: left;
-    }
+
+
 
     .timeline .timeline-box .columns .box {
         width: 180px;
@@ -1143,6 +1161,10 @@
 @media (max-width: 320px) {
     .single-tikit .wallet-address p.wallet-number{
         font-size: 8.4px;
+    }
+
+    .ticket-page .ticket-cart-box {
+        padding: 6px !important;
     }
 }
 
