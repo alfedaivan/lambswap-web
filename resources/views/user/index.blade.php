@@ -80,4 +80,18 @@
         $('#setLST').val(current)
         $('#setBUSD').val(valCrypt)
     })
+
+    $(document).ready(function () {
+        var min = JSON.parse("{{ json_encode($onGoing->soft_cap) }}");
+        var max = JSON.parse("{{ json_encode($onGoing->hard_cap) }}");
+        $('#inputCrypt').on('input change', function() {
+            if ($(this).val() <= min ) {
+                $('#btn_buy').prop('disabled', true)
+            } else if($(this).val() >= max ) {
+                $('#btn_buy').prop('disabled', true)
+            } else {
+                $('#btn_buy').prop('disabled', false)
+            }
+        })
+    })
 </script>
