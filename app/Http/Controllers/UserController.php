@@ -62,7 +62,7 @@ class UserController extends Controller
     }
 
     public function docs(){
-        return Redirect::to('https://lambswap-token.gitbook.io/lambswap-token');
+        return Redirect::to('https://docslambswap.gitbook.io');
     }
 
     public function ido(){
