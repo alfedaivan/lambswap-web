@@ -57,7 +57,7 @@
                                                 <tr>
                                                     <td>Price</td>
                                                     <td>:</td>
-                                                    <td>{{number_format($i->price, 6)}} BUSD</td>
+                                                    <td>{{number_format($i->price, 7)}} BUSD</td>
                                                 </tr>
                                                 @foreach ($transaction as $t)
                                                 @if ($i->id == $t->ido_id)
