@@ -75,9 +75,9 @@
     $('#exchange').click(function() {
         var price = JSON.parse("{{ json_encode($onGoing->price) }}");
         var valCrypt = $('#inputCrypt').val()
-        var current = valCrypt * 0.000099
+        var current = valCrypt / price
         $('#current').val(current)
-        $('#setLST').val(valCrypt)
-        $('#setBUSD').val(current)
+        $('#setLST').val(current)
+        $('#setBUSD').val(valCrypt)
     })
 </script>
