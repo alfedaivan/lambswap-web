@@ -797,15 +797,16 @@
 
 @media (max-width: 500px) {
 
+    .latest-arcive2 .l-a-nav{
+        padding: 0 !important;
+    }
+
     .card-buy .col-lg-8.col-sm-12{
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
 
-    .latest-arcive2 .latest-arcive2 .l-a-nav{
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-    }
+
 
     .ticket-cart-box .total .title-total,
     .ticket-cart-box .total .value,
@@ -1165,6 +1166,11 @@
 
     .ticket-page .ticket-cart-box {
         padding: 6px !important;
+    }
+
+    .latest-arcive2 .latest-arcive2 .l-a-nav{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
 }
 
