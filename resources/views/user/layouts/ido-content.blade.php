@@ -51,7 +51,7 @@
                                                                             <div class="top-area">
                                                                                 <div class="top-content">
                                                                                     <h5 class="title">1 LST =
-                                                                                        {{number_format($i -> price, 6)}}
+                                                                                        {{number_format($i -> price, 7)}}
                                                                                         BUSD</h5>
                                                                                     @foreach ($transaction as $t)
                                                                                     @if ($i ->id == $t->ido_id)

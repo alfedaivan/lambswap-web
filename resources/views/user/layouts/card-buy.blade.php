@@ -36,7 +36,7 @@
             </div>
             <div class="t-total-price">
                 <h5>Price : </h5>
-                <h5>{{number_format($onGoing->price, 6)}} <span>Per LST / BUSD</span></h5>
+                <h5>{{number_format($onGoing->price, 7)}} <span>Per LST / BUSD</span></h5>
             </div>
             <form action="{{route('transaction')}}" method="POST">
                 @csrf
