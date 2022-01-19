@@ -17,7 +17,7 @@
                         </div>
 
                         <div class="title">
-                            <p>ISINYA QR CODE</p>
+                            <img src="{{url('assets/images/qrcode.jpeg')}}" alt="">
                         </div>
 
                         <div class="total">
@@ -26,7 +26,7 @@
                                     Amount BUSD :
                                 </div>
                                 <div class="value">
-                                   {{$busd}}
+                                {{$busd}}
                                 </div>
                                 <div class="unit">
                                     c
@@ -37,7 +37,7 @@
                                     <i class="fas fa-wallet"></i> Wallet :
                                 </div>
                                 <div class="value">
-                                    0Xdg56528nhsfosf1098j2
+                                0x4dc1a22a137CACABBDBeB47f2724b94770503795
                                 </div>
                                 <div class="unit">
                                     c
@@ -56,11 +56,12 @@
 
                                     </ul>
                             </p>
+                            <div class="btn-confirm">
+                                <a href="{{route('send.email', $id)}}" class="mybtn1">Confirm Now!</a>
+                            </div>
                         </div>
 
-                        <div class="btn-confirm">
-                            <a href="{{route('send.email', $id)}}" class="mybtn1">Confirm Now!</a>
-                        </div>
+
 					</div>
                 </div>
 			</div>

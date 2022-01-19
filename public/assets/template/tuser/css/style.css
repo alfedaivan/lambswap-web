@@ -299,6 +299,7 @@ select:focus {
   line-height: 28px;
   font-weight: 400;
   color: #fff;
+  width: 90%;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -8219,6 +8220,42 @@ select:focus {
   .btn-confirm{
       justify-content: center;
       text-align: center;
+  }
+
+  .card-collection{
+    display: flex;
+
+  }
+
+  .card.team-card{
+      background-color: transparent;
+      border: none;
+  }
+  .card.team-card img{
+    border-radius: 5px;
+    width: 100%;
+  }
+  .card.team-card .card-body{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card.team-card .card-body .card-subtitle{
+    font-size: 16px;
+  }
+
+  .card.team-card .card-body .card-text{
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  #more, #more2, #more3 {display: none;}
+  .card.team-card .card-body .btnRead{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font-size: 14px;
+    color: #0026bd;
+    text-decoration: none !important;
   }
 
 

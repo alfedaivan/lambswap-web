@@ -27,6 +27,7 @@ Route::get('/dex', 'UserController@dex');
 Route::get('/game', 'UserController@games');
 Route::get('/bounty', 'UserController@bounty');
 Route::get('/about', 'UserController@help');
+Route::get('/about/team', 'UserController@team');
 Route::get('/IDO', 'UserController@ido');
 Route::get('/invoice', 'UserController@invoice');
 Route::get('/IDO/detail', 'UserController@detailIdo');

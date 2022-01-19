@@ -38,7 +38,7 @@
                                 <span class="label danger">{{$i->status}}</span>
                                 @endif
                                 <div class="bottom-content mt-4">
-                                    <a href="raffles-details.html" class="mybtn1">View On BSC</a>
+                                    <a href="https://bscscan.com/address/0x4dc1a22a137cacabbdbeb47f2724b94770503795" class="mybtn1">View On BSC</a>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +62,7 @@
                                                 @foreach ($transaction as $t)
                                                 @if ($i->id == $t->ido_id)
                                                 <tr>
-                                                    <td>Amount BUSD</td>
+                                                    <td>Total Raise</td>
                                                     <td>:</td>
                                                     <td>{{$t->busd}}</td>
                                                 </tr>
