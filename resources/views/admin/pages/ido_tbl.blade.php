@@ -39,7 +39,7 @@
                     <tr>
                         <td>{{$i++}}</td>
                         <td>{{$d->name}}</td>
-                        <td>{{$d->price}}</td>
+                        <td>{{number_format($d->price, 7)}}</td>
                         <td>{{$d->amount}}</td>
                         <td>{{$d->soft_cap}}</td>
                         <td>{{$d->hard_cap}}</td>

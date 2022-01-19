@@ -17,7 +17,7 @@
                 <div class="single-filter d-block">
                     <label for="">Currency</label> <br>
                     <select name="" id="select" class="input-field select">
-                        <option value="LST">BUSD</option>
+                        <option value="BUSD">BUSD</option>
                     </select>
                     <input type="number" class="input-field mt-2" id="inputCrypt">
                 </div>
