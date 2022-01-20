@@ -10,11 +10,11 @@
                             <h5 >Warning</h5>
                             <p>Selected Network BSC / BEP-20</p>
                         </div>
-                        <div class="notice-area">
+                        <!-- <div class="notice-area">
                             <p><span>IMPORTANT:</span>Send only BTC to this address, sending any other coin or
                                                                     token will result in losing your funds</p>
 
-                        </div>
+                        </div> -->
 
                         <div class="title">
                             <img src="{{url('assets/images/qrcode.jpeg')}}" alt="">

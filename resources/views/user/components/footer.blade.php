@@ -9,7 +9,7 @@
 							<div class="col-lg-12">
 								<div class="heading-area">
 										<h5 class="sub-title">
-											Subscribe to Jugaro
+											Subscribe to Lambswap
 										</h5>
 										<h4 class="title">
 											To Get Exclusive Benefits

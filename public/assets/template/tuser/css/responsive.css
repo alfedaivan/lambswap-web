@@ -44,6 +44,7 @@
     left: auto;
     margin: 0 auto;
     display: block;
+    top: 10% !important;
   }
 
   .join_us .section-heading {
@@ -153,6 +154,15 @@
 }
 
 @media (max-width: 1024px){
+
+    /* .join_us .l-image {
+        position: absolute;
+        top: 0px;
+        left: 50px;
+        width: 40%;
+        transform: translateY(30%);
+    } */
+
     .single-tikit .wallet-address{
         display: block;
     }
@@ -192,6 +202,10 @@
 }
 
 @media (max-width: 810px){
+    .header-ido .single-tikit{
+        height: 300px !important;
+    }
+
     .single-tikit .wallet-address{
         display: flex;
     }
@@ -738,10 +752,10 @@
   }
 
   .about-section .ar {
-    max-width: 100%;
+    max-width: 80%;
   }
   .about-section .ar2 {
-    max-width: 100%;
+    max-width: 80%;
   }
 
   .lottery-area .daily-lottery .draw-time .subtitle {
@@ -797,6 +811,37 @@
 
 @media (max-width: 500px) {
 
+
+    .how-to-play .section-heading .title{
+        font-size: 30px;
+    }
+
+    .about-section .left-content .section-heading .text,
+    .about-section .left-content2 .section-heading .text{
+        margin-left: 10px;
+        font-size: 16px;
+    }
+
+    .about-section .left-content .section-heading .title,
+    .about-section .left-content2 .section-heading .title{
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .hero-area .content .content{
+        margin-top: -10px;
+    }
+
+    .counter-section.counter-section2{
+        padding-top: 0;
+    }
+
+    .ex-lottery,
+    .game-play-section,
+    .how-to-play{
+        padding-top: 50px;
+    }
+
     .latest-arcive2 .l-a-nav{
         padding: 0 !important;
     }
@@ -828,7 +873,7 @@
         display: block;
     }
     .single-tikit .wallet-address p.wallet-number{
-        font-size: 12px;
+        font-size: 10px;
         padding-top: 0;
     }
     .single-tikit .wallet-address p{
@@ -848,9 +893,8 @@
         padding: 30px 0px;
     }
 
-    .join_us .l-image{
-        width: 400px;
-        height: 450px;
+    .join_us img{
+        height: 10% !important;
     }
 
     .join_us{
@@ -859,11 +903,14 @@
     }
 
     .single-tikit .content-area table{
-        font-size: 14px;
+        font-size: 12px;
     }
     .single-tikit .content .content-area {
         padding: 18px 20px 20px;
     }
+
+
+
 
     .single-tikit .content .content-area .numbers span{
         font-size: 14px;
@@ -1044,7 +1091,7 @@
 
   .mybtn1 {
     font-size: 16px;
-    box-shadow: inset 0px 0px 6px 3px #fea036;
+    box-shadow: inset 0px 0px 6px 3px #71f737;
     padding: 10px 20px;
   }
 

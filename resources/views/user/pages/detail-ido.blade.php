@@ -19,7 +19,7 @@
                     <img class="left" src="assets/images/vr.png" alt="">
                     <img class="right" src="assets/images/game controler_.png" alt="">
                     <div class="row">
-                        <div class="col-lg-6 mb-3">
+                        <div class="col-lg-6 col-12 mb-3">
                             <div class="heading-area ">
                                 <h4 class="title mb-3">
                                     {{explode(" ", $i->name)[0]}} Round {{explode(" ", $i->name)[1]}}
@@ -39,11 +39,12 @@
                                 @endif
                                 <div class="bottom-content mt-4">
                                     <a href="https://bscscan.com/address/0x4dc1a22a137cacabbdbeb47f2724b94770503795" class="mybtn1">View On BSC</a>
+                                    <a href="{{url('/IDO')}}" class="mybtn1">Buy IDO</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-12">
                             <div class="single-tikit">
                                 <div class="content">
                                     <div class="content-area">
@@ -51,7 +52,7 @@
                                             <h4>Data Statistic {{explode(" ", $i->name)[0]}} Round
                                                 {{explode(" ", $i->name)[1]}} Lamb Swap</h4>
                                         </div>
-                                        <table>
+                                        <table class="detail">
                                             <tbody>
 
                                                 <tr>
