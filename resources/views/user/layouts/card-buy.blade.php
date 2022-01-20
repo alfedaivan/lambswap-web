@@ -44,7 +44,7 @@
                 <input class="form-control" type="hidden" id="setBUSD" name="amountBUSD">
                 <div class="button-area">
                     @if (Auth::check() && $cek != null)
-                        <button class="mybtn1" type="submit">Buy Tickets</button>
+                        <button class="mybtn1" type="submit" id="btn_buy" disabled="disabled">Buy Tickets</button>
                     @elseif($cek != null)
                         <a href="#" data-toggle="modal" data-target="#signin">You Are Not Loged In, Please Login First!</a>
                         {{-- <button class="mybtn1" type="submit" disabled>Buy Tickets</button> --}}
