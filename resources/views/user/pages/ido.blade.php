@@ -22,7 +22,7 @@
                                     </div>
 
                                     <div class="col-lg-6">
-                                        <div class="single-tikit">
+                                        <div class="single-tikit head">
                                             <div class="content">
                                                 <div class="content-area">
                                                     @if (Auth::check())

@@ -435,7 +435,7 @@ select:focus {
   padding: 0px;
 }
 .breadcrumb-area.games {
-  background: url(../../../images/game.jpeg);
+  background: url(../../../images/NFT.jpeg);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -815,7 +815,7 @@ select:focus {
 }
 .header .mainmenu-area .navbar .navbar-brand img {
   max-width: 150px;
-  margin-top: -10px;
+  /* margin-top: -10px; */
 }
 .header .mainmenu-area .navbar .mybtn1 {
   margin-left: 20px;
@@ -1357,7 +1357,7 @@ select:focus {
   /* box-shadow: inset 0px 15px 15px -10px #00a2ff, inset 0px -15px 15px -10px #00a2ff; */
 }
 .counter-section.counter-section2 {
-  padding-top: 68px;
+  padding-top: 50px;
   padding-bottom: 70px;
   overflow: hidden;
 }
@@ -1387,32 +1387,36 @@ select:focus {
   box-shadow: inset 0px 0px 6px 4px #00a2ff;
 }
 .counter-section .prize-pool {
-  position: relative;
-  z-index: 9;
-  height: 100%;
-  text-align: center;
-}
-.counter-section .prize-pool h6 {
-  font-size: 24px;
-  line-height: 34px;
-  color: #00a2ff;
-  font-weight: 700;
-}
-.counter-section .prize-pool h3 {
-  margin-top: 5px;
-  margin-bottom: 16px;
-  display: inline-block;
-  font-size: 60px;
-  line-height: 70px;
-  font-weight: 700;
-  color: #261855;
-  text-shadow: 0px 0px 18px rgba(164, 17, 220, 0.99), 2px 0px 0px #fe77ff, 0px 2px 0px #fe77ff, -2px 0px 0px #fe77ff, 0px -2px 0px #fe77ff;
-  font-family: "Open Sans", sans-serif;
-}
+    position: relative;
+    z-index: 9;
+    height: 100%;
+    text-align: center;
+  }
+  .counter-section .prize-pool h6 {
+    font-size: 24px;
+    line-height: 34px;
+    color: #00a2ff;
+    font-weight: 700;
+  }
+  .counter-section .prize-pool h4 {
+    /* margin-top: 5px; */
+    margin-bottom: 10%;
+    display: inline-block;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #0b122e;
+    /* text-shadow: 0px 0px 18px rgba(38, 24, 85, 0.8), 2px 0px 0px #261855, 0px 2px 0px #261855, -2px 0px 0px #261855, 0px -2px 0px #261855; */
+    font-family: "Open Sans", sans-serif;
+  }
 .counter-section .prize-pool .timecounter {
   color: #fff;
   font-size: 24px;
   font-weight: 600;
+}
+.counter-section .prize-pool .timecounter .title{
+    color: #fff;
+    margin-bottom: -5px;
 }
 .counter-section .prize-pool .timecounter div {
   display: inline-block;
@@ -1694,8 +1698,12 @@ select:focus {
 /* Latest arcive Area Start */
 .latest-arcive {
   background: #0b122e;
-  padding: 120px 0px 120px;
+  padding: 50px 0px 50px;
 }
+
+.latest-arcive .partners{
+    margin-bottom: 40px !important;
+  }
 
 .sh-wrpper {
   display: flex;
@@ -1723,8 +1731,10 @@ select:focus {
 
 .l-arcive-box {
   border-radius: 20px;
-  background-color: #031457;
+  /* background-color: #031457; */
+  box-shadow: inset 0px 0px 12px 7px #031457;;
   padding: 30px;
+  /* opacity: .5; */
 }
 .l-arcive-box .s-a-b {
   display: flex;
@@ -1929,11 +1939,10 @@ select:focus {
   overflow: hidden;
 }
 .join_us .l-image {
-  position: absolute;
-  bottom: 0px;
-  left: 50px;
-  width: 600px;
-  height: 550px;
+    position: absolute;
+    bottom: 0px;
+    width: 60%;
+    /* left: 100px; */
 }
 .join_us .section-heading {
   margin-bottom: 0px;
@@ -8059,38 +8068,21 @@ select:focus {
     margin-bottom: 0px;
   }
 
-  .ticket-cart-box .total .amount, .ticket-cart-box .total .busd {
-      display: flex;
+  .total input[type="text"]
+  {
+    font-size:11px !important;
+    padding: 4.5px;
+    height: 38px;
+    color: black;
   }
 
-  .ticket-cart-box .total .title-total,
-  .ticket-cart-box .total .value,
-  .ticket-cart-box .total .unit{
-    background: #011978;
-    border: 1px solid #361f57;
-    font-size: 12px !important;
-    padding: 10px;
-    border-radius: 10px;
-    color: #FFF;
-  }
-  .ticket-cart-box .total {
-    margin-top: 20px;
+  .input-group-text.wallet{
+      padding-right: 2.1rem !important;
   }
 
-  .ticket-cart-box .total .value,
-  .ticket-cart-box .total .unit{
-      text-align: right;
-  }
-
-  .ticket-cart-box .total .value{
-      width: 70%;
-      max-width: 70%;
-  }
-
-  .ticket-cart-box .total .title-total{
-    width: 30%;
-    max-width: 30%;
-  }
+  .input-group-text{
+    font-size: 11px;
+    }
 
 
 
@@ -8252,7 +8244,9 @@ select:focus {
     margin-bottom: 0;
   }
 
-  #more, #more2, #more3 {display: none;}
+  #more, #more2, #more3, #more4, #more5, #more6, #more7, #more8, #more9, #more10 {display: none;}
+
+
   .card.team-card .card-body .btnRead{
     background-color: transparent;
     border: none;
@@ -8263,10 +8257,106 @@ select:focus {
   }
 
 
+  .game-play-section.home-product .single-play .image img {
+    display: inline-block;
+    border-radius: 0;
+    /* width: calc(100% + 300px); */
+  }
+  .home-product .single-play{
+      padding-top: 7px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .image-partners{
+      margin-bottom: 30px !;
+  }
 
 
 
 
 
+
+  .ex-lottery3 {
+    padding: 100px 0px 300px;
+    background: url(../images/game-play/section-bg.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .ex-lottery3 .ex-lottery-slider .owl-nav {
+    display: block;
+    margin-top: 35px;
+  }
+  .ex-lottery3 .ex-lottery-slider .owl-nav div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: inset 0px 0px 6px 4px #7f72b3;
+    transition: all 0.3s ease-in;
+  }
+  .ex-lottery3 .ex-lottery-slider .owl-nav div:hover {
+    box-shadow: inset 0px 0px 6px 4px #00a2ff;
+  }
+  .ex-lottery3 .ex-lottery-slider .owl-nav div.owl-prev {
+    margin-right: 10px;
+    left: -20px;
+  }
+  .ex-lottery3 .ex-lottery-slider .owl-nav div.owl-next {
+    right: -20px;
+  }
+  .ex-lottery3 .ex-lottery-slider {
+    margin-bottom: -257px;
+  }
+
+  .ex-lottery3 .ex-lottery-slider {
+    margin-bottom: -257px;
+  }
+
+  .ex-lottery3 .ex-lottery-slider .owl-item{
+    width: 255px !important;
+  }
+
+  .ex-lottery3 .single-tikit {
+    /* width: 100px; */
+    border-radius: 10px;
+    background: #031457;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+  }
+
+  .ex-lottery3 .single-tikit {
+      box-shadow: inset 0px 0px 10px #00a2ff;
+      width: 255px;
+  }
+  .ex-lottery3 .single-tikit .image {
+    padding: 10px 0 0;
+    position: relative;
+    text-align: center;
+  }
+  .ex-lottery3 .single-tikit .image img {
+    max-width: 100%;
+    width: 95%;
+    height: 130px;
+    display: inline-block;
+  }
+  .ex-lottery3 .single-tikit .content {
+    padding: 20px 0 30px;
+    position: relative;
+    text-align: center;
+  }
+
+  .fab{
+      font-size: 14px;
+      padding-left: 6px;
+  }
 
 

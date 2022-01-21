@@ -12,7 +12,7 @@
 							<!-- <h4 class="title">
                                 {{ __('home.hero_sub-title') }}
 							</h4> -->
-                            <h4 class="text mb-4">
+                            <h4 class="text mb-2">
                             The Next DEXs with Innovative Models with NFT Gaming Metaverse
                             </h4>
 							<div class="links">
@@ -33,16 +33,20 @@
 			<div class="row justify-content-center">
 				<div class="col-lg-4 col-md-12">
 					<div class="left-info">
-						<h5 style="color:#71f737;">{{ __('home.hero_left-info-h5') }} </h5>
-						<h3>{{ __('home.hero_left-info-h3') }}</h3>
+						<h5 style="color:#71f737;">Lambswap Airdrop </h5>
+						<h3>Round 1</h3>
                         <a href="https://t.me/lambswap" class="mybtn1">Join airdrop!</a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-12">
 					<div class="prize-pool">
-						<h6>{{ __('home.hero_prize-pool-h6') }}</h6>
-						<h3>$800</h3>
+                        <div class="time">
+                            <h6 style="color: #fff !important">Prize Pool</h6>
+                            <h4>$800</h4>
+                        </div>
+
 						<div class="timecounter">
+                            <p class="title">Closed On :</p>
 							<i class="far fa-clock"></i>
 							<div data-countdown="2022/01/01"></div>
 						</div>

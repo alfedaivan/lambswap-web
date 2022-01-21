@@ -5,7 +5,7 @@
 
     <!-- join us area start -->
     <section class="join_us">
-		<img class="l-image" src="{{url('assets/images/virtual-city.png')}}" alt="">
+		<img class="l-image" src="{{url('assets/images/Lamb 4.png')}}" alt="">
 
 		<div class="container">
 			<div class="row justify-content-end">
@@ -54,25 +54,25 @@
 				</div>
 			</div>
 			<div class="row  justify-content-center">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-md-3 col-6">
 					<div class="s-h-play">
 						<img src="{{url('assets/images/dollar-coin.png')}}" alt="">
 						<h4>{{ __('home.about_1') }}</h4>
 					</div>
 				</div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-md-3 col-6">
 					<div class="s-h-play">
 						<img src="{{url('assets/images/star-badge.png')}}" alt="">
 						<h4>{{ __('home.about_2') }}</h4>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
+				<div class="col-md-3 col-6">
 					<div class="s-h-play">
 						<img src="{{url('assets/images/game-controller.png')}}" alt="">
 						<h4>{{ __('home.about_3') }}</h4>
 					</div>
 				</div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-md-3 col-6">
 					<div class="s-h-play">
 						<img src="{{url('assets/images/star-trophy.png')}}" alt="">
 						<h4>{{ __('home.about_4') }}</h4>
