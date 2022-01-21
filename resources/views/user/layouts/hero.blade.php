@@ -40,12 +40,16 @@
 				</div>
 				<div class="col-lg-4 col-md-12">
 					<div class="prize-pool">
-						<h6 style="color: #fff !important">{{ __('home.hero_prize-pool-h6') }}</h6>
-						<h3>$800</h3>
-						<div class="timecounter">
+                        <div class="time">
+                            <h6 style="color: #fff !important">Start On</h6>
+                            <h4>22-01-2022</h4>
+                            <h6 style="color: #fff !important">Closed On</h6>
+                            <h4>22-02-2022</h4>
+                        </div>
+						<!-- <div class="timecounter">
 							<i class="far fa-clock"></i>
 							<div data-countdown="2022/01/01"></div>
-						</div>
+						</div> -->
 
 						<img src="{{url('assets/template/tuser/images/s-box.png')}}" alt="">
 					</div>

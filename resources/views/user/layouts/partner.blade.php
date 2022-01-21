@@ -17,64 +17,64 @@
 			</div>
 			<div class="row">
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/aterium2.png')}}" alt=""></a>
+                    <a href="https://ethereum.org/en/"><img src="{{url('assets/images/aterium2.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/BNC.png')}}" alt=""></a>
+                    <a href="https://www.binance.org/en/smartChain"><img src="{{url('assets/images/BNC.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Solana.png')}}" alt=""></a>
+                    <a href="https://solana.com/"><img src="{{url('assets/images/Solana.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Polugon.png')}}" alt=""></a>
+                    <a href="https://polygon.technology/#"><img src="{{url('assets/images/Polugon.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Fantom.png')}}" alt=""></a>
+                    <a href="https://fantom.foundation/"><img src="{{url('assets/images/Fantom.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Avalanche.png')}}" alt=""></a>
+                    <a href="https://www.avax.network/"><img src="{{url('assets/images/Avalanche.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/OKEX.png')}}" alt=""></a>
+                    <a href="https://www.okx.com/oec"><img src="{{url('assets/images/OKEX.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href=""><img src="{{url('assets/images/Arbitrum.png')}}" alt=""></a>
+                    <a href="https://arbitrum.io/"><img src="{{url('assets/images/Arbitrum.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/OPTIMISM.png')}}" alt=""></a>
+                    <a href="https://www.optimism.io/"><img src="{{url('assets/images/OPTIMISM.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href=""><img src="{{url('assets/images/Trust.png')}}" alt=""></a>
+                    <a href="https://trustwallet.com/"><img src="{{url('assets/images/Trust.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Metamask.png')}}" alt=""></a>
+                    <a href="https://metamask.io/"><img src="{{url('assets/images/Metamask.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/CoinMarket.png')}}" alt=""></a>
+                    <a href="https://coinmarketcap.com/"><img src="{{url('assets/images/CoinMarket.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/CoinGecko.png')}}" alt=""></a>
+                    <a href="https://www.coingecko.com/en"><img src="{{url('assets/images/CoinGecko.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/MathWallet.png')}}" alt=""></a>
+                    <a href="https://mathwallet.org/en-us/"><img src="{{url('assets/images/MathWallet.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href=""><img src="{{url('assets/images/TokenPocket.png')}}" alt=""></a>
+                    <a href="https://www.tokenpocket.pro/"><img src="{{url('assets/images/TokenPocket.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Coin98.png')}}" alt=""></a>
+                    <a href="https://coin98.com/"><img src="{{url('assets/images/Coin98.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/SafePal.png')}}" alt=""></a>
+                    <a href="https://m.safepal.io/"><img src="{{url('assets/images/SafePal.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Sollet.png')}}" alt=""></a>
+                    <a href="https://www.sollet.io/"><img src="{{url('assets/images/Sollet.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Phantom.png')}}" alt=""></a>
+                    <a href="https://phantom.app/"><img src="{{url('assets/images/Phantom.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Connect.png')}}" alt=""></a>
+                    <a href="https://walletconnect.com/"><img src="{{url('assets/images/Connect.png')}}" alt=""></a>
                 </div>
 				<!-- <div class="col-md-3 mb-3">
 					<div class="l-arcive-box">
@@ -184,64 +184,64 @@
 			</div>
 			<div class="row">
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/aterium2.png')}}" alt=""></a>
+                    <a href="https://ethereum.org/en/"><img src="{{url('assets/images/aterium2.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/BNC.png')}}" alt=""></a>
+                    <a href="https://www.binance.org/en/smartChain"><img src="{{url('assets/images/BNC.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Solana.png')}}" alt=""></a>
+                    <a href="https://solana.com/"><img src="{{url('assets/images/Solana.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Polugon.png')}}" alt=""></a>
+                    <a href="https://polygon.technology/#"><img src="{{url('assets/images/Polugon.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Fantom.png')}}" alt=""></a>
+                    <a href="https://fantom.foundation/"><img src="{{url('assets/images/Fantom.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Avalanche.png')}}" alt=""></a>
+                    <a href="https://www.avax.network/"><img src="{{url('assets/images/Avalanche.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/OKEX.png')}}" alt=""></a>
+                    <a href="https://www.okx.com/oec"><img src="{{url('assets/images/OKEX.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href=""><img src="{{url('assets/images/Arbitrum.png')}}" alt=""></a>
+                    <a href="https://arbitrum.io/"><img src="{{url('assets/images/Arbitrum.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/OPTIMISM.png')}}" alt=""></a>
+                    <a href="https://www.optimism.io/"><img src="{{url('assets/images/OPTIMISM.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href=""><img src="{{url('assets/images/Trust.png')}}" alt=""></a>
+                    <a href="https://trustwallet.com/"><img src="{{url('assets/images/Trust.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Metamask.png')}}" alt=""></a>
+                    <a href="https://metamask.io/"><img src="{{url('assets/images/Metamask.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/CoinMarket.png')}}" alt=""></a>
+                    <a href="https://coinmarketcap.com/"><img src="{{url('assets/images/CoinMarket.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/CoinGecko.png')}}" alt=""></a>
+                    <a href="https://www.coingecko.com/en"><img src="{{url('assets/images/CoinGecko.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/MathWallet.png')}}" alt=""></a>
+                    <a href="https://mathwallet.org/en-us/"><img src="{{url('assets/images/MathWallet.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href=""><img src="{{url('assets/images/TokenPocket.png')}}" alt=""></a>
+                    <a href="https://www.tokenpocket.pro/"><img src="{{url('assets/images/TokenPocket.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Coin98.png')}}" alt=""></a>
+                    <a href="https://coin98.com/"><img src="{{url('assets/images/Coin98.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/SafePal.png')}}" alt=""></a>
+                    <a href="https://m.safepal.io/"><img src="{{url('assets/images/SafePal.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Sollet.png')}}" alt=""></a>
+                    <a href="https://www.sollet.io/"><img src="{{url('assets/images/Sollet.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Phantom.png')}}" alt=""></a>
+                    <a href="https://phantom.app/"><img src="{{url('assets/images/Phantom.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-2 col-6 mb-4">
-                    <a href="#"><img src="{{url('assets/images/Connect.png')}}" alt=""></a>
+                    <a href="https://walletconnect.com/"><img src="{{url('assets/images/Connect.png')}}" alt=""></a>
                 </div>
 				<!-- <div class="col-md-3 mb-3">
 					<div class="l-arcive-box">

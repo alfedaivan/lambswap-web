@@ -811,6 +811,23 @@
 
 @media (max-width: 500px) {
 
+    .total input[type="text"]
+  {
+    font-size:9px !important;
+  }
+
+  .input-group-text.wallet{
+      padding-right: 1.5rem !important;
+  }
+
+  .input-group-text{
+    font-size: 8px;
+    }
+
+    .ex-lottery3 .single-tikit{
+        height: 230px;
+    }
+
 
     .how-to-play .section-heading .title{
         font-size: 30px;
@@ -960,6 +977,10 @@
 
 
 @media (max-width: 414px) {
+
+    .header-ido .single-tikit.head{
+        height: 210px !important;
+    }
 
 
 
@@ -1136,6 +1157,14 @@
 
 
 @media (max-width: 390px) {
+    .single-tikit .timecounter{
+        margin-left: -110px !important;
+    }
+
+    .total input[type="text"]
+  {
+    font-size:8px !important;
+  }
     .single-tikit .wallet-address p.wallet-number{
         font-size: 10px;
     }

@@ -272,6 +272,8 @@ $(function ($) {
 
 });
 
+
+// js our team
 function myFunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
@@ -316,4 +318,146 @@ function myFunction() {
       btnText.innerHTML = "Read less";
       moreText.style.display = "inline";
     }
+  }
+
+  function myFunction4() {
+    var dots = document.getElementById("dots4");
+    var moreText = document.getElementById("more4");
+    var btnText = document.getElementById("myBtnCol4");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
+  function myFunction5() {
+    var dots = document.getElementById("dots5");
+    var moreText = document.getElementById("more5");
+    var btnText = document.getElementById("myBtnCol5");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
+  function myFunction6() {
+    var dots = document.getElementById("dots6");
+    var moreText = document.getElementById("more6");
+    var btnText = document.getElementById("myBtnCol6");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
+  function myFunction7() {
+    var dots = document.getElementById("dots7");
+    var moreText = document.getElementById("more7");
+    var btnText = document.getElementById("myBtnCol7");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
+  function myFunction8() {
+    var dots = document.getElementById("dots8");
+    var moreText = document.getElementById("more8");
+    var btnText = document.getElementById("myBtnCol8");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
+  function myFunction9() {
+    var dots = document.getElementById("dots9");
+    var moreText = document.getElementById("more9");
+    var btnText = document.getElementById("myBtnCol9");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
+  function myFunction10() {
+    var dots = document.getElementById("dots10");
+    var moreText = document.getElementById("more10");
+    var btnText = document.getElementById("myBtnCol10");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
+  function copied() {
+    /* Get the text field */
+    var copyText = document.getElementById("myInput");
+
+    /* Select the text field */
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+    /* Copy the text inside the text field */
+    navigator.clipboard.writeText(copyText.value);
+
+    /* Alert the copied text */
+    alert("Copied the text: " + copyText.value);
+  }
+
+  function copied2() {
+    /* Get the text field */
+    var copyText = document.getElementById("myInput2");
+
+    /* Select the text field */
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+    /* Copy the text inside the text field */
+    navigator.clipboard.writeText(copyText.value);
+
+    /* Alert the copied text */
+    alert("Copied the text: " + copyText.value);
   }
