@@ -124,7 +124,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 mb-3">
+
+                                    <!-- <div class="col-md-4 mb-3">
                                         <div class="card team-card">
                                             <img class="card-img-top" src="{{url('assets/images/coba.jpg')}}" alt="Card image cap">
                                             <div class="card-body">
@@ -237,7 +238,7 @@
                                                 <button class="btnRead" onclick="myFunction10()" id="myBtnCol10">Read more</button>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
 
 

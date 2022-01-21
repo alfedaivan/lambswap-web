@@ -41,18 +41,18 @@
 					<div class="social-links">
 						<ul>
 							<li>
-								<a href="#">
+								<a href="https://web.facebook.com/LambSwap-Token">
 									<i class="fab fa-facebook-f"></i>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="https://twitter.com/lambswap_org">
 									<i class="fab fa-twitter"></i>
 								</a>
 							</li>
 							<li>
-								<a href="#">
-									<i class="fab fa-pinterest-p"></i>
+								<a href="https://t.me/lambswap_news">
+									<i class="fab fa-telegram-plane"></i>
 								</a>
 							</li>
 							<li>
@@ -61,7 +61,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="https://www.instagram.com/Lambswap/">
 									<i class="fab fa-instagram"></i>
 								</a>
 							</li>

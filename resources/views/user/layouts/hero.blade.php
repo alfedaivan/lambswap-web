@@ -41,15 +41,15 @@
 				<div class="col-lg-4 col-md-12">
 					<div class="prize-pool">
                         <div class="time">
-                            <h6 style="color: #fff !important">Start On</h6>
-                            <h4>22-01-2022</h4>
-                            <h6 style="color: #fff !important">Closed On</h6>
-                            <h4>22-02-2022</h4>
+                            <h6 style="color: #fff !important">Prize Pool</h6>
+                            <h4>$800</h4>
                         </div>
-						<!-- <div class="timecounter">
+
+						<div class="timecounter">
+                            <p class="title">Closed On :</p>
 							<i class="far fa-clock"></i>
 							<div data-countdown="2022/01/01"></div>
-						</div> -->
+						</div>
 
 						<img src="{{url('assets/template/tuser/images/s-box.png')}}" alt="">
 					</div>
