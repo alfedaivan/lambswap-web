@@ -82,12 +82,20 @@
     })
 
     $(document).ready(function () {
-        var min = JSON.parse("{{ json_encode($onGoing->soft_cap) }}");
-        var max = JSON.parse("{{ json_encode($onGoing->hard_cap) }}");
+        var min = JSON.parse("{{ json_encode($onGoing->min) }}");
+        var max = JSON.parse("{{ json_encode($onGoing->max) }}");
+        var price = JSON.parse("{{ json_encode($onGoing->price) }}");
         $('#inputCrypt').on('input change', function() {
-            if ($(this).val() <= min ) {
+            var valCrypt = $(this).val()
+            var current = valCrypt / price
+            $('#current').val(current)
+            $('#setLST').val(current)
+            $('#setBUSD').val(valCrypt)
+
+
+            if ($(this).val() < min ) {
                 $('#btn_buy').prop('disabled', true)
-            } else if($(this).val() >= max ) {
+            } else if($(this).val() > max ) {
                 $('#btn_buy').prop('disabled', true)
             } else {
                 $('#btn_buy').prop('disabled', false)
