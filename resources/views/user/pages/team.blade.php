@@ -53,8 +53,8 @@
                                             <div class="card-body">
                                                 <h4 class="card-title">
                                                     Darrel Gerwyn
-                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                                     <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                                 </h4>
                                                 <h5 class="card-subtitle">Founder & CEO</h5>
                                                 <!-- <p class="card-text mt-2">
@@ -72,8 +72,8 @@
                                             <div class="card-body">
                                                 <h4 class="card-title">
                                                     Robin
-                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                                     <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                                 </h4>
                                                 <h5 class="card-subtitle">Co-founder & CTO</h5>
                                                 <!-- <p class="card-text mt-2">
@@ -91,8 +91,8 @@
                                             <div class="card-body">
                                                 <h4 class="card-title">
                                                     Lethicia
-                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                                     <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                                 </h4>
                                                 <h5 class="card-subtitle">COO</h5>
                                                 <!-- <p class="card-text mt-2">
@@ -110,8 +110,9 @@
                                             <div class="card-body">
                                                 <h4 class="card-title">
                                                     Charlotte
-                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                                     <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
                                                 </h4>
                                                 <h5 class="card-subtitle">Blockchain Developer</h5>
                                                 <!-- <p class="card-text mt-2">

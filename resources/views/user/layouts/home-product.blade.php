@@ -231,6 +231,46 @@
                                     </div>
                                 </div>
 						</div>
+                        <div class="slider-item">
+                                <div class="single-tikit ">
+                                    <div class="image">
+                                        <img src="{{url('assets/images/coba.jpeg')}}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="games_details.html" class="mybtn1">Buy</a>
+                                    </div>
+                                </div>
+						</div>
+                        <div class="slider-item">
+                                <div class="single-tikit ">
+                                    <div class="image">
+                                        <img src="{{url('assets/images/coba.jpeg')}}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="games_details.html" class="mybtn1">Buy</a>
+                                    </div>
+                                </div>
+						</div>
+                        <div class="slider-item">
+                                <div class="single-tikit ">
+                                    <div class="image">
+                                        <img src="{{url('assets/images/coba.jpeg')}}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="games_details.html" class="mybtn1">Buy</a>
+                                    </div>
+                                </div>
+						</div>
+                        <div class="slider-item">
+                                <div class="single-tikit ">
+                                    <div class="image">
+                                        <img src="{{url('assets/images/coba.jpeg')}}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="games_details.html" class="mybtn1">Buy</a>
+                                    </div>
+                                </div>
+						</div>
 					</div>
 				</div>
 			</div>
