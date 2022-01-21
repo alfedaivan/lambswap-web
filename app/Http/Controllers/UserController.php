@@ -137,7 +137,7 @@ class UserController extends Controller
             'amount_lst' => $transaction->amountLST,
         ];
         // dd(Auth::user()->email);
-        Mail::to(Auth::user()->email)->send(new \App\Mail\sendmail($details));
+        Mail::to('info@lambswap.com')->send(new \App\Mail\sendmail($details));
         return redirect('/IDO')->withSuccess('email has sent');
     }
 
