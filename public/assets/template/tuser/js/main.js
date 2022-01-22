@@ -20,7 +20,7 @@ $(function ($) {
             var $this = $(this),
                 finalDate = $(this).data('countdown');
             $this.countdown(finalDate, function (event) {
-                $this.html(event.strftime('<span>%D:</span><span>%H:</span><span>%M:</span><span>%S</span>'));
+                $this.html(event.strftime('<span>%D </span><span>Days, </span><span>%H:</span><span>%M:</span><span>%S</span>'));
             });
         });
         $('[data-countdown2]').each(function () {
