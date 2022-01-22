@@ -1691,7 +1691,7 @@ select:focus {
   box-shadow: inset 0px 0px 5px 3px #00a2ff;
 }
 .single-tikit:hover {
-  box-shadow: inset 0px 0px 8px 3px #fea036;
+  box-shadow: inset 0px 0px 8px 3px #71f737;
 }
 
 /* Ex-lottery Area End */
@@ -1928,8 +1928,11 @@ select:focus {
 
 /* Latest arcive Area End */
 /* join us area Start */
+.join_us .section-heading .subtitle{
+    color: #0b122e;
+}
 .join_us {
-  padding: 120px 0px 120px;
+  padding: 100px 0px 100px;
   background-color: #0b122e;
   background-image: url(../../../images/Banner2.jpg);
   background-size: cover;
@@ -2035,7 +2038,7 @@ select:focus {
 
 .single-play {
   border-radius: 10px;
-  box-shadow: inset 0px 0px 12px 7px #9a13d2;
+  box-shadow: inset 0px 0px 10px #00a2ff;
   text-align: center;
   padding: 40px 20px;
   transition: all 0.3s ease-in;
@@ -8317,8 +8320,12 @@ select:focus {
     margin-bottom: -257px;
   }
 
+  .ex-lottery3 .single-tikit:hover {
+    box-shadow: inset 0px 0px 8px 3px #71f737 !important;
+  }
+
   .ex-lottery3 .ex-lottery-slider {
-    margin-bottom: -257px;
+    margin-bottom: -257px;asdf
   }
 
   .ex-lottery3 .ex-lottery-slider .owl-item{
@@ -8326,9 +8333,8 @@ select:focus {
   }
 
   .ex-lottery3 .single-tikit {
-    /* width: 100px; */
     border-radius: 10px;
-    background: #031457;
+    background: transparent !important;
     transition: all 0.3s ease-in;
     cursor: pointer;
   }
@@ -8337,17 +8343,23 @@ select:focus {
       box-shadow: inset 0px 0px 10px #00a2ff;
       width: 255px;
   }
+
   .ex-lottery3 .single-tikit .image {
     padding: 10px 0 0;
     position: relative;
     text-align: center;
   }
-  .ex-lottery3 .single-tikit .image img {
-    max-width: 100%;
-    width: 95%;
-    height: 130px;
+  .ex-lottery3 .single-tikit .image{
+    padding: 40px 20px;
     display: inline-block;
   }
+
+  .ex-lottery3 .single-tikit .image img {
+    width: 207px;
+    height: 207px;
+    display: inline-block;
+  }
+
   .ex-lottery3 .single-tikit .content {
     padding: 20px 0 30px;
     position: relative;

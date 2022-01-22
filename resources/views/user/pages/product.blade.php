@@ -40,94 +40,85 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-3 col-lg-4 col-md-6">
-					<div class="single-play">
-						<div class="image">
-							<img src="{{url('assets/template/tuser/images/game-play/1.png')}}" alt="">
-						</div>
-						<div class="contant">
-							<a href="games_details.html" class="mybtn1">Play</a>
-
-						</div>
-					</div>
+                    <a href="#">
+                        <div class="single-play">
+                            <div class="image">
+                                <img src="{{url('assets/images/Pose-1.png')}}" alt="">
+                            </div>
+                        </div>
+                    </a>
 				</div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-					<div class="single-play">
-						<div class="image">
-							<img src="{{url('assets/template/tuser/images/game-play/1.png')}}" alt="">
-						</div>
-						<div class="contant">
-							<a href="games_details.html" class="mybtn1">Play</a>
-
-						</div>
-					</div>
+                    <a href="#">
+                        <div class="single-play">
+                            <div class="image">
+                                <img src="{{url('assets/images/Pose-2.png')}}" alt="">
+                            </div>
+                        </div>
+                    </a>
 				</div>
-
                 <div class="col-xl-3 col-lg-4 col-md-6">
-					<div class="single-play">
-						<div class="image">
-							<img src="{{url('assets/template/tuser/images/game-play/1.png')}}" alt="">
-						</div>
-						<div class="contant">
-							<a href="games_details.html" class="mybtn1">Play</a>
-
-						</div>
-					</div>
+                    <a href="#">
+                        <div class="single-play">
+                            <div class="image">
+                                <img src="{{url('assets/images/Pose-3.png')}}" alt="">
+                            </div>
+                        </div>
+                    </a>
 				</div>
-
                 <div class="col-xl-3 col-lg-4 col-md-6">
-					<div class="single-play">
-						<div class="image">
-							<img src="{{url('assets/template/tuser/images/game-play/1.png')}}" alt="">
-						</div>
-						<div class="contant">
-							<a href="games_details.html" class="mybtn1">Play</a>
-
-						</div>
-					</div>
+                    <a href="#">
+                        <div class="single-play">
+                            <div class="image">
+                                <img src="{{url('assets/images/Pose-4.png')}}" alt="">
+                            </div>
+                        </div>
+                    </a>
 				</div>
 				<div class="col-xl-3 col-lg-4 col-md-6">
-					<div class="single-play">
-						<div class="image">
-							<img src="{{url('assets/template/tuser/images/game-play/1.png')}}" alt="">
-						</div>
-						<div class="contant">
-							<a href="games_details.html" class="mybtn1">Play</a>
-
-						</div>
-					</div>
+                    <a href="#">
+                        <div class="single-play">
+                            <div class="image">
+                                <img src="{{url('assets/images/Pose-5.png')}}" alt="">
+                            </div>
+                        </div>
+                    </a>
 				</div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-					<div class="single-play">
-						<div class="image">
-							<img src="{{url('assets/template/tuser/images/game-play/1.png')}}" alt="">
-						</div>
-						<div class="contant">
-							<a href="games_details.html" class="mybtn1">Play</a>
-
-						</div>
-					</div>
+                    <a href="#">
+                        <div class="single-play">
+                            <div class="image">
+                                <img src="{{url('assets/images/Pose-6.png')}}" alt="">
+                            </div>
+                        </div>
+                    </a>
 				</div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-					<div class="single-play">
-						<div class="image">
-							<img src="{{url('assets/template/tuser/images/game-play/1.png')}}" alt="">
-						</div>
-						<div class="contant">
-							<a href="games_details.html" class="mybtn1">Play</a>
-
-						</div>
-					</div>
+                    <a href="#">
+                        <div class="single-play">
+                            <div class="image">
+                                <img src="{{url('assets/images/Pose-7.png')}}" alt="">
+                            </div>
+                        </div>
+                    </a>
 				</div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-					<div class="single-play">
-						<div class="image">
-							<img src="{{url('assets/template/tuser/images/game-play/1.png')}}" alt="">
-						</div>
-						<div class="contant">
-							<a href="games_details.html" class="mybtn1">Play</a>
-
-						</div>
-					</div>
+                    <a href="#">
+                        <div class="single-play">
+                            <div class="image">
+                                <img src="{{url('assets/images/Pose-8.png')}}" alt="">
+                            </div>
+                        </div>
+                    </a>
+				</div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <a href="#">
+                        <div class="single-play">
+                            <div class="image">
+                                <img src="{{url('assets/images/Pose-9.png')}}" alt="">
+                            </div>
+                        </div>
+                    </a>
 				</div>
 
 		</div>

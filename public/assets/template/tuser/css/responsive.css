@@ -811,6 +811,10 @@
 
 @media (max-width: 500px) {
 
+    .ex-lottery3 .single-tikit .image{
+        padding: 20px 20px;
+    }
+
     .join_us .l-image{
         top: 30%;
         width: 100%;
