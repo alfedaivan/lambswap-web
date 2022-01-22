@@ -40,6 +40,10 @@
                                     <span class="text-danger">{{ $errors->first('password') }}</span>
                                     @endif
                                 </div>
+                                <div class="form-group">
+                                    <input class="mr-2" type="checkbox" onclick="showPass()">Show Password
+                                </div>
+
                                 <!-- <div class="form-group">
 										<span>Forgot your password? <a href="#">recover password</a></span>
 									</div> -->

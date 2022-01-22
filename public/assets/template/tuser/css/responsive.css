@@ -811,6 +811,15 @@
 
 @media (max-width: 500px) {
 
+    .ex-lottery3 .single-tikit {
+        width: 100%;
+    }
+
+    .ex-lottery3 .single-tikit .image img {
+        width: 207px;
+        height: 207px;
+        display: inline-block;
+    }
     .ex-lottery3 .single-tikit .image{
         padding: 20px 20px;
     }

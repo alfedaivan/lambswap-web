@@ -22,10 +22,10 @@ Route::get('lang/{language}', 'LocalizationController@switch')->name('localizati
 
 // route user
 Route::get('/', 'UserController@index');
-Route::get('/product', 'UserController@product');
-Route::get('/dex', 'UserController@dex');
-Route::get('/game', 'UserController@games');
-Route::get('/bounty', 'UserController@bounty');
+Route::get('/NFT', 'UserController@product');
+// Route::get('/dex', 'UserController@dex');
+Route::get('/GameFi', 'UserController@games');
+// Route::get('/bounty', 'UserController@bounty');
 Route::get('/about', 'UserController@help');
 Route::get('/about/team', 'UserController@team');
 Route::get('/IDO', 'UserController@ido');

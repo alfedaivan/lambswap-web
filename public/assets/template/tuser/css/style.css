@@ -1929,12 +1929,12 @@ select:focus {
 /* Latest arcive Area End */
 /* join us area Start */
 .join_us .section-heading .subtitle{
-    color: #0b122e;
+    color: #71f737;
 }
 .join_us {
-  padding: 100px 0px 100px;
+  padding: 60px 0px 60px;
   background-color: #0b122e;
-  background-image: url(../../../images/Banner2.jpg);
+  background-image: url(../../../images/Banner2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1944,8 +1944,10 @@ select:focus {
 .join_us .l-image {
     position: absolute;
     bottom: 0px;
-    width: 60%;
-    /* left: 100px; */
+    width: 45%;
+    height: 90%;
+    left: 0;
+    /* transform: translateY(30%); */
 }
 .join_us .section-heading {
   margin-bottom: 0px;
@@ -8325,11 +8327,11 @@ select:focus {
   }
 
   .ex-lottery3 .ex-lottery-slider {
-    margin-bottom: -257px;asdf
+    margin-bottom: -257px;
   }
 
   .ex-lottery3 .ex-lottery-slider .owl-item{
-    width: 255px !important;
+    /* width: 255px !important; */
   }
 
   .ex-lottery3 .single-tikit {
@@ -8341,7 +8343,10 @@ select:focus {
 
   .ex-lottery3 .single-tikit {
       box-shadow: inset 0px 0px 10px #00a2ff;
-      width: 255px;
+      width: 330px;
+      /* width: 255px; */
+      justify-content: center;
+      text-align: center;
   }
 
   .ex-lottery3 .single-tikit .image {
@@ -8350,13 +8355,14 @@ select:focus {
     text-align: center;
   }
   .ex-lottery3 .single-tikit .image{
-    padding: 40px 20px;
+    padding: 40px 40px;
     display: inline-block;
+    /* justify-content: cent; */
   }
 
   .ex-lottery3 .single-tikit .image img {
-    width: 207px;
-    height: 207px;
+    width: 250px;
+    height: 250px;
     display: inline-block;
   }
 

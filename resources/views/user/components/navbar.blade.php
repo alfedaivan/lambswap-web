@@ -22,10 +22,10 @@
 										<a class="nav-link" href="{{url('/')}}">Exchange</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="{{url('/')}}">NFT</a>
+										<a class="nav-link" href="{{url('/NFT')}}">NFT</a>
 									</li>
                                     <li class="nav-item">
-										<a class="nav-link" href="{{url('/')}}">GameFi</a>
+										<a class="nav-link" href="{{url('/GameFi')}}">GameFi</a>
 									</li>
 									<!-- <li class="nav-item">
 										<a class="nav-link" href="{{url('/bounty')}}">Bounty</a>
