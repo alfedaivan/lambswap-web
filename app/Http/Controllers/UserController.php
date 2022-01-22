@@ -126,14 +126,18 @@ class UserController extends Controller
     }
 
     public function sendEmail($id){
-        $transaction = Transaction::FindOrFail($id);
+        $transaction = Transaction::join('users', 'users.id', '=', 'transactions.user_id')->join('idos', 'idos.id', '=', 'transactions.ido_id')->where('transactions.id', '=', $id)->select('*', 'users.name as name_user')->first();
 
         $details = [
-            'title' => 'mail confirmation',
-            'body' => $transaction
+            'title' => 'Mail Confirmation Buy IDO',
+            'name' => $transaction->name_user,
+            'wallet_address' => $transaction->wallet_address,
+            'username_telegram' => $transaction->username_telegram,
+            'amount_busd' => $transaction->amountBUSD,
+            'amount_lst' => $transaction->amountLST,
         ];
         // dd(Auth::user()->email);
-        Mail::to(Auth::user()->email)->send(new \App\Mail\sendmail($details));
+        Mail::to('info@lambswap.org')->send(new \App\Mail\sendmail($details));
         return redirect('/IDO')->withSuccess('email has sent');
     }
 

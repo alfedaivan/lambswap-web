@@ -19,13 +19,13 @@
 										<a class="nav-link" href="{{url('/')}}">Home</a>
 									</li>
                                     <li class="nav-item">
-										<a class="nav-link" href="#">Exchange</a>
+										<a class="nav-link" href="{{url('/')}}">Exchange</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="{{url('/product')}}">NFT</a>
+										<a class="nav-link" href="{{url('/')}}">NFT</a>
 									</li>
                                     <li class="nav-item">
-										<a class="nav-link" href="{{url('/game')}}">GameFi</a>
+										<a class="nav-link" href="{{url('/')}}">GameFi</a>
 									</li>
 									<!-- <li class="nav-item">
 										<a class="nav-link" href="{{url('/bounty')}}">Bounty</a>

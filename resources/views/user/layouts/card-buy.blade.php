@@ -23,12 +23,6 @@
                 </div>
             </div>
 
-            <div class="button-area">
-                <button href="#" class="mybtn1" id="exchange">
-                    <i class="fas fa-arrow-down"></i>
-                </button>
-            </div>
-
             <div class="current-balance">
                 <span class="mb-2">LST</span>
                 <input type="number" id="current" disabled value='0'>

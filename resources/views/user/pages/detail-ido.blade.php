@@ -80,7 +80,15 @@
                                                     @endif
                                                 @endforeach
 
-
+                                                <tr>
+                                                    <td>Min Buy</td>
+                                                    <td>:</td>
+                                                    <td>{{$i->min}}</td>
+                                                </tr><tr>
+                                                    <td>Max Buy</td>
+                                                    <td>:</td>
+                                                    <td>{{$i->max}}</td>
+                                                </tr>
                                                 <tr>
                                                     <td>Soft Cap</td>
                                                     <td>:</td>

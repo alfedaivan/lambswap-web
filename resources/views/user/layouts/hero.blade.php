@@ -46,10 +46,9 @@
                         </div>
 
 						<div class="timecounter">
-                            <p class="title">Started On :</p>
-                            <p class="title">29-01-2022</p>
-							<!-- <i class="far fa-clock"></i>
-							<div data-countdown="2022/01/01"></div> -->
+                            <p class="title">Start On :</p>
+							<i class="far fa-clock"></i>
+							<div data-countdown="2022/01/29"></div>
 						</div>
 
 						<img src="{{url('assets/template/tuser/images/s-box.png')}}" alt="">

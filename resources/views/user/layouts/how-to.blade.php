@@ -27,7 +27,7 @@
                 <li class="columns">
                 <div class="box">
                     <h3 class="title">{{ __('home.ido_2') }}</h3>
-                    <a href="#" class="mybtn1">Get Whitelisted!</a>
+                    <a href="https://gleam.io/z3G8H/lambswap-token-whitelist-event" class="mybtn1">Get Whitelisted!</a>
                 </div>
                 </li class="columns">
                 <li class="columns">
