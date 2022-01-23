@@ -7,10 +7,10 @@
                         NFT ORIGIN LAMB
 						</h5>
 						<h2 class="title ">
-                        {{ __('home.produk_title') }}
+                        Join the Early Sale NFT
 						</h2>
 						<h6 class="text">
-						{{ __('home.produk_text') }}
+						Build a champion for NFT’s
 						</h6>
 					</div>
 				</div>

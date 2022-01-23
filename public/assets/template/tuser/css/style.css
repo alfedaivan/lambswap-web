@@ -1932,7 +1932,7 @@ select:focus {
     color: #71f737;
 }
 .join_us {
-  padding: 60px 0px 60px;
+  padding: 80px 0px 80px;
   background-color: #0b122e;
   background-image: url(../../../images/Banner2.png);
   background-size: cover;
@@ -1944,8 +1944,9 @@ select:focus {
 .join_us .l-image {
     position: absolute;
     bottom: 0px;
-    width: 45%;
-    height: 90%;
+    transform: translateY(-60%);
+    width: 50%;
+    height: 50%;
     left: 0;
     /* transform: translateY(30%); */
 }

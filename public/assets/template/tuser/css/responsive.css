@@ -156,7 +156,7 @@
 @media (max-width: 1024px){
 
     .join_us .l-image {
-        width: 70%;
+        transform: translateY(10%);
     }
 
     .single-tikit .wallet-address{
