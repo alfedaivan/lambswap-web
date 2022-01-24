@@ -17,11 +17,11 @@
                 <a href="{{url('/dashboard/ido')}}" class="nav-link"><i class="fas fa-cube"></i><span>IDO
                     <i class="nav-arrow fas fa-chevron-right" style=""></span></a> --}}
             </li>
-            <li class="nav-item ">
+            <li class="{{request()->is('dashboard/history') ? 'nav-item active' : 'nav-item'}}">
                 <a href="{{url('/dashboard/history')}}" class="nav-link"><i class="fas fa-history"></i><span>Riwayat
                         Transaksi</span></a>
             </li>
-            <li class="nav-item ">
+            <li class="{{request()->is('dashboard/user')  ? 'nav-item active' : 'nav-item'}}">
                 <a href="{{url('/dashboard/user')}}" class="nav-link"><i
                         class="fas fa-user"></i><span>Pengguna</span></a>
             </li>

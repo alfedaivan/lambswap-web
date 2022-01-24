@@ -67,7 +67,7 @@ class UserController extends Controller
 
     public function ido(){
         $ido = Ido::all();
-        $transaction = Transaction::where('status', 1)->groupBy('ido_id')->selectRaw('sum(amountBUSD) as busd, ido_id')->get();
+        $transaction = Transaction::where('status', 1)->where('isRejected', 0)->groupBy('ido_id')->selectRaw('sum(amountBUSD) as busd, ido_id')->get();
         // dd($transaction[0]);
         $onGoing  = Ido::where('status', 'On Going')->orWhere('id', 1)->first();
         $cek = Ido::where('status', 'On Going')->first();
@@ -75,10 +75,10 @@ class UserController extends Controller
         if (Auth::check()) {
             $wallet = Auth::user()->wallet_address;
             $user = Auth::user()->id;
-            $perIdo = Transaction::where('user_id', $user)->where('status', 1)->selectRaw('sum(amountLST) as lst, ido_id')->groupBy('ido_id')->get();
+            $perIdo = Transaction::where('user_id', $user)->where('status', 1)->where('isRejected', 0)->selectRaw('sum(amountLST) as lst, ido_id')->groupBy('ido_id')->get();
             // dd($user);
             // $total = Transaction::where('user_id', $user)->get();
-            $total = Transaction::where('user_id', $user)->where('status', 1)->selectRaw('sum(amountLST) as total')->first();
+            $total = Transaction::where('user_id', $user)->where('status', 1)->where('isRejected', 0)->selectRaw('sum(amountLST) as total')->first();
             return view('user/pages/ido', compact('ido', 'onGoing', 'wallet', 'total', 'transaction', 'perIdo', 'cek'));
         } else {
             return view('user/pages/ido', compact('ido', 'onGoing', 'transaction', 'cek'));
@@ -90,8 +90,8 @@ class UserController extends Controller
         $onGoing  = Ido::where('status', 'On Going')->orWhere('id', 1)->first();
         $ido = Ido::all();
 
-        $count = Transaction::where('status', 1)->selectRaw("count(id) as count, ido_id")->groupBy('ido_id')->get();
-        $transaction = Transaction::where('status', 1)->groupBy('ido_id')->selectRaw('sum(amountBUSD) as busd, ido_id')->get();
+        $count = Transaction::where('status', 1)->where('isRejected', 0)->selectRaw("count(id) as count, ido_id")->groupBy('ido_id')->get();
+        $transaction = Transaction::where('status', 1)->where('isRejected', 0)->groupBy('ido_id')->selectRaw('sum(amountBUSD) as busd, ido_id')->get();
 
         return view('user/pages/detail-ido', compact('onGoing', 'ido', 'transaction', 'count'));
     }

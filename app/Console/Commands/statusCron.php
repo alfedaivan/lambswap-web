@@ -41,14 +41,14 @@ class statusCron extends Command
     public function handle()
     {
         $date = Carbon::now()->toDateString();
-        $transaction = Transaction::selectRaw('sum(amountLST) as total_lst, ido_id')->groupBy('ido_id')->get();
+        $transaction = Transaction::selectRaw('sum(amountLST) as total_lst, ido_id')->where('status', 1)->where('isRejected', 0)->groupBy('ido_id')->get();
         // $date_format = date_format($date_create, 'Y-m-d');
         foreach ($transaction as $i) {
-            if ($i->ido_id == 1 && $i->total_lst == 85713000) {
+            if ($i->ido_id == 1 && $i->total_lst == 5850000000) {
                 Ido::find($i->ido_id)->update(['status' => 'Close']);
-            } elseif ($i->ido_id == 2 && $i->total_lst == 113635000) {
+            } elseif ($i->ido_id == 2 && $i->total_lst == 5850000000) {
                 Ido::find($i->ido_id)->update(['status' => 'Close']);
-            } elseif ($i->ido_id == 3 && $i->total_lst == 90910000) {
+            } elseif ($i->ido_id == 3 && $i->total_lst == 5850000000) {
                 Ido::find($i->ido_id)->update(['status' => 'Close']);
             }
         }
