@@ -807,6 +807,13 @@
 
 @media (max-width: 500px) {
 
+    .join_us .section-heading .title{
+        font-size: 40px;
+    }
+    .join_us .section-heading .text{
+        font-size: 20px;
+    }
+
     .ex-lottery3 .single-tikit {
         width: 100%;
     }

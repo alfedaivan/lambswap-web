@@ -435,7 +435,7 @@ select:focus {
   padding: 0px;
 }
 .breadcrumb-area.games {
-  background: url(../../../images/NFT.jpeg);
+  background: url(../../../images/NFT.jpg);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -1627,7 +1627,7 @@ select:focus {
 .single-tikit .image img {
   max-width: 100%;
   width: 95%;
-  height: 130px;
+  height: 150px;
   display: inline-block;
 }
 .single-tikit .content .top-area .top-info {
@@ -1932,9 +1932,9 @@ select:focus {
     color: #71f737;
 }
 .join_us {
-  padding: 80px 0px 80px;
+  padding: 130px 0px 120px;
   background-color: #0b122e;
-  background-image: url(../../../images/Banner2.png);
+  background-image: url(../../../images/Banner2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1944,15 +1944,23 @@ select:focus {
 .join_us .l-image {
     position: absolute;
     bottom: 0px;
-    transform: translateY(-60%);
+    /* transform: translateY(-50%); */
     width: 50%;
-    height: 50%;
+    height: 60%;
     left: 0;
     /* transform: translateY(30%); */
 }
 .join_us .section-heading {
   margin-bottom: 0px;
+
 }
+.join_us .section-heading .title{
+  font-size: 50px;
+}
+.join_us .section-heading .text{
+  text-shadow: 0px -3px 10px rgba(12, 19, 55, 1);
+}
+
 .join_us .section-heading .mybtn1 {
   margin-top: 30px;
   display: inline-block;
@@ -2675,7 +2683,7 @@ select:focus {
   position: absolute;
   bottom: 0px;
   left: 50%;
-  bottom: 40px;
+  bottom: 20px;
   transform: translateX(-50%);
   text-align: center;
 }

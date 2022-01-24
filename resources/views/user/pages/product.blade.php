@@ -18,13 +18,15 @@
 				<div class="col-lg-12">
 					<div class="filter-wrapp">
 						<div class="left-area">
-							<a href="#" class="mybtn2"><i class="far fa-sun"></i>Select For you</a>
-							<a href="#" class="mybtn2"><i class="fas fa-dice-five"></i>New Games</a>
-							<a href="#" class="mybtn2"><i class="far fa-heart"></i>Most Popular</a>
+							<a href="#" class="mybtn2" disabled></i>NFT Market</a>
+							<a href="#" class="mybtn2" disabled></i>NFT Earn</a>
+							<a href="#" class="mybtn2" disabled></i>Blind Box</a>
+                            <a href="#" class="mybtn2" disabled></i>Breed</a>
+                            <a href="#" class="mybtn2" disabled></i>Refine</a>
 						</div>
 						<div class="right-area">
 							<form action="#">
-								<input type="text" placeholder="Search Games">
+								<input type="text" placeholder="Search NFT">
 								<button type="submit"><i class="fas fa-search"></i></button>
 							</form>
 						</div>
