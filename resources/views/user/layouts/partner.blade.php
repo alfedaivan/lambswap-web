@@ -143,7 +143,7 @@
                 </div>
                 <div class="col-md-2 col-6 mb-4">
                     <div class="partners">
-                        <a href="https://polygon.technology/#"><img src="{{url('assets/images/Spartan.png')}}" alt=""></a>
+                        <a href="https://www.sparkdigitalcapital.com/"><img src="{{url('assets/images/Spark.png')}}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-md-2 col-6 mb-4">

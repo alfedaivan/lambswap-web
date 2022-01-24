@@ -155,13 +155,9 @@
 
 @media (max-width: 1024px){
 
-    /* .join_us .l-image {
-        position: absolute;
-        top: 0px;
-        left: 50px;
-        width: 40%;
-        transform: translateY(30%);
-    } */
+    .join_us .l-image {
+        transform: translateY(10%);
+    }
 
     .single-tikit .wallet-address{
         display: block;
@@ -811,8 +807,29 @@
 
 @media (max-width: 500px) {
 
+    .join_us .section-heading .title{
+        font-size: 40px;
+    }
+    .join_us .section-heading .text{
+        font-size: 20px;
+    }
+
+    .ex-lottery3 .single-tikit {
+        width: 100%;
+    }
+
+    .ex-lottery3 .single-tikit .image img {
+        width: 207px;
+        height: 207px;
+        display: inline-block;
+    }
+    .ex-lottery3 .single-tikit .image{
+        padding: 20px 20px;
+    }
+
     .join_us .l-image{
-        top: 30%;
+        margin-top: 30px;
+        top: 30% !important;
         width: 100%;
     }
 

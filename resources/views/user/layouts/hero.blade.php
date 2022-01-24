@@ -42,7 +42,7 @@
 					<div class="prize-pool">
                         <div class="time">
                             <h6 style="color: #fff !important">Prize Pool</h6>
-                            <h4>$25.000</h4>
+                            <h4 style="color: #fff !important">$25000</h4>
                         </div>
 
 						<div class="timecounter">

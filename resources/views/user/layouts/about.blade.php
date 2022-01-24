@@ -9,16 +9,20 @@
 
 		<div class="container">
 			<div class="row justify-content-end">
-				<div class="col-xl-7">
+				<div class="col-xl-6">
 					<div class="section-heading content-left">
-						<h5 class="subtitle">
+						<!-- <h5 class="subtitle">
                         {{ __('home.about_subtitle') }}
-						</h5>
-						<h2 class="title ">
-                        {{ __('home.about_title') }}
-						</h2>
+						</h5> -->
+						<h3 class="title ">
+                        FANTASTICAL LAND OF LAMB WORLD
+
+						</h3>
 						<h6 class="text">
-                        {{ __('home.about_text') }}
+                        The Fantastical land of Lamb World is a virtual world where players can play,
+                        build, own, and monetize their virtual experiences. We empower artists,
+                        creators, and players to build the platform they always envisioned,
+                        providing the means to unleash your creativity.
 						</h6>
                         @auth
                             <a href="https://t.me/lambswap" class="mybtn1">Join Airdrop!</a>
