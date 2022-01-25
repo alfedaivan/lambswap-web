@@ -110,6 +110,11 @@
                     <a href="https://walletconnect.com/"><img src="{{url('assets/images/Connect.png')}}" alt=""></a>
                     </div>
                 </div>
+                <div class="col-md-2 col-6 mb-4 ">
+                    <div class="partners">
+                    <a href="https://solidity.finance/"><img src="{{url('assets/images/Solidity.png')}}" alt=""></a>
+                    </div>
+                </div>
 			</div>
 		</div>
 	</section>
