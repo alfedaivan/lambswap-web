@@ -40,6 +40,7 @@ Route::get('/sendEmai/{id}', 'UserController@sendEmail')->name('send.email');
 // route admin
 Route::get('/dashboard', 'AdminController@index');
 Route::post('/change-status/{id}', 'AdminController@changeStatus')->name('change.status');
+Route::get('/reject/{id}', 'AdminController@rejectTrans')->name('reject.trans');
 
 //auth
 Route::get('/login', 'AuthController@viewAdmin')->name('auth');
@@ -55,3 +56,10 @@ Route::get('/dashboard/ido/edit/{id}', 'idoController@editIDO')->name('edit.ido'
 Route::put('/dashboard/ido/edit/{id}', 'idoController@editIdoAction')->name('action.ido');
 // Route::get('/dashboard/ido', 'idoController@index');
 // Route::get('/dashboard/ido/add', 'idoController@addIDO');
+
+
+//route history
+Route::get('/dashboard/history', 'HistoryController@index')->name('history');
+
+//route users
+Route::get('/dashboard/user', 'AdminController@users')->name('users');

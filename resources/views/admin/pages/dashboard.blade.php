@@ -97,8 +97,8 @@
                         <td>{{$t->name}}</td>
                         <td>{{$t->email}}</td>
                         <td>{{$t->wallet_address}}</td>
-                        <td>{{$t->amountLST}}</td>
                         <td>{{$t->amountBUSD}}</td>
+                        <td>{{$t->amountLST}}</td>
                         <td>{{$t->ido}}</td>
                         <td>
                             <form action="{{route('change.status', $t->id)}}" method="POST">
@@ -108,6 +108,7 @@
                                 <button type="submit">Accept</button>
                             </form>
                         </td>
+                        <td> <a href="{{route('reject.trans', ['id' => $t->id])}}" type="button" class="btn btn-danger">Reject</a></td>
                     </tr>
                   @endforeach
 
