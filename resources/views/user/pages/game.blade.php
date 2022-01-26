@@ -2,11 +2,15 @@
 @section('content')
 
     <!-- Breadcrumb Area Start -->
-    <section class="breadcrumb-area games">
+    <section class="breadcrumb-area2 games">
 		<div class="content">
 			<img src="{{url('assets/template/tuser/images/contest/top-icon_.png')}}" alt="">
-			<h4>OUR GameFi</h4>
-			<a href="#" class="mybtn1">Join Now!</a>
+			@auth
+                <a href="#" class="mybtn1">Buy GameFi</a>
+            @endauth
+            @guest
+                <a href="#" class="mybtn1"  data-toggle="modal" data-target="#signin"> Join Now!</a>
+            @endguest
 		</div>
 	</section>
 	<!-- Breadcrumb Area End -->
