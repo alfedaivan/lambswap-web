@@ -2706,6 +2706,18 @@ select:focus {
     transform: translateX(-50%);
     text-align: center;
   }
+
+  .breadcrumb-area2.games .content h4 {
+      transform: translateY(-150px) !important;
+    font-size: 35px;
+    line-height: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 7px;
+    text-shadow: 0px -3px 10px rgba(12, 19, 55, 0.7);
+  }
+
 .breadcrumb-area.games .content h4 {
   font-size: 36px;
   line-height: 46px;
