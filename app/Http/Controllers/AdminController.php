@@ -12,13 +12,15 @@ class AdminController extends Controller
 {
 
 
-    public function index(){
+    public function index(Request $request){
         // dd(Auth::check());
         if (Auth::check()) {
             if (Auth::user()->is_admin == 1) {
                 $acc = Transaction::where('status', 1)->where('isRejected', 0);
                 $rise = Transaction::where('status', 1)->where('isRejected', 0)->sum('amountBUSD');
-                $trans = Transaction::join('users', 'users.id', '=', 'transactions.user_id')->join('idos', 'idos.id', '=', 'transactions.ido_id')->where('transactions.status', '=', 0)->where('transactions.isRejected', 0)->orderBy('transactions.created_at', 'desc')
+                $trans = Transaction::join('users', 'users.id', '=', 'transactions.user_id')->join('idos', 'idos.id', '=', 'transactions.ido_id')->where('transactions.status', '=', 0)->where('transactions.isRejected', 0)->where(function($query) use ($request){
+                    $query->where('users.name', 'LIKE', '%'.$request->search.'%')->orWhere('users.email', 'LIKE', '%'.$request->search.'%');
+                })->orderBy('transactions.created_at', 'desc')
                 ->get(['transactions.id as id', 'users.name as name', 'users.email', 'users.wallet_address', 'transactions.amountLST', 'transactions.amountBUSD', 'idos.name as ido']);
 
                 $user = User::where('is_admin', 0);

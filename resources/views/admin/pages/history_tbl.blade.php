@@ -9,6 +9,21 @@
         <div class="row">
             <div class="col-12">
         <div class="card">
+        <div class="card-header">
+            <h4>
+                <form action="#">
+                <div class="input-group">
+                    <input type="text" name="search" id="search" class="form-control" placeholder="Search" >
+                    <div class="input-group-btn">
+                    <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+                    <button href="{{url('/history')}}" class="btn btn-danger ml-1">
+                        <i class="fa fa-sync-alt" style="font-size: 13px !important;"></i>
+                    </button>
+                    </div>
+                </div>
+                </form>
+            </h4>
+        </div>
         <div class="card-body p-0">
             <div class="table-responsive">
                 <table class="table table-striped">
