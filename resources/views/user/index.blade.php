@@ -10,7 +10,7 @@
 
     <meta name="description" content="Lambswap is a decentralized exchange aggregator that provides the best prices over multiple DEXs on the 9 blockchain. With Innovative Models with DEFI, NFT Gaming Metaverse."/>
     <meta property="og:title" content="The First DEXs Aggregator"/>
-    <meta property="og:url" content="https://lambswap.org/"/>
+    <meta property="og:url" content="https://lambswap.org"/>
     <meta property="og:description" content="Lambswap is a decentralized exchange aggregator that provides the best prices over multiple DEXs on the 9 blockchain. With Innovative Models with DEFI, NFT Gaming Metaverse."/>
     <meta property="og:image" content="{{url('/assets/image/share.jpg')}}"/>
     <!-- favicon -->
