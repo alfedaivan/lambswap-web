@@ -38,7 +38,7 @@
                                 <span class="label danger">{{$i->status}}</span>
                                 @endif
                                 <div class="bottom-content mt-4">
-                                    <a href="https://bscscan.com/address/0x4dc1a22a137cacabbdbeb47f2724b94770503795" class="mybtn1">View On BSC</a>
+                                    <a href="https://bscscan.com/address/0x4dc1a22a137cacabbdbeb47f2724b94770503795#tokentxns" class="mybtn1">View On BSC</a>
                                     <a href="{{url('/IDO')}}" class="mybtn1">Buy IDO</a>
                                 </div>
                             </div>
