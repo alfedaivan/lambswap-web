@@ -53,4 +53,9 @@ class AdminController extends Controller
         }
         return redirect('/')->withSuccess('Access is not permitted');
     }
+
+    public function correction($id){
+        Transaction::find($id)->update(['status' => 0]);
+        return redirect('/dashboard/history')->withSuccess('data has been updated!');
+    }
 }

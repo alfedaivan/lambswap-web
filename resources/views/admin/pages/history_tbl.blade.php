@@ -48,7 +48,8 @@
                         <td>{{$t->amountLST}}</td>
                         <td>{{$t->amountBUSD}}</td>
                         <td>{{$t->ido}}</td>
-                        <td> <a href="{{route('reject.trans', ['id' => $t->id])}}" type="button" class="btn btn-danger">Reject</a></td>
+                        <td> <a href="{{route('correction.trans', ['id' => $t->id])}}" type="button" class="btn btn-warning">Correction</a>
+                        <a href="{{route('reject.trans', ['id' => $t->id])}}" type="button" class="btn btn-danger">Reject</a></td>
                     </tr>
                     @endforeach
                 </table>

@@ -41,6 +41,8 @@ Route::get('/sendEmai/{id}', 'UserController@sendEmail')->name('send.email');
 Route::get('/dashboard', 'AdminController@index');
 Route::post('/change-status/{id}', 'AdminController@changeStatus')->name('change.status');
 Route::get('/reject/{id}', 'AdminController@rejectTrans')->name('reject.trans');
+Route::get('/correction/{id}', 'AdminController@correction')->name('correction.trans');
+
 
 //auth
 Route::get('/login', 'AuthController@viewAdmin')->name('auth');
