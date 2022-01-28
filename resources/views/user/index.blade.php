@@ -3,16 +3,14 @@
 <head>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
-	<title>LambSwap - The First DEXs Aggregator</title>
-
     <meta name="description" content="Lambswap is a decentralized exchange aggregator that provides the best prices over multiple DEXs on the 9 blockchain. With Innovative Models with DEFI, NFT Gaming Metaverse."/>
     <meta property="og:title" content="The First DEXs Aggregator"/>
     <meta property="og:url" content="https://lambswap.org"/>
     <meta property="og:description" content="Lambswap is a decentralized exchange aggregator that provides the best prices over multiple DEXs on the 9 blockchain. With Innovative Models with DEFI, NFT Gaming Metaverse."/>
     <meta property="og:image" content="{{url('/assets/image/share.jpg')}}"/>
+
+	<title>LambSwap - The First DEXs Aggregator</title>
+
     <!-- favicon -->
 	<link rel="shortcut icon" href="{{url('/assets/images/Favicon.ico')}}" type="image/x-icon">
 	<!-- bootstrap -->
