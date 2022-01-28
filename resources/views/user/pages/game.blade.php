@@ -2,11 +2,12 @@
 @section('content')
 
     <!-- Breadcrumb Area Start -->
-    <section class="breadcrumb-area games">
+    <section class="breadcrumb-area2 games">
 		<div class="content">
-			<img src="{{url('assets/template/tuser/images/contest/top-icon_.png')}}" alt="">
-			<h4>OUR GameFi</h4>
-			<a href="#" class="mybtn1">Join Now!</a>
+            <h4 class="title ">
+                FANTASTICAL LAND OF LAMB WORLD
+			</h4>
+            <a href="#" class="mybtn1" >Coming Soon!</a>
 		</div>
 	</section>
 	<!-- Breadcrumb Area End -->

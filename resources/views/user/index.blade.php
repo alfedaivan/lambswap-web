@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>LambSwap</title>
 	<!-- favicon -->
-	<link rel="shortcut icon" href="Favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="{{url('/assets/images/Favicon.ico')}}" type="image/x-icon">
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="{{url('/assets/template/tuser/css/bootstrap.min.css')}}">
 	<!-- Plugin css -->
