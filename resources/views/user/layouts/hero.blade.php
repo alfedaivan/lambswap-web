@@ -1,5 +1,5 @@
     <div class="hero-area hero-area2 hero-text">
-		<img class="shape parallax5" src="{{url('assets/template/tuser/images/home/h2-shape.png')}}" alt="">
+		{{-- <img class="shape parallax5" src="{{url('assets/template/tuser/images/home/h2-shape.png')}}" alt=""> --}}
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
