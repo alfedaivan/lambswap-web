@@ -88,7 +88,7 @@
                     <th>Amount BUSD</th>
                     <th>Amount LST</th>
                     <th>IDO</th>
-                    <th>Aksi</th>
+                    <th>Action</th>
                   </tr>
                  <?php $i = 1 ?>
                   @foreach ($trans as $index => $t)

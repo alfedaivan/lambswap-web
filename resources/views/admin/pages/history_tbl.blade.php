@@ -35,6 +35,7 @@
                         <th>Amount LST</th>
                         <th>Amount BUSD</th>
                         <th>IDO</th>
+                        <th>Action</th>
                     </tr>
                     <?php $i = 1 ?>
                     @foreach ($trans as $index => $t)
@@ -47,6 +48,7 @@
                         <td>{{$t->amountLST}}</td>
                         <td>{{$t->amountBUSD}}</td>
                         <td>{{$t->ido}}</td>
+                        <td> <a href="{{route('reject.trans', ['id' => $t->id])}}" type="button" class="btn btn-danger">Reject</a></td>
                     </tr>
                     @endforeach
                 </table>
