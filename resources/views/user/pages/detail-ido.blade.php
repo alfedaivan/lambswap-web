@@ -111,21 +111,21 @@
                                                 <tr>
                                                     <td>Min Buy</td>
                                                     <td>:</td>
-                                                    <td>{{$i->min}}</td>
+                                                    <td>{{$i->min}} {{$i->name == "IDO ON PinkSale" ? " BNB" : 'BUSD'}}</td>
                                                 </tr><tr>
                                                     <td>Max Buy</td>
                                                     <td>:</td>
-                                                    <td>{{$i->max}}</td>
+                                                    <td>{{$i->max}} {{$i->name == "IDO ON PinkSale" ? " BNB" : 'BUSD'}}</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Soft Cap</td>
                                                     <td>:</td>
-                                                    <td>{{$i->soft_cap}}</td>
+                                                    <td>{{$i->soft_cap}} {{$i->name == "IDO ON PinkSale" ? " BNB" : 'BUSD'}}</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Hard Cap</td>
                                                     <td>:</td>
-                                                    <td>{{$i->hard_cap}}</td>
+                                                    <td>{{$i->hard_cap}} {{$i->name == "IDO ON PinkSale" ? " BNB" : 'BUSD'}}</td>
                                                 </tr>
                                                 @if ($i->name != "IDO ON PinkSale")
                                                 <tr>
