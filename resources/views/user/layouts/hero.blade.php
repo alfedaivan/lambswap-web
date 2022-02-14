@@ -42,13 +42,13 @@
 					<div class="prize-pool">
                         <div class="time">
                             <h6 style="color: #fff !important">Prize Pool</h6>
-                            <h4 style="color: #fff !important">$25000</h4>
+                            <h4 style="color: #fff !important">$35000</h4>
                         </div>
 
 						<div class="timecounter">
                             <p class="title">Start On :</p>
 							<i class="far fa-clock"></i>
-							<div data-countdown="2022/01/29"></div>
+							<div data-countdown="2022/02/16"></div>
 						</div>
 
 						<img src="{{url('assets/template/tuser/images/s-box.png')}}" alt="">
