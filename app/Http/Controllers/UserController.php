@@ -14,7 +14,7 @@ class UserController extends Controller
 {
     public function index(){
         $client = new Client();
-        $onGoing  = Ido::where('status', 'On Going')->orWhere('id', 1)->first();
+        $onGoing  = Ido::where('status', 'On Going')->first();
         $url = 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/@lambswaptoken/feed';
         $response = $client->request('GET', $url, [
             'verify'  => false,
@@ -26,37 +26,37 @@ class UserController extends Controller
     }
 
     public function product(){
-        $onGoing  = Ido::where('status', 'On Going')->orWhere('id', 1)->first();
+        $onGoing  = Ido::where('status', 'On Going')->first();
 
         return view('user/pages/product', compact('onGoing'));
     }
 
     public function dex(){
-        $onGoing  = Ido::where('status', 'On Going')->orWhere('id', 1)->first();
+        $onGoing  = Ido::where('status', 'On Going')->first();
 
         return view('user/pages/dex', compact('onGoing'));
     }
 
     public function games(){
-        $onGoing  = Ido::where('status', 'On Going')->orWhere('id', 1)->first();
+        $onGoing  = Ido::where('status', 'On Going')->first();
 
         return view('user/pages/game', compact('onGoing'));
     }
 
     public function bounty(){
-        $onGoing  = Ido::where('status', 'On Going')->orWhere('id', 1)->first();
+        $onGoing  = Ido::where('status', 'On Going')->first();
 
         return view('user/pages/bounty', compact('onGoing'));
     }
 
     public function help(){
-        $onGoing  = Ido::where('status', 'On Going')->orWhere('id', 1)->first();
+        $onGoing  = Ido::where('status', 'On Going')->first();
 
         return view('user/pages/help', compact('onGoing'));
     }
 
     public function team(){
-        $onGoing  = Ido::where('status', 'On Going')->orWhere('id', 1)->first();
+        $onGoing  = Ido::where('status', 'On Going')->first();
 
         return view('user/pages/team', compact('onGoing'));
     }
@@ -69,7 +69,7 @@ class UserController extends Controller
         $ido = Ido::all();
         $transaction = Transaction::where('status', 1)->where('isRejected', 0)->groupBy('ido_id')->selectRaw('sum(amountBUSD) as busd, ido_id')->get();
         // dd($transaction[0]);
-        $onGoing  = Ido::where('status', 'On Going')->orWhere('id', 1)->first();
+        $onGoing  = Ido::where('status', 'On Going')->first();
         $cek = Ido::where('status', 'On Going')->first();
 
         if (Auth::check()) {
@@ -87,7 +87,7 @@ class UserController extends Controller
     }
 
     public function detailIdo(){
-        $onGoing  = Ido::where('status', 'On Going')->orWhere('id', 1)->first();
+        $onGoing  = Ido::where('status', 'On Going')->first();
         $ido = Ido::all();
 
         $count = Transaction::where('status', 1)->where('isRejected', 0)->selectRaw("count(id) as count, ido_id")->groupBy('ido_id')->get();
@@ -98,7 +98,7 @@ class UserController extends Controller
 
 
     public function transaction(Request $request){
-        $onGoing  = Ido::where('status', 'On Going')->orWhere('id', 1)->first();
+        $onGoing  = Ido::where('status', 'On Going')->first();
         $data = $request->all();
         $check = $this->createTrans($data);
         $id = $check->id;
@@ -107,7 +107,7 @@ class UserController extends Controller
     }
 
     public function invoice(){
-        $onGoing  = Ido::where('status', 'On Going')->orWhere('id', 1)->first();
+        $onGoing  = Ido::where('status', 'On Going')->first();
 
         return view('user/pages/invoice', compact('onGoing'));
     }

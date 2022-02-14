@@ -54,7 +54,7 @@
                                                                                         {{number_format($i -> price, 7)}}
                                                                                         BUSD</h5>
                                                                                     @foreach ($transaction as $t)
-                                                                                    @if ($i ->id == $t->ido_id)
+                                                                                    @if ($i ->id == $t->ido_id && $i->name != "IDO ON PinkSale")
                                                                                     <h5>Total raise</h5>
                                                                                     <h3 class="value">
                                                                                         {{$t->busd}} BUSD
@@ -66,7 +66,7 @@
                                                                                 </div>
                                                                                 <div class="top-bar">
                                                                                     @foreach ($transaction as $t)
-                                                                                    @if ($i->id == $t->ido_id)
+                                                                                    @if ($i->id == $t->ido_id && $i->name != "IDO ON PinkSale")
                                                                                         <div class="progress-bar" role="progressbar" style="width: {{$t->busd/$i->hard_cap * 100}}%;" aria-valuemin="0" aria-valuemax="100"></div>
                                                                                         <!-- <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuemin="0" aria-valuemax="100"></div> -->
                                                                                     <div class="main-bar"></div>

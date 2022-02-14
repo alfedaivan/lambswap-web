@@ -22,7 +22,11 @@
                         <div class="col-lg-6 col-12 mb-3">
                             <div class="heading-area ">
                                 <h4 class="title mb-3">
-                                    {{explode(" ", $i->name)[0]}} Round {{explode(" ", $i->name)[1]}}
+                                    @if ($i->name != "IDO ON PinkSale")
+                                        {{explode(" ", $i->name)[0]}} Round {{explode(" ", $i->name)[1]}}
+                                    @else
+                                        {{$i->name}}
+                                    @endif
                                 </h4>
                                 <h3 class="sub-title">
                                     Play, Create, Earn
@@ -39,7 +43,11 @@
                                 @endif
                                 <div class="bottom-content mt-4">
                                     <a href="https://bscscan.com/address/0x4dc1a22a137cacabbdbeb47f2724b94770503795#tokentxns" class="mybtn1">View On BSC</a>
-                                    <a href="{{url('/IDO')}}" class="mybtn1">Buy IDO</a>
+                                    @if ($i->name == "IDO ON PinkSale")
+                                        <a href="{{url('/IDO')}}" class="mybtn1">Buy IDO</a>
+                                    @else
+                                        <a href="https://www.pinksale.finance/#/launchpad/0xDC7f015c8b1A39a6741bAe31D675b41E5fE7fb0F?chain=BSC" class="mybtn1">Buy IDO</a>
+                                    @endif
                                 </div>
                             </div>
                         </div>
@@ -49,8 +57,12 @@
                                 <div class="content">
                                     <div class="content-area">
                                         <div class="title-card justify-content-center">
-                                            <h4>Data Statistic {{explode(" ", $i->name)[0]}} Round
+                                            @if ($i->name != "IDO ON PinkSale")
+                                                <h4>Data Statistic {{explode(" ", $i->name)[0]}} Round
                                                 {{explode(" ", $i->name)[1]}} Lamb Swap</h4>
+                                            @else
+                                                <h4>Data Statistic {{$i->name}} </h4>
+                                            @endif
                                         </div>
                                         <table class="detail">
                                             <tbody>
@@ -60,25 +72,41 @@
                                                     <td>:</td>
                                                     <td>{{number_format($i->price, 7)}} BUSD</td>
                                                 </tr>
-                                                @foreach ($transaction as $t)
-                                                @if ($i->id == $t->ido_id)
-                                                <tr>
-                                                    <td>Total Raise</td>
-                                                    <td>:</td>
-                                                    <td>{{$t->busd}}</td>
-                                                </tr>
+                                                @if ($i->name != "IDO ON PinkSale")
+                                                    @foreach ($transaction as $t)
+                                                        @if ($i->id == $t->ido_id)
+                                                        <tr>
+                                                            <td>Total Raise</td>
+                                                            <td>:</td>
+                                                            <td>{{$t->busd}}</td>
+                                                        </tr>
+                                                        @endif
+                                                    @endforeach
+                                                @else
+                                                        <tr>
+                                                            <td>Start Date</td>
+                                                            <td>:</td>
+                                                            <td>{{$i->openAt}}</td>
+                                                        </tr>
                                                 @endif
-                                                @endforeach
 
-                                                @foreach ($count as $c)
-                                                    @if ($i->id == $c->ido_id)
+                                                @if ($i->name != "IDO ON PinkSale")
+                                                    @foreach ($count as $c)
+                                                        @if ($i->id == $c->ido_id)
+                                                        <tr>
+                                                            <td>Total User Participated</td>
+                                                            <td>:</td>
+                                                            <td>{{$c->count - 1}}</td>
+                                                        </tr>
+                                                        @endif
+                                                    @endforeach
+                                                @else
                                                     <tr>
-                                                        <td>Total User Participated</td>
+                                                        <td>End Date</td>
                                                         <td>:</td>
-                                                        <td>{{$c->count - 1}}</td>
+                                                        <td>{{$i->closeAt}}</td>
                                                     </tr>
-                                                    @endif
-                                                @endforeach
+                                                @endif
 
                                                 <tr>
                                                     <td>Min Buy</td>
@@ -99,12 +127,15 @@
                                                     <td>:</td>
                                                     <td>{{$i->hard_cap}}</td>
                                                 </tr>
+                                                @if ($i->name != "IDO ON PinkSale")
                                                 <tr>
                                                     <td>Progress</td>
                                                     <td>:</td>
                                                 </tr>
+                                                @endif
                                             </tbody>
                                         </table>
+                                        @if ($i->name != "IDO ON PinkSale")
                                         <div class="top-area mt-2">
                                             <div class="top-bar">
                                                 @foreach ($transaction as $t)
@@ -121,6 +152,7 @@
                                                 @endforeach
                                             </div>
                                         </div>
+                                        @endif
                                     </div>
                                 </div>
                             </div>

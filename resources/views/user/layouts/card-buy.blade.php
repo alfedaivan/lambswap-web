@@ -38,7 +38,11 @@
                 <input class="form-control" type="hidden" id="setBUSD" name="amountBUSD">
                 <div class="button-area">
                     @if (Auth::check() && $cek != null)
-                        <button class="mybtn1" type="submit" id="btn_buy" disabled="disabled">Buy Tickets</button>
+                        @if ($onGoing->name == "IDO ON PinkSale")
+                            <a href="https://www.pinksale.finance/#/launchpad/0xDC7f015c8b1A39a6741bAe31D675b41E5fE7fb0F?chain=BSC" class="mybtn1">Buy IDO</a>
+                        @else
+                            <button class="mybtn1" type="submit" id="btn_buy" disabled="disabled">Buy Tickets</button>
+                        @endif
                     @elseif($cek != null)
                         <a href="#" data-toggle="modal" data-target="#signin">You Are Not Loged In, Please Login First!</a>
                         {{-- <button class="mybtn1" type="submit" disabled>Buy Tickets</button> --}}
