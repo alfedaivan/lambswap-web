@@ -20,7 +20,7 @@ class AuthController extends Controller
             'email' => 'required',
             'password' => 'required',
         ]);
-        $credentials = $request->only('email', 'password');;
+        $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
             if (Auth::user()->is_admin == 1) {
                 return redirect()->intended('dashboard')

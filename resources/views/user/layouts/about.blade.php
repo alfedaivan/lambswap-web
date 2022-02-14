@@ -39,8 +39,8 @@
 
 	<!-- How play area start -->
 	<section class="how-to-play">
-		<img class="left-img" src="{{url('assets/template/tuser/images/h-play/left-img.png')}}" alt="">
-		<img class="right-img" src="{{url('assets/template/tuser/images/h-play/right-img.png')}}" alt="">
+		{{-- <img class="left-img" src="{{url('assets/template/tuser/images/h-play/left-img.png')}}" alt=""> --}}
+		{{-- <img class="right-img" src="{{url('assets/template/tuser/images/h-play/right-img.png')}}" alt=""> --}}
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">

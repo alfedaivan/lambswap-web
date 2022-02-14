@@ -21,7 +21,7 @@ class Kernel extends ConsoleKernel
     {
         // $schedule->command('inspire')->hourly();
         // $schedule->command('status:cron')->cron('* * * * *');
-        $schedule->command('status:cron')->dailyAt('10:00');
+        $schedule->command('status:cron')->dailyAt('18:00');
     }
 
     /**

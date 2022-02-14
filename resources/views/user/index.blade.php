@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<meta name="forntEnd-Developer" content="Mamunur Rashid">
+    <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>LambSwap</title>
-	<!-- favicon -->
+    <meta name="description" content="Lambswap is a decentralized exchange aggregator that provides the best prices over multiple DEXs on the 9 blockchain. With Innovative Models with DEFI, NFT Gaming Metaverse."/>
+    <meta property="og:title" content="The First DEXs Aggregator"/>
+    <meta property="og:url" content="https://lambswap.org"/>
+    <meta property="og:description" content="Lambswap is a decentralized exchange aggregator that provides the best prices over multiple DEXs on the 9 blockchain. With Innovative Models with DEFI, NFT Gaming Metaverse."/>
+    <meta property="og:image" content="{{url('/assets/image/share.jpg')}}"/>
+
+	<title>LambSwap - The First DEXs Aggregator</title>
+
+    <!-- favicon -->
 	<link rel="shortcut icon" href="{{url('/assets/images/Favicon.ico')}}" type="image/x-icon">
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="{{url('/assets/template/tuser/css/bootstrap.min.css')}}">
