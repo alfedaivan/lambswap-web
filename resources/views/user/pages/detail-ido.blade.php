@@ -38,8 +38,8 @@
                                 <span class="label danger">{{$i->status}}</span>
                                 @endif
                                 <div class="bottom-content mt-4">
-                                    <a href="https://bscscan.com/address/0x4dc1a22a137cacabbdbeb47f2724b94770503795" class="mybtn1">View On BSC</a>
-                                    <a href="{{url('/IDO')}}" class="mybtn1">Buy IDO</a>
+                                    <a href="https://bscscan.com/address/0xDC7f015c8b1A39a6741bAe31D675b41E5fE7fb0F" class="mybtn1">View On BSC</a>
+                                    <a href="https://www.pinksale.finance/#/launchpad/0xDC7f015c8b1A39a6741bAe31D675b41E5fE7fb0F?chain=BSC" class="mybtn1">Buy IDO</a>
                                 </div>
                             </div>
                         </div>
