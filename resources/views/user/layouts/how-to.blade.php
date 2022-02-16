@@ -21,7 +21,7 @@
                 <li class="columns">
                 <div class="box">
                     <h3 class="title">{{ __('home.ido_1') }}</h3>
-                    <a href="https://t.me/lambswap" class="mybtn1">Join Airdrop!</a>
+                    <a href="http://t.me/LambswapAirdropBot" class="mybtn1">Join Airdrop!</a>
                 </div>
                 </li>
                 <li class="columns">

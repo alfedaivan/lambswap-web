@@ -35,7 +35,7 @@
 					<div class="left-info">
 						<h5 style="color:#71f737;">Lambswap Airdrop </h5>
 						<h3>Round 1</h3>
-                        <a href="https://t.me/lambswap" class="mybtn1">Join airdrop!</a>
+                        <a href="http://t.me/LambswapAirdropBot" class="mybtn1">Join airdrop!</a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-12">
