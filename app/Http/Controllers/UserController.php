@@ -17,6 +17,7 @@ class UserController extends Controller
         $onGoing  = Ido::where('status', 'On Going')->first();
         $url = 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/@lambswaptoken/feed';
         $response = $client->request('GET', $url, [
+            'api_key' => 'kx4rwrecim6znwtbgky8iffinxuna5qj7nggg7zz',
             'verify'  => false,
         ]);
 
