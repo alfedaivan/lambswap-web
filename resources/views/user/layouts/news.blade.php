@@ -18,7 +18,7 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-12">
-					<div class="ex-lottery-slider">
+					{{-- <div class="ex-lottery-slider">
                         @foreach ($responseBody as $i)
 						<div class="slider-item">
                             <a href="{{$i->link}}">
@@ -38,7 +38,7 @@
                                 </div>
                             </a>
 						</div>
-                        @endforeach
+                        @endforeach --}}
 					</div>
 				</div>
 			</div>
