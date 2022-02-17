@@ -37,12 +37,14 @@ class AuthController extends Controller
 
     public function loginMember(Request $request)
     {
+        $input = $request->all();
         $request->validate([
             'email' => 'required',
             'password' => 'required',
         ]);
-        $credentials = $request->only('email', 'password');;
-        if (Auth::attempt($credentials)) {
+        $field = filter_var($request->email, FILTER_VALIDATE_EMAIL) ? 'email' : 'name';
+        // $credentials = $request->only('email', 'password');
+        if (Auth::attempt(array($field => $input['email'], 'password' => $input['password']))) {
             if (Auth::user()->is_admin == 0) {
                 return redirect()->intended('IDO')
                         ->with(['success' => 'Logged-in']);
@@ -58,7 +60,7 @@ class AuthController extends Controller
     public function register(Request $request){
         $request->validate([
             'name' => 'required',
-            'email' => 'required|email|unique:users',
+            'email' => 'email|unique:users',
             'password' => 'required|min:6',
             'wallet_address' => 'required|unique:users',
             'username_telegram' => 'required|unique:users'

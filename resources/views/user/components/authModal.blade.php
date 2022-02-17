@@ -27,7 +27,7 @@
                             <form method="POST" action="{{route('signin.member')}}">
                                 @csrf
                                 <div class="form-group">
-                                    <input type="email" class="input-field" id="email" name="email" placeholder="email"
+                                    <input type="name" class="input-field" id="email" name="email" placeholder="E-mail/Name"
                                         autofocus>
                                     @if ($errors->has('email'))
                                     <span class="text-danger">{{ $errors->first('email') }}</span>
