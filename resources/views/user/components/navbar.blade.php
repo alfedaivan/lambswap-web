@@ -19,7 +19,7 @@
 										<a class="nav-link" href="{{url('/')}}">Home</a>
 									</li>
                                     <li class="nav-item">
-										<a class="nav-link" href="{{url('/')}}">Exchange</a>
+										<a class="nav-link" href="https://app.lambswap.org">Exchange</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="{{url('/NFT')}}">NFT</a>
