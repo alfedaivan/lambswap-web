@@ -74,7 +74,7 @@
 </body>
 
 </html>
-
+{{--
 <script>
     $('#exchange').click(function() {
         var price = JSON.parse("{{ json_encode($onGoing->price) }}");
@@ -106,4 +106,4 @@
             }
         })
     })
-</script>
+</script> --}}
